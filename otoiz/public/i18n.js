@@ -29,6 +29,7 @@ export function setLanguage(next) {
   try { localStorage.setItem('otoiz-language',language); } catch {}
   document.documentElement.lang=language;
   document.documentElement.dir=['ar','fa'].includes(language)?'rtl':'ltr';
+  document.querySelectorAll('a[href]').forEach(link=>{const match=link.getAttribute('href')?.match(/^\/(hakkinda|iletisim|kosullar|gizlilik)\/?$/);if(match)link.setAttribute('href',language==='tr'?`/${match[1]}`:`/${language}/${match[1]}`);});
   document.querySelectorAll('[data-i18n]').forEach(node=>{node.textContent=t(node.dataset.i18n);});
   document.querySelectorAll('[data-i18n-aria]').forEach(node=>node.setAttribute('aria-label',t(node.dataset.i18nAria)));
   document.querySelectorAll('[data-language]').forEach(node=>{node.value=language;node.setAttribute('aria-label',t('language'));});

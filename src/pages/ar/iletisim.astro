@@ -1,0 +1,16 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import DilSecici from '../../components/DilSecici.astro';
+import IletisimFormu from '../../components/IletisimFormu.svelte';
+---
+
+<Layout title="اتصل بنا — OTOİZ">
+  <div class="sayfa">
+    <div class="kart" style="padding: 24px;">
+      <DilSecici sayfa="iletisim" />
+      <h1>لنبقَ على تواصل.</h1>
+      <p>خيارات التواصل لأسئلتك واقتراحاتك.</p>
+      <IletisimFormu client:load dil="ar" />
+    </div>
+  </div>
+</Layout>

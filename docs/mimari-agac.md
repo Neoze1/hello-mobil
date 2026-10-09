@@ -43,3 +43,16 @@ HTTPS veya localhost PWA kurulumunu destekler; telefonun yerel HTTP adresinde ta
 | Büyük ekran 1600+ px | İçerik genişliği sınırlandırılır; bilgi metni en fazla 850px |
 
 375, 768 ve 1440 px için dört dilde bilgi sayfaları tarayıcı testiyle doğrulanır. Büyük ekran ve native cihaz testleri ayrıca belirtilmeden yapılmış sayılmaz.
+
+## Tauri uygulamasındaki rotalar (`src/pages/`)
+
+| Rota | İşlev |
+|---|---|
+| `/` | OTOİZ ana sayfası ve gerçek marka/model kataloğu (`otoiz/public/index.html`) |
+| `/araclar` | Katalog filtreleri, model ayrıntısı, favoriler ve karşılaştırma |
+| `/ilanlar.html` | OTOİZ ilan arayüzü; API yoksa açık demo önizleme |
+| `/hakkinda`, `/iletisim`, `/kosullar`, `/gizlilik` | OTOİZ bilgi sayfaları (Astro/MDX ve Svelte formu) |
+| `/en/...`, `/ar/...`, `/fa/...` | Bilgi sayfalarının dil rotaları; `lang` ve `dir` dile göre ayarlanır |
+| `/etkinlik/[id]`, `/sepet`, `/biletlerim`, `/profil`, `/rehber` | Korunan kaynak Astro/Tauri sayfaları; OTOİZ ana navigasyonunda yer almaz |
+
+OTOİZ'in üst menüsündeki dil seçimi `otoiz-language` değerini saklar ve bilgi rotalarını seçili dile göre açar. Astro bilgi sayfalarındaki dil seçici de aynı tercihi saklayarak OTOİZ ana sayfasına dönüşte kullanır. Türkçe `ltr`, İngilizce `ltr`, Arapça ve Farsça `rtl` olur.

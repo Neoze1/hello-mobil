@@ -47,9 +47,21 @@
       <button class="btn" disabled={!gecerli}>Giriş yap</button>
     </form>
   {/if}
+  <nav class="kart bilgi-linkleri" aria-label="Bilgi sayfaları">
+    <a href="/hakkinda">Hakkında</a>
+    <a href="/iletisim">İletişim</a>
+    <a href="/kosullar">Kullanım Koşulları</a>
+    <a href="/gizlilik">Gizlilik Politikası</a>
+    <a href="/rehber">Proje Rehberi</a>
+  </nav>
 </div>
 
 <style>
+  .bilgi-linkleri { display: flex; flex-direction: column; padding: 8px 16px; }
+  .bilgi-linkleri a { padding: 12px 0; color: var(--yazi); text-decoration: none; border-bottom: 1px solid var(--kenar); }
+  .bilgi-linkleri a:last-child { border-bottom: 0; }
+  .bilgi-linkleri a:focus-visible { outline: 2px solid var(--renk-ana); outline-offset: 2px; }
+
   h1 {
     margin: 0;
     font-size: 22px;

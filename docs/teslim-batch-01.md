@@ -12,9 +12,9 @@ Gerçek uygulama kökü vitra/; Node.js/HTML/CSS/JavaScript. Başlangıçta Git 
 | 02 proje fikri | eksik | tamamlandı: öğrenci, üç ekran, hedef, kapsam; Rust kod üretimi eksik |
 | 03 README | eksik | tamamlandı: gerçek Node komutları, kurum logosu, üç gerçek teknoloji/kurum rozeti ve belge linkleri; Tauri/Astro/Svelte kullandığı iddia edilmez |
 | 04 ajan dosyaları | eksik | tamamlandı: AGENTS.md, CLAUDE.md, GEMINI.md; tek kaynak ve Git kuralları |
-| 05 markalama | kısmen tamamlandı | Logo/tema/web ikonları korundu; ortak tokenlar ve ölçülen kontrast tablosu eklendi. Tauri native ikon setleri ve yapılandırma eksik |
-| 06 bilgi sayfaları | eksik | tamamlandı: dört HTML bilgi sayfası, TR/EN/AR/FA, RTL ve demo form. Hocanın MDX/Astro/Svelte dosya formatı şartı eksik |
-| 07 mimari | eksik | tamamlandı: gerçek sayfa/klasör yapısı ve beş platform matrisi; native paketler eksik |
+| 05 markalama | tamamlandı | Logo/tema/web ikonları ve ortak token/kontrast tablosu; Astro token eşlemesi, Tauri ikonları ve ürün kimliği mevcut. Installer çıktısı ayrıca doğrulanmadı |
+| 06 bilgi sayfaları | tamamlandı | Dört bilgi sayfası Astro/MDX ve Svelte iletişim formu ile kök dil rotaları ve EN/AR/FA yollarında çalışıyor; AR/FA RTL. OTOİZ ana menüsündeki dil seçimi Astro sayfalarıyla senkron |
+| 07 mimari | tamamlandı | Sayfa/klasör haritası ve platform matrisi güncel; Tauri geliştirme webview çalışıyor, native installer çıktısı ayrıca eksik |
 | 08 ileri AGENTS | eksik | tamamlandı: tüm kanonik docs/*.md bağlantıları, tek kaynak, kontrol komutları |
 | 09 Batch 01 | eksik | Aşağıdaki matriste; 9/9 tamamlanmış değildir |
 
@@ -30,7 +30,7 @@ Gerçek uygulama kökü vitra/; Node.js/HTML/CSS/JavaScript. Başlangıçta Git 
 | 6 | Branding + app.css | eksik | Node karşılığı brand.css hazır; src/styles/app.css ve native ikon şartı karşılanmıyor |
 | 7 | MDX/Astro bilgi sayfaları | eksik | HTML eşdeğerleri dört dilde çalışıyor; istenen çatı/format uygulanmadı |
 | 8 | Mimari ağaç ve platform matrisi | tamamlandı | [mimari-agac.md](mimari-agac.md) |
-| 9 | bun run build statik çıktı | eksik | Node uygulaması derleme kullanmıyor; bun run build çalıştırılmadı |
+| 9 | bun run build statik çıktı | tamamlandı | `bun run build` başarıyla 28 statik Astro rotası üretti |
 
 ## Doğrulama
 - npm run check ve npm test gerçekten çalıştırıldı; npm yerelde olmadığından teslim dışı .tools içine npm 10.9.2 indirildi. Check başarılı ve test sonucu 15/15.
@@ -58,7 +58,7 @@ GitHub API erişimi Neoze1 hesabıyla doğrulandı. Görev 01–09 için aşağ�
 | 08 | feature/08-document-index | 5180aed1f06d | [PR #8](https://github.com/Neoze1/hello-mobil/pull/8) | bb5480098f25 |
 | 09 | feature/09-batch-01 | 288f8e792490 | [PR #9](https://github.com/Neoze1/hello-mobil/pull/9) | c1bf450d580f |
 
-Tüm Batch 01 şartları karşılanmadığından v0.1.0-batch-01 etiketi oluşturulmadı. Eksik native/MDX/build şartları eğitmenle netleştirilmeden tamamlandı etiketi verilmemeli.
+`v0.1.0-batch-01` bu entegrasyon başlamadan önce mevcuttu; dal/master birleştirmesinde etiket taşınmadı veya üzerine yazılmadı. Batch 01'in tamamı için kalan dış teslim koşulları aşağıda ayrıca belirtilmiştir.
 
 ## Kullanıcının teslim adımları
 1. Değerlendirme deposundaki OTOİZ README ve PR sonuçlarını kontrol et; öğretmenin Node.js karşılığını kabul edip etmediğini netleştir.
@@ -78,13 +78,13 @@ Dal: `feature/otoiz-tauri-integration`. Önceki `v0.1.0-batch-01` etiketi deği�
 
 | Kontrol | Gerçek sonuç |
 |---|---|
-| `bun run build` | Başarılı; Astro statik çıktısı 15 rota üretti. Katalog JSON'u `otoiz/catalog.mjs` üzerinden build öncesi üretildi. |
+| `bun run build` | Başarılı; Astro statik çıktısı 28 rota üretti. Katalog JSON'u `otoiz/catalog.mjs` üzerinden build öncesi üretildi. |
 | `bun run tauri dev` | Başarılı; Astro `http://127.0.0.1:1420/` üzerinde açıldı, Rust debug uygulaması çalıştı ve webview ana sayfası OTOİZ oldu. |
 | Katalog | Tarayıcıda 37 marka / 178 model; onaylı model görseli yüklendi. 178 yerel araç görseli Astro `public/araclar/` yoluna alındı. Kaynak fiyat kanıtları ve iki dışa aktarma dosyası korundu. Güncel doğrulanmış fiyat sayısı hâlâ 0. |
 | Bilgi sayfaları ve diller | Hakkında, iletişim, koşullar ve gizlilik rotalarının her birinde TR/EN/AR/FA seçimi; AR/FA RTL, diğer diller LTR; yön ve seçim gezinmede korundu. 375, 768 ve 1440 px genişliklerinde taşma görülmedi. |
 | Node API sınırı | Statik katalog, filtreler, detay, katalog favorileri ve karşılaştırma Tauri webview'de çalışır. Üyelik, kalıcı ilanlar, ilan favorileri, telefon/rapor, asistan ve sunucu iletişim ayarları ayrı `otoiz/server.mjs` API'si gerektirir; Tauri'de ilan sayfası açıkça demo “Önizleme modu” gösterir. Node backend Tauri'ye eklenmedi. |
 | Testler | Bun test runner ile asistan/katalog testleri 14/14, Node API entegrasyon testi 1/1 geçti. `bun run check:docs` 55 yerel bağlantı/anchor için geçti; Astro dosyalarında tanı yok ve `git diff --check` temiz. |
 | Node scriptleri | Ortamda Node.js/npm kurulu değil. Bu yüzden `bun run check` ve `bun run test` içindeki `node --check`/`node --test` çağrıları Bun uyumluluk hatası verdi; testler doğrudan `bun test` ile çalıştırıldı. |
-| Paketleme | Tauri geliştirme penceresi doğrulandı; native MSI/EXE, ikon seti ve Tauri içinde Node sidecar doğrulanmadı/eklenmedi. |
+| Paketleme | Tauri geliştirme penceresi ve OTOİZ native ikon dosyaları mevcut; native MSI/EXE çıktısı ve Tauri içinde Node sidecar doğrulanmadı/eklenmedi. |
 
-PR/push ve GitHub Actions sonucu bu tabloya gerçek bağlantı/commit kanıtı alındıktan sonra eklenir; yerel build sonucu GitHub kontrolü yerine sayılmaz.
+PR #16: [OTOİZ Astro/Tauri entegrasyonu](https://github.com/Neoze1/hello-mobil/pull/16). İlk feature commitinde `node-checks` başarılıydı; master güncellemesi sonrası merge commitinin yeni Actions sonucu bekleniyor. PR merge edilmeden tamamlandı olarak işaretlenmez.

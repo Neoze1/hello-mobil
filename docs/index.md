@@ -9,6 +9,8 @@ Kanonik belgeler aşağıdadır. İçerikler tekrar edilmez; bağlantılar üzer
 | [Markalama](branding.md) | Renk, kontrast, logo ve ikonlar |
 | [Mimari ağaç](mimari-agac.md) | Sayfalar, platformlar ve ekran düzeni |
 | [Batch 01 teslimi](teslim-batch-01.md) | Kontrol listesi, gerçek kanıt ve eksikler |
+| [Batch 01 ilerleme matrisi](ilerleme-batch-01.md) | Tauri tarafını da kapsayan kontrol matrisi ve derleme kanıtı |
+| [Ajan uyum testi](ajan-uyum-testi.md) | Renk ve sayfa görevi üzerinden kural denetimi |
 | [Hocanın hafta 3 görevleri](tasks/week-3/) | Kaynak depodan değiştirilmeden alınan görevler |
 | [RTL mobil ekran kanıtı](proofs/rtl-mobile.png) | Tarayıcı testinin ürettiği ekran görüntüsü |
 

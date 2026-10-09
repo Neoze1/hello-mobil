@@ -1,0 +1,38 @@
+---
+layout: ../layouts/Layout.astro
+title: Hakkında — OTOİZ
+---
+import DilSecici from '../components/DilSecici.astro';
+import CanliRozet from '../components/react/CanliRozet';
+
+<div class="sayfa">
+
+<div class="kart" style="padding: 24px;">
+
+<DilSecici sayfa="hakkinda" />
+
+# OTOİZ hakkında
+
+OTOİZ, otomobil modellerini keşfetmeyi ve satıcı ilanlarını incelemeyi kolaylaştıran bir eğitim projesidir.
+
+## Amacımız
+
+Marka ve model bilgilerini bir katalogda toplar, araçları karşılaştırmana yardımcı oluruz. Katalog modelleri satış ilanlarından ayrı gösterilir; eksik fiyat ve teknik bilgiler tahmin edilmez.
+
+## Geliştirici
+
+Ediz Davutoğlu · 2520171018. İstinye Üniversitesi, MYO063 Mobil Programlama, 2026–2027 Güz.
+
+## İlk sürümün kapsamı
+
+37 marka, 178 model; filtreleme, favoriler, üçlü karşılaştırma, üyelik ve fotoğraflı ilanlar. Ödeme, SMS doğrulaması ve ekspertiz hizmeti bulunmaz.
+
+## Uygulama teknolojileri
+
+Bu masaüstü ve mobil uygulama Tauri v2, Astro, Svelte 5, React, MDX ve Rust ile geliştirilir.
+
+<CanliRozet client:load etiket="Tauri v2 + Astro + Svelte 5" />
+
+</div>
+
+</div>
