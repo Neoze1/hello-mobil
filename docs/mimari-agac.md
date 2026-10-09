@@ -1,53 +1,43 @@
-# Mimari Ağaç Yapısı ve Kapsam
+# Sayfa, Özellik ve Platform Haritası
 
-> ✍️ **Öğrenci Görevi:** Bu taslağı uygulamanızın sayfalarına ve özelliklerine göre doldurun. Ayrıntılı yönerge için [`docs/tasks/week-3/07-hedefler-agac-yapisi.task.md`](tasks/week-3/07-hedefler-agac-yapisi.task.md) dosyasını inceleyin.
+Dizin yapısı için [klasör mimarisine](klasor-mimarisi.md) bakın. Bu belge yalnızca sayfa ve platform haritasının kaynağıdır.
 
----
-
-## 1. Sayfa ve Özellik Ağacı (Site & Feature Map)
-
-```
-[Projenizin Adı]
-├── / (Ana Sayfa)
-│   ├── [Arama ve filtreleme özellikleri]
-│   └── [Listelenecek öğeler]
-│
-├── /[detay-sayfasi]/[id] (Öğe Detayı)
-│   ├── [Detay bilgileri]
-│   └── [Seçenek ve işlem butonları]
-│
-├── /[islem-sayfasi] (İşlem / Sepet / Kayıt)
-│   └── [Özet ve Rust backend komutu tetikleme]
-│
-├── /[sonuc-sayfasi] (Sonuçlar / Kodlarım)
-│   └── [Üretilen benzersiz kodlar ve geçmiş]
-│
-├── /profil (Kullanıcı & Tema)
-│   └── [Kullanıcı bilgisi ve tema geçişi]
-│
-└── Bilgi ve Yasal Sayfalar
-    ├── /hakkinda (MDX)
-    ├── /iletisim (Reaktif Form)
-    ├── /kosullar (MDX)
-    └── /gizlilik (MDX)
+```text
+OTOİZ
+├── / — Ana Sayfa, marka/model seçimi ve katalog keşfi
+├── /araclar — Filtreleme, katalog favorileri ve üçlü karşılaştırma
+│   └── ?vehicle=<korunan-katalog-kimliği> — Model detay penceresi
+├── /ilanlar.html — Türkçe ilanlar, üyelik ve hesap
+│   ├── #yeni-ilan — Fotoğraflı ilan oluşturma
+│   └── İlan detay penceresi — Satıcı bilgisi ve ilan favorileri
+└── Bilgi Sayfaları — TR/EN/AR/FA; AR/FA RTL
+    ├── /hakkinda — Amaç, öğrenci ve etkileşimli kapsam
+    ├── /iletisim — Demo form ve isteğe bağlı e-posta taslağı
+    ├── /kosullar — Eğitim projesi, sorumluluk ve fikri haklar
+    └── /gizlilik — Tarayıcı/sunucu depolama ve veri koruma
 ```
 
----
+Yeni sayfalar server.mjs izin listesinde; uzantısız ve .html adresleri doğrudan açılır. /araclar mevcut index.html üzerinden ayrı görünümle sunulur. Profil ayrı /profil rotası değildir; ilan arayüzündedir. Rust kod ekranı yoktur.
 
-## 2. Hedef Platform Matrisi
+## Platform matrisi
 
-| Platform Grubu | Hedef Sistemler | Paket Formatı |
-|---|---|---|
-| **Masaüstü** | macOS (Apple Silicon / Intel) | `.dmg`, `.app` |
-| **Masaüstü** | Windows (10 / 11) | `.msi`, `.exe` |
-| **Masaüstü** | Linux (Ubuntu / Debian) | `.deb`, `.AppImage` |
-| **Mobil** | iOS (iPhone & iPad) | `.ipa` (Xcode) |
-| **Mobil** | Android (Telefon & Tablet) | `.apk`, `.aab` |
+| Platform | Mevcut çıktı | Hocanın native hedefi | Durum |
+|---|---|---|---|
+| macOS | Tarayıcı/PWA | .dmg, .app | Native OTOİZ paketi eksik |
+| Windows 10/11 | Node.js sunucu + tarayıcı | .msi, .exe | Native OTOİZ paketi eksik |
+| Linux | Node.js sunucu + tarayıcı | .deb, .AppImage | Native OTOİZ paketi eksik |
+| iOS/iPadOS | Safari + web ana ekran ikonu | .ipa, Xcode | Native OTOİZ paketi eksik |
+| Android | Tarayıcı/PWA | .apk, .aab | Native OTOİZ paketi eksik |
 
----
+HTTPS veya localhost PWA kurulumunu destekler; telefonun yerel HTTP adresinde tam PWA kurulumu garanti edilmez. Native çıktı varmış gibi sunulmaz.
 
-## 3. Ekran Boyutları (Responsive Breakpoints)
+## Ekran ve gezinme
 
-- **Telefon (375px - 430px):** Tek sütun, alt menü (`alt-menu`) sabit.
-- **Tablet (768px - 1024px):** 2 sütunlu ızgara düzeni.
-- **Masaüstü (1200px+):** 3 sütunlu ızgara, `max-width` ortalanmış görünüm.
+| Boyut | Davranış |
+|---|---|
+| Telefon 375–430 px | Tek sütun bilgi/form; açılır hamburger menü; görünür dil seçici |
+| Tablet 768–1024 px | Katalogda çok sütun; gezinme satıra sarılır |
+| Masaüstü 1200+ px | Çok sütun katalog; ortalanmış max-width:1360px |
+| Büyük ekran 1600+ px | İçerik genişliği sınırlandırılır; bilgi metni en fazla 850px |
+
+375, 768 ve 1440 px için dört dilde bilgi sayfaları tarayıcı testiyle doğrulanır. Büyük ekran ve native cihaz testleri ayrıca belirtilmeden yapılmış sayılmaz.
