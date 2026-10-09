@@ -12,6 +12,8 @@ OTOİZ katalog ve ilan platformudur. [Proje fikrini](docs/proje-fikri.md) ve [RE
 | [docs/mimari-agac.md](docs/mimari-agac.md) | Sayfa eklemeden önce oku; rota ve navigasyonu bu haritaya ekle |
 | [docs/teslim-batch-01.md](docs/teslim-batch-01.md) | Gerçek doğrulama, PR/merge kanıtı ve eksikler |
 | [docs/tasks/week-3/](docs/tasks/week-3/) | Hocanın kaynak görevleri; teknoloji farkları gizlenmez |
+| [docs/ilerleme-batch-01.md](docs/ilerleme-batch-01.md) | Batch 01 kontrol matrisi ve derleme kanıtı |
+| [docs/ajan-uyum-testi.md](docs/ajan-uyum-testi.md) | Ajan uyum testi kaydı |
 
 ## Mimari ve kod kuralları
 Node.js 22+, HTML/CSS ve JavaScript ES modülleri kullanılır. otoiz/server.mjs API ve izinli statik dosyaları sunar; otoiz/public/ tarayıcı kodu, otoiz/catalogs/ katalog kaynaklarıdır. Uygulama otoiz/ altındadır; kök Astro/Tauri öğretmen kaynaklarını izinsiz değiştirme. Gereksiz teknoloji değişimi ve dosya taşıma yapma. Mevcut katalog kimliklerini, API filtre değerlerini, VITRA_* ortam değişkenlerini ve vitra-* yerel depolama anahtarlarını koru.
