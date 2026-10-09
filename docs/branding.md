@@ -1,34 +1,22 @@
-# Marka ve Tasarım Kılavuzu
+# OTOİZ — Marka ve Tasarım Kılavuzu
 
-> ✍️ **Öğrenci Görevi:** Bu taslağı belirlediğiniz marka kimliği ve renklerine göre doldurun. Ayrıntılı yönerge için [`docs/tasks/week-3/05-branding.task.md`](tasks/week-3/05-branding.task.md) dosyasını inceleyin.
+## Renkler ve kontrast
+Tek uygulama kaynağı public/brand.css içindeki :root ve :root[data-theme=dark] tokenlarıdır. Mevcut tema mekanizması korunur. Tablo WCAG bağıl parlaklık formülüyle hesaplanmıştır; ink ve muted bg ile, on-accent buton metni accent ile karşılaştırılır. İlk koyu buton metni 4.14:1 idi; aşağıdaki tokenlarla AA düzeyine düzeltildi. Accent bağlantı metni bg üzerinde açık 4.58:1, koyu 8.75:1.
 
----
-
-## 1. Marka Renk Paleti
-
-Aşağıdaki tabloyu doldurun ve belirlediğiniz renkleri `src/styles/app.css` içerisine aktarın:
-
-| Kullanım Alanı | CSS Değişkeni | Açık Mod (Gündüz) | Koyu Mod (Gece) | Açıklama |
+| Token | Açık hex | Koyu hex | Kullanım | Açık / koyu kontrast |
 |---|---|---|---|---|
-| **Ana Renk (Primary)** | `--renk-ana` | `#[Renk Kodu]` | `#[Renk Kodu]` | Butonlar, aktif sekme, marka vurgusu |
-| **Koyu / Üst Bar** | `--renk-koyu` | `#[Renk Kodu]` | `#[Renk Kodu]` | Başlık alanı arka planı |
-| **Sayfa Zemini** | `--zemin` | `#[Renk Kodu]` | `#[Renk Kodu]` | Sayfa genel arka planı |
-| **Kart Yüzeyi** | `--kart` | `#[Renk Kodu]` | `#[Renk Kodu]` | Liste kartları, form alanları |
-| **Ana Yazı** | `--yazi` | `#[Renk Kodu]` | `#[Renk Kodu]` | Başlıklar ve okunabilir metin |
-| **Soluk Yazı** | `--yazi-soluk` | `#[Renk Kodu]` | `#[Renk Kodu]` | Açıklamalar, tarihler, etiketler |
-| **Kenarlık** | `--kenar` | `#[Renk Kodu]` | `#[Renk Kodu]` | Çizgiler, input sınırları |
+| --accent | #236cde | #82b4ff | Metin / kontrol | 4.92:1 (buton metni) / 8.75:1 (buton metni) |
+| --on-accent | #ffffff | #101416 | Metin / kontrol | 4.92:1 (buton metni) / 8.75:1 (buton metni) |
+| --green | #b2d0ff | #b2d0ff | Yüzey / kenar | Metin tokenı değil |
+| --bg | #f7f7f4 | #101416 | Yüzey / kenar | Metin tokenı değil |
+| --panel | #ffffff | #191e21 | Yüzey / kenar | Metin tokenı değil |
+| --ink | #202326 | #f0f2ed | Metin / kontrol | 14.71:1 / 16.43:1 |
+| --muted | #596164 | #a0a9aa | Metin / kontrol | 5.90:1 / 7.72:1 |
+| --line | #e0e3df | #30383a | Yüzey / kenar | Metin tokenı değil |
+| --wash | #ebeeea | #20282a | Yüzey / kenar | Metin tokenı değil |
+| --dark | #171c1e | #171c1e | Yüzey / kenar | Metin tokenı değil |
 
----
+## Logo, tipografi ve ikonlar
+OTOİZ logoları public/logo-light.svg ve public/logo-dark.svg; favicon public/favicon.svg. Arial/Helvetica/sans-serif ve --radius:14px mevcut tasarıma uygundur. Türkçe, Arapça ve Farsçada sistem yazı tipi yedeği kullanılır. Renkleri yeni dosyalarda sabit hex ile tekrar etme.
 
-## 2. Tipografi ve Yuvarlaklık
-
-- **Yazı Tipi (Font):** System UI (`-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif`)
-- **Köşe Yuvarlaklığı (`--radius`):** `[Örn: 12px / 14px / 16px]`
-
----
-
-## 3. Logo ve İkon Tanımı
-
-- **Logo Metni / Simgesi:** [Uygulamanızın logosu ne olacak?]
-- **Logo Dosyası:** `public/[logo-adi.svg]`
-- **Tauri Launcher İkonu:** `src-tauri/icons/`
+Web manifestinde 192 ve 512 px PNG; iPhone için 180 px Apple Touch Icon mevcut. Bunlar web/PWA ikonlarıdır. Tauri macOS .icns, Windows .ico, Linux PNG seti, Android mipmap ve iOS AppIcon native setleri mevcut değildir; görev 05'in native ikon ve tauri.conf.json şartları eksiktir. Yeni Tauri projesi varmış gibi dosya üretilemez.
