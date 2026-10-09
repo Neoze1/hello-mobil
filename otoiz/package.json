@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node --env-file-if-exists=.env server.mjs",
     "check": "node scripts/check.mjs",
-    "test": "node --test test.mjs assistant.test.mjs catalog.test.mjs"
+    "test": "node --test test.mjs assistant.test.mjs catalog.test.mjs",
+    "check:docs": "node scripts/check-docs.mjs",
+    "test:browser": "node scripts/browser-check.mjs"
   },
   "engines": {
     "node": ">=22"
