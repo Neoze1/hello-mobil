@@ -51,6 +51,11 @@ try{
   for(const path of ['/hakkinda','/kosullar','/gizlilik'])assert.ok(await evaluate(`!!document.querySelector('footer a[href="${path}"]')`));
  }
  await navigate('/hakkinda');await selectLanguage('en');
+ const originalTheme=await evaluate('document.documentElement.dataset.theme');
+ await evaluate(`document.querySelector('#theme').click()`);
+ assert.notEqual(await evaluate('document.documentElement.dataset.theme'),originalTheme);
+ await send('Page.reload');await until(()=>evaluate('!!document.querySelector("#language")'));
+ assert.notEqual(await evaluate('document.documentElement.dataset.theme'),originalTheme);
  await evaluate(`document.querySelector('#scope-toggle').click()`);
  assert.equal(await evaluate(`document.querySelector('#scope-content').hidden`),false);
  assert.equal(await evaluate(`document.querySelector('#scope-toggle').getAttribute('aria-expanded')`),'true');
@@ -81,10 +86,11 @@ try{
  for(const width of [375,768,1440]){await send('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<768});assert.ok(await evaluate('document.documentElement.scrollWidth <= innerWidth'),'catalog RTL overflow '+width);}
  await navigate('/hakkinda');await selectLanguage('ar');
  await send('Emulation.setDeviceMetricsOverride',{width:375,height:900,deviceScaleFactor:1,mobile:true});
- await mkdir(join(root,'..','docs','proofs'),{recursive:true});
- await writeFile(join(root,'..','docs','proofs','rtl-mobile.png'),Buffer.from((await send('Page.captureScreenshot',{format:'png'})).data,'base64'));
+ const proofDirectory=process.env.OTOIZ_PROOF_DIR||join(root,'..','docs','proofs');
+ await mkdir(proofDirectory,{recursive:true});
+ await writeFile(join(proofDirectory,'rtl-mobile.png'),Buffer.from((await send('Page.captureScreenshot',{format:'png'})).data,'base64'));
  assert.deepEqual(errors,[]);
- console.log('PASS: 4 information pages × 4 languages × 3 widths; RTL, reload, navigation, demo form, email LTR, scope toggle, mobile menu, Turkish catalog search, favorites and comparison. No browser exceptions.');
+ console.log('PASS: 4 information pages × 4 languages × 3 widths; RTL, reload, theme persistence, navigation, demo form, email LTR, scope toggle, mobile menu, Turkish catalog search, favorites and comparison. No browser exceptions.');
 }finally{
  ws?.close();browser?.kill();server?.kill();await delay(500);await rm(temp,{recursive:true,force:true,maxRetries:5,retryDelay:200});
 }

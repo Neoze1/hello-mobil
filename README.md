@@ -20,7 +20,7 @@ Otomobil modellerini keşfet, karşılaştır ve kullanıcı ilanlarını incele
 Öğrenci: **Ediz Davutoğlu — 2520171018**. Eğitmen: [Keyvan Arasteh](https://github.com/keyvanarasteh). İletişim: [GitHub Neoze1](https://github.com/Neoze1); kişisel e-posta paylaşılmadı.
 
 ## Kurulum
-Node.js **22 veya üzeri** gerekir. Harici npm bağımlılığı yoktur; npm install gerekmez.
+Node.js **22 veya üzeri** gerekir. OTOİZ için harici npm bağımlılığı yoktur; npm install gerekmez. Korunan eski öğretmen projesinin bağımlılıkları OTOİZ çalıştırmak için kullanılmaz.
 
 ```powershell
 git clone https://github.com/Neoze1/hello-mobil.git
@@ -36,9 +36,9 @@ npm start
 npm run check
 npm test
 ```
-Windows'ta otoiz/BASLAT.cmd çift tıklanabilir. Taşınabilir Node yerelde varsa .\node.exe --env-file-if-exists=.env server.mjs kullanılabilir; node.exe teslim edilmez.
+Windows'ta otoiz/BASLAT.cmd çift tıklanabilir. Taşınabilir Node yerelde varsa .\node.exe --env-file-if-exists=.env server.mjs uygulamanın otoiz/ dizininden kullanılabilir; node.exe teslim edilmez. Tarayıcı testi Edge/Chrome gerektirir; BROWSER_PATH ile tarayıcı yolu belirtilebilir.
 Varsayılan adres http://localhost:3000. PORT portu, VITRA_HOST dinleme adresini değiştirir. Testlerde VITRA_HOST=127.0.0.1 kullanılır. Sunucu normalde ağ arayüzlerinde dinler; aynı Wi-Fi üzerindeki telefon bilgisayarın yerel IP adresini kullanır.
-.env.example dosyasını .env olarak kopyalamak isteğe bağlıdır. OPENAI_API_KEY sunucuda tutulur; anahtar yoksa Türkçe temel araç araması çalışır. API çağrıları ücretlidir.
+otoiz/.env.example dosyasını otoiz/.env olarak kopyalamak isteğe bağlıdır. OPENAI_API_KEY sunucuda tutulur; anahtar yoksa Türkçe temel araç araması çalışır. API çağrıları ücretlidir.
 
 ## Özellikler ve sayfalar
 37 marka, 178 model; kaynaklı görseller, filtreleme, yerel katalog favorileri, üçlü karşılaştırma, açık/koyu tema. Üyelik, fotoğraflı ilan, ilan favorileri ve sahiplik kontrolü mevcut.

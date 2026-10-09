@@ -11,9 +11,11 @@
     "tauri": "tauri",
     "start": "node --env-file-if-exists=otoiz/.env otoiz/server.mjs",
     "check": "node otoiz/scripts/check.mjs",
-    "test": "node --test otoiz/test.mjs otoiz/assistant.test.mjs otoiz/catalog.test.mjs"
+    "test": "node --test otoiz/test.mjs otoiz/assistant.test.mjs otoiz/catalog.test.mjs",
+    "check:docs": "node otoiz/scripts/check-docs.mjs",
+    "test:browser": "node otoiz/scripts/browser-check.mjs"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "@astrojs/mdx": "^8.0.3",
     "@astrojs/react": "^7.0.1",
