@@ -65,3 +65,6 @@ Tüm Batch 01 şartları karşılanmadığından v0.1.0-batch-01 etiketi oluştu
 3. GitHub profil/repo ve proje fikrinin Blackboard teslim durumunu kontrol et.
 4. Eksik şartlar tamamlanınca GitHub Code → Download ZIP üzerinden final ZIP'i Blackboard'a yükle. .env, data/, node_modules/ ve taşınabilir araçlar paket içinde bulunmamalı.
 5. Render yayını başlatılmadı. İncelenen iki depoda render.yaml bulunmadı; mevcut Render dashboard ayarlarına erişim doğrulanmadı. Yayın için kök, komutlar ve ortam değişkenleri önce kontrol edilmeli.
+
+
+Görev 09 teslim PR’ı: [PR #9](https://github.com/Neoze1/hello-mobil/pull/9). Bu PR master dalına merge edilirse belge teslim kanıtının parçası olur; merge sonucu GitHub PR sayfasından kontrol edilir.
