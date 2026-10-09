@@ -1,184 +1,64 @@
-<div align="center">
+# OTOİZ — Otomobil Platformu
 
-<a href="https://www.istinye.edu.tr" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="public/isu-logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="public/isu-logo.svg">
-    <img alt="İstinye Üniversitesi" src="public/isu-logo.svg" width="280" />
-  </picture>
-</a>
+Otomobil modellerini keşfet, karşılaştır ve kullanıcı ilanlarını incele.
 
-<br><br>
+[![İstinye Üniversitesi](otoiz/public/isu-logo.svg)](https://www.istinye.edu.tr)
 
-# PassoKlon — Mobil Programlama
-<sub>İstinye Üniversitesi · Meslek Yüksekokulu</sub>
+[![Node.js](https://img.shields.io/badge/Node.js-22%2B-43853d)](https://nodejs.org) [![JavaScript](https://img.shields.io/badge/JavaScript-ES_modules-f7df1e)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![MYO063](https://img.shields.io/badge/MYO063-2026_Guz-002855)](https://www.istinye.edu.tr)
 
-<p>
-  <a href="#"><img alt="İSTİNYE ÜNİVERSİTESİ İSTANBUL" src="https://img.shields.io/badge/%C4%B0ST%C4%B0NYE%20%C3%9CN%C4%B0VERS%C4%B0TES%C4%B0-%C4%B0STANBUL-002855?style=for-the-badge"></a>
-  <a href="#"><img alt="MYO063 MOBİL PROGRAMLAMA" src="https://img.shields.io/badge/MYO063-MOB%C4%B0L%20PROGRAMLAMA-e4002b?style=for-the-badge"></a>
-  <a href="#"><img alt="DÖNEM 2026-2027 GÜZ" src="https://img.shields.io/badge/D%C3%96NEM-2026--2027%20G%C3%9CZ-2563eb?style=for-the-badge"></a>
-</p>
-<p>
-  <a href="#"><img alt="Tauri v2" src="https://img.shields.io/badge/Tauri-v2-FFC131?style=for-the-badge&logo=tauri&logoColor=white"></a>
-  <a href="#"><img alt="Astro v5" src="https://img.shields.io/badge/Astro-v5-BC52EE?style=for-the-badge&logo=astro&logoColor=white"></a>
-  <a href="#"><img alt="Svelte 5" src="https://img.shields.io/badge/Svelte-5-FF3E00?style=for-the-badge&logo=svelte&logoColor=white"></a>
-  <a href="#"><img alt="React 19" src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black"></a>
-  <a href="#"><img alt="Bun 1.3" src="https://img.shields.io/badge/Bun-1.3-000000?style=for-the-badge&logo=bun&logoColor=black"></a>
-  <a href="#"><img alt="License Apache-2.0" src="https://img.shields.io/badge/License-Apache--2.0-blue?style=for-the-badge"></a>
-</p>
+## İçindekiler
+- [Akademik bilgiler](#akademik-bilgiler)
+- [Kurulum](#kurulum)
+- [Çalıştırma ve test](#çalıştırma-ve-test)
+- [Özellikler ve sayfalar](#özellikler-ve-sayfalar)
+- [Dil desteği](#dil-desteği)
+- [Belgeler](#belgeler)
+- [Sınırlamalar ve lisans](#sınırlamalar-ve-lisans)
 
-</div>
+## Akademik bilgiler
+İstinye Üniversitesi · MYO063 Mobil Programlama · 2026–2027 Güz.
+Öğrenci: **Ediz Davutoğlu — 2520171018**. Eğitmen: [Keyvan Arasteh](https://github.com/keyvanarasteh). İletişim: [GitHub Neoze1](https://github.com/Neoze1); kişisel e-posta paylaşılmadı.
 
----
+## Kurulum
+Node.js **22 veya üzeri** gerekir. Harici npm bağımlılığı yoktur; npm install gerekmez.
 
-## 📋 İçindekiler
-- [Akademik Bilgiler](#-akademik-bilgiler)
-- [Proje Hakkında](#-proje-hakkında)
-- [Mimari ve Çoklu Çatı (Multi-Framework)](#-mimari-ve-çoklu-çatı-multi-framework)
-- [Temel Yetenekler](#-temel-yetenekler)
-- [Teknoloji Yığını](#-teknoloji-yığını)
-- [Kurulum ve Çalıştırma](docs/kurulum.md)
-- [Dokümantasyon](#-dokümantasyon)
-- [Haftalık Görevler](#-haftalık-görevler)
-- [Lisans](#-lisans)
+```powershell
+git clone https://github.com/Neoze1/hello-mobil.git
+cd hello-mobil
+npm start
+```
 
----
+OTOİZ uygulaması otoiz/ altında, kanonik belgeler docs/ altında bulunur. Kök npm start/check/test komutları OTOİZ’e yönlendirilmiştir. Mevcut Astro/Tauri öğretmen kaynakları korunmuştur; bun run dev/build bu eski kaynakları hedefler ve OTOİZ doğrulaması değildir. Aktarım ve PR durumu [teslim belgesinde](docs/teslim-batch-01.md) yer alır.
 
-## 🎓 Akademik Bilgiler & Ders Künyesi
+## Çalıştırma ve test
+```powershell
+npm start
+npm run check
+npm test
+```
+Windows'ta otoiz/BASLAT.cmd çift tıklanabilir. Taşınabilir Node yerelde varsa .\node.exe --env-file-if-exists=.env server.mjs kullanılabilir; node.exe teslim edilmez.
+Varsayılan adres http://localhost:3000. PORT portu, VITRA_HOST dinleme adresini değiştirir. Testlerde VITRA_HOST=127.0.0.1 kullanılır. Sunucu normalde ağ arayüzlerinde dinler; aynı Wi-Fi üzerindeki telefon bilgisayarın yerel IP adresini kullanır.
+.env.example dosyasını .env olarak kopyalamak isteğe bağlıdır. OPENAI_API_KEY sunucuda tutulur; anahtar yoksa Türkçe temel araç araması çalışır. API çağrıları ücretlidir.
 
-<div align="center">
+## Özellikler ve sayfalar
+37 marka, 178 model; kaynaklı görseller, filtreleme, yerel katalog favorileri, üçlü karşılaştırma, açık/koyu tema. Üyelik, fotoğraflı ilan, ilan favorileri ve sahiplik kontrolü mevcut.
 
-[![İSÜ](https://img.shields.io/badge/İSTİNYE_ÜNİVERSİTESİ-İSTANBUL-0080BB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.istinye.edu.tr)
-[![MYO063](https://img.shields.io/badge/MYO063-Mobil_Programlama-FF6F00?style=for-the-badge&logo=dart&logoColor=white)](#)
-[![Dönem](https://img.shields.io/badge/Dönem-2026--2027_Güz-007ACC?style=for-the-badge)](#)
-[![Qrofessor](https://img.shields.io/badge/Qrofessor-qrofessor.com-4361EE?style=for-the-badge&logo=google-chrome&logoColor=white)](https://qrofessor.com)
+| Adres | İşlev |
+|---|---|
+| / | Ana Sayfa |
+| /araclar | Araç kataloğu |
+| /ilanlar.html | Üyelik ve satıcı ilanları |
+| /hakkinda | Proje amacı ve etkileşimli kapsam bilgisi |
+| /iletisim | İletişim ve açıkça işaretlenmiş demo form |
+| /kosullar | Kullanım koşulları |
+| /gizlilik | Veri ve gizlilik açıklaması |
 
-</div>
+## Dil desteği
+Bilgi sayfaları ve ortak menü TR/EN/AR/FA; Arapça ve Farsça RTL. Dil seçimi otoiz-language ile korunur. Araç araması ve ilan arayüzünün ayrıntıları Türkçedir; marka/model isimleri, katalog kimlikleri ve filtre değerleri çevrilmez. Tema ve eski VITRA_* teknik anahtarları veri uyumluluğu için korunur.
 
-<br>
+## Belgeler
+[Belge indeksi](docs/index.md), [proje fikri](docs/proje-fikri.md), [klasör mimarisi](docs/klasor-mimarisi.md), [sayfa ve platform haritası](docs/mimari-agac.md), [marka kuralları](docs/branding.md), [görevler](docs/tasks/week-3/), [ajan kuralları](AGENTS.md), [teslim kontrolü](docs/teslim-batch-01.md).
 
-| Bilgi | Detay |
-|:---|:---|
-| **Kurum** | [**İstinye Üniversitesi**](https://www.istinye.edu.tr) &nbsp;·&nbsp; [**www.istinye.edu.tr ↗**](https://www.istinye.edu.tr) |
-| **Birim / Program** | **Meslek Yüksekokulu** — Bilişim Güvenliği Teknolojisi |
-| **Ders Kodu & Adı** | `MYO063` — **Mobil Programlama** *(App Development)* |
-| **Dönem** | `2026--2027 Güz` |
-| **Ders Saati & Derslik** | Her Çarşamba `15:30 – 17:10` &nbsp;·&nbsp; **T-1B03** *(PC Lab.)* |
-| **Öğretim Görevlisi** | **Öğr. Gör. Keyvan Arasteh Abbasabad**<br>([Web: qrofessor.com ↗](https://qrofessor.com) &nbsp;·&nbsp; [İSÜ Profil ↗](https://www.istinye.edu.tr) &nbsp;·&nbsp; [GitHub ↗](https://github.com/keyvanarasteh) &nbsp;·&nbsp; [LinkedIn ↗](https://www.linkedin.com/in/keyvanarasteh/)) |
-| **Eğitim Platformu** | [**qrofessor.com ↗**](https://qrofessor.com) *(Qrofessor Akademik Hub)* |
-| **Blackboard Kursu** | Kurs Kodu: `2026–2027–1–11283–1` |
-| **Kaynak Depo** | [`keyvanarasteh/hello-mobil`](https://github.com/keyvanarasteh/hello-mobil) |
-| **Telegram Grubu** | `App Development - 2026` *(Ders içi kapalı grup · Bağlantı sınıfta paylaşılır)* |
-| **Geliştirici / Öğrenci** | *`[Adınız Soyadınız — Öğrenci No — Şube 1]`* &nbsp;·&nbsp; [`docs/proje-fikri.md`](docs/proje-fikri.md) |
-
-<br>
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-<h3 align="left">👨‍🏫 Öğretim Görevlisi</h3>
-
-<p>
-  <b>Öğr. Gör. Keyvan Arasteh Abbasabad</b><br>
-  <i>İstinye Üniversitesi Meslek Yüksekokulu</i><br>
-  <i>Bilişim Güvenliği Teknolojisi Programı</i>
-</p>
-
-<p>
-  <a href="https://qrofessor.com" target="_blank"><img src="https://img.shields.io/badge/Web-qrofessor.com-4361EE?style=flat-square&logo=google-chrome&logoColor=white" height="22" alt="qrofessor.com"></a>
-  <a href="https://www.istinye.edu.tr" target="_blank"><img src="https://img.shields.io/badge/İSÜ-Akademik_Profil-0080BB?style=flat-square&logo=google-chrome&logoColor=white" height="22" alt="İstinye Profil"></a>
-  <a href="https://github.com/keyvanarasteh" target="_blank"><img src="https://img.shields.io/badge/GitHub-keyvanarasteh-181717?style=flat-square&logo=github&logoColor=white" height="22" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/keyvanarasteh/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Keyvan_Arasteh-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="22" alt="LinkedIn"></a>
-</p>
-
-</td>
-<td width="50%" valign="top">
-
-<h3 align="left">👨‍💻 Geliştirici (Öğrenci) Künyesi</h3>
-
-<p><i>Repoyu fork'ladıktan sonra kendi bilgilerinizi doldurunuz:</i></p>
-
-<ul>
-  <li><b>Adı Soyadı:</b> <code>[Adınız Soyadınız]</code></li>
-  <li><b>Öğrenci No:</b> <code>[Öğrenci Numaranız]</code></li>
-  <li><b>Şube:</b> <code>Şube 1</code></li>
-  <li><b>GitHub:</b> <code>[@kullanici-adiniz]</code></li>
-  <li><b>Proje Fikri:</b> <a href="docs/proje-fikri.md">docs/proje-fikri.md</a></li>
-</ul>
-
-</td>
-</tr>
-</table>
-
----
-
-## 🚀 Proje Hakkında
-
-Bu proje, İstinye Üniversitesi Bilişim Güvenliği Teknolojisi programı **MYO063 Mobil Programlama** dersi kapsamında geliştirilmiştir.
-
-Uygulama, popüler bilet ve etkinlik platformu **Passo**'nun temel işlevlerini (etkinlik keşfi, biletleme, sepet, Rust ile bilet/doğrulama kodu üretimi, kullanıcı profili ve dinamik tema) modern bir çapraz platform mimarisi üzerinde uygular.
-
-Öğrenciler bu şablonu kendi GitHub hesaplarına fork'layarak kendi özgün mobil/masaüstü ürün fikirlerine dönüştürürler.
-
----
-
-## 🧩 Mimari ve Çoklu Çatı (Multi-Framework)
-
-Bu proje salt bir web sayfası değil; tek bir kod tabanından **iOS, Android, macOS, Windows ve Linux** platformlarına derlenebilen yerel bir hibrit uygulamadır:
-
-1. **Rust Çekirdeği (Tauri v2):**
-   - Bellek güvenliği, yüksek hız ve işletim sisteminin yerel WebView'ını kullanarak ultra hafif (~10-15 MB) paket boyutu.
-   - IPC (Inter-Process Communication) ile JavaScript arayüzünden Rust fonksiyonlarını doğrudan çağırma (`bilet_olustur`).
-2. **Astro Statik Altyapısı (`output: 'static'`):**
-   - Hızlı statik sayfa derlemesi ve dosya tabanlı yönlendirme (`src/pages/`).
-   - Dahili `<ClientRouter />` (View Transitions) ile sayfa geçişlerinde SPA akıcılığı.
-3. **Çoklu Çatı Özgürlüğü:**
-   - **Svelte 5:** Reaktif ve hafif mobil ekranlar (`$state`, `$derived`, `$props` Runes).
-   - **React 19:** Zengin React bileşen ekosistemini projede doğrudan kullanabilme.
-   - **MDX:** Sayfa içine etkileşimli bileşenler gömülebilen zengin dokümantasyon ve yasal metin sayfaları.
-
----
-
-## ✨ Temel Yetenekler
-
-- 🏟️ **Keşfet (Ana Sayfa):** Canlı arama kutusu ve kategori çipleriyle anında filtrelenen etkinlik kartları.
-- 🎫 **Etkinlik Detay:** Seçilen etkinliğin kategori, fiyat ve adet seçenekleri ile sepete ekleme akışı.
-- 🛒 **Sepet Yönetimi:** Dinamik tutar hesabı, kalem silme ve ödemeyi tamamlama.
-- 🎟️ **Biletlerim:** Rust backend'i tarafından üretilen benzersiz bilet kodları (`PSK-XXX-XXXXXXX`) ve yerel depolama.
-- 👤 **Profil & Tema:** Kullanıcı bilgileri ve açılışta parlamayı önleyen (blocking script) **Gece / Gündüz** modu.
-- 📖 **Rehber (MDX):** Projenin dokümantasyonunu ve React entegrasyonunu gösteren rehber sayfası.
-
----
-
-## 🛠️ Teknoloji Yığını
-
-| Katman | Teknoloji | Açıklama |
-|---|---|---|
-| **Çekirdek Platform** | [Tauri v2](https://v2.tauri.app/) | Rust tabanlı güvenli native runtime |
-| **Web Çatısı** | [Astro](https://astro.build/) | Statik derleme ve çoklu çatı orkestrasyonu |
-| **Mobil Arayüz** | [Svelte 5](https://svelte.dev/) | Runes mimarisiyle reaktif mobil bileşenler |
-| **Bileşen Entegrasyonu** | [React 19](https://react.dev/) | React bileşen ekosistemi |
-| **Dokümantasyon** | [MDX](https://mdxjs.com/) | Markdown + JSX hibrit sayfalar |
-| **Paket Yöneticisi** | [Bun](https://bun.sh/) | Ultra hızlı JS runtime ve paket yöneticisi |
-| **Diller** | TypeScript, Rust, CSS | Tip güvenli tam yığın geliştirme |
-
----
-
-## 📚 Dokümantasyon
-
-- [Klasör mimarisi](docs/klasor-mimarisi.md)
-- [Branding](docs/branding.md)
-- [Mimari ağaç](docs/mimari-agac.md)
-- [Proje fikri](docs/proje-fikri.md)
-- [Kurulum](docs/kurulum.md)
-- [Kurallar](docs/kurallar.md)
-- [Kaynaklar](docs/kaynaklar.md)
-- [Teslim](docs/teslim.md)
-- [Haftalık görevler](docs/tasks/week-3/)
-
----
-
-## 📄 Lisans
-
-Bu proje [Apache License 2.0](LICENSE) ile lisanslanmıştır.
+## Sınırlamalar ve lisans
+Yerel eğitim uygulaması; ödeme, doğrulanmış ekspertiz, SMS, moderasyon ve native paketler yok. Hesaplar ve ilanlar data/database.json içinde sunucuda saklanır. Bu özel klasör Git ve teslimden hariçtir. İletişim demo formu mesaj iletmez; e-posta yapılandırılmışsa yalnızca taslak açar. Katalogda eksik fiyat ve bilgiler tahmin edilmez.
+Hocanın Astro/MDX/Tauri/Rust ve bun run build şartları mevcut Node.js mimarisinde karşılanmaz; ayrıntıları teslim belgesinde eksik olarak belirtilmiştir. Kaynak deponun [Apache-2.0 lisansı](LICENSE) korunmuştur; görsellerin kendi lisansları ayrıca geçerlidir. Fotoğrafların kaynak ve lisansları [kaynak belgesinde](otoiz/catalogs/FOTOGRAF-KAYNAKLARI.md) tutulur; kaynak depodaki lisans aktarım sırasında korunur.
