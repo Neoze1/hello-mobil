@@ -9,6 +9,7 @@ const root=fileURLToPath(new URL('../',import.meta.url));
 const temp=await mkdtemp(join(tmpdir(),'otoiz-browser-'));
 let server,browser,ws;const pending=new Map();let sequence=0;const errors=[];
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+async function stop(child){if(!child||child.exitCode!==null)return;await new Promise(resolve=>{const timer=setTimeout(resolve,3000);child.once('exit',()=>{clearTimeout(timer);resolve();});child.kill();});}
 async function until(callback){for(let i=0;i<100;i++){if(await callback())return;await delay(100);}throw new Error('Browser check timed out');}
 try{
  const candidates=[process.env.BROWSER_PATH,'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe','C:/Program Files/Microsoft/Edge/Application/msedge.exe','C:/Program Files/Google/Chrome/Application/chrome.exe'].filter(Boolean);
@@ -48,7 +49,7 @@ try{
   }
   await send('Page.reload');await until(()=>evaluate('!!document.querySelector("#language")'));
   assert.equal(await evaluate('document.documentElement.lang'),'fa');
-  for(const path of ['/hakkinda','/kosullar','/gizlilik'])assert.ok(await evaluate(`!!document.querySelector('footer a[href="${path}"]')`));
+    for(const path of ['/hakkinda','/kosullar','/gizlilik'])assert.ok(await evaluate(`!!document.querySelector('footer a[href="/fa${path}"]')`));
  }
  await navigate('/hakkinda');await selectLanguage('en');
  const originalTheme=await evaluate('document.documentElement.dataset.theme');
@@ -84,13 +85,43 @@ try{
  assert.equal(await evaluate('document.documentElement.lang'),'fa');
  assert.equal(await evaluate(`document.querySelector('#fav-count').textContent`),'1');
  for(const width of [375,768,1440]){await send('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<768});assert.ok(await evaluate('document.documentElement.scrollWidth <= innerWidth'),'catalog RTL overflow '+width);}
+ await navigate('/');await selectLanguage('fa');
+ await evaluate(`if(document.documentElement.dataset.theme!=='dark')document.querySelector('#theme').click()`);
+ assert.equal(await evaluate(`JSON.parse(localStorage.getItem('vitra-theme'))`),'dark');
+ await navigate('/ilanlar.html#yeni-ilan');
+ await until(()=>evaluate(`document.body.dataset.page==='listings'&&document.querySelector('#modal')?.open&&document.querySelector('#auth-form')`));
+ assert.equal(await evaluate('document.documentElement.lang'),'fa');
+ assert.equal(await evaluate('document.documentElement.dir'),'rtl');
+ assert.equal(await evaluate('document.documentElement.dataset.theme'),'dark');
+ assert.equal(await evaluate(`document.querySelector('#modal-content').textContent.includes('ÖNİZLEME MODU')`),false);
+ await evaluate(`document.querySelector('#close-modal').click()`);
+ await evaluate('history.back()');await until(()=>evaluate(`location.pathname==='/'&&!!document.querySelector('#language')`));
+ assert.equal(await evaluate('document.documentElement.lang'),'fa');
+ assert.equal(await evaluate('document.documentElement.dir'),'rtl');
+ assert.equal(await evaluate('document.querySelector("#language").value'),'fa');
+ assert.equal(await evaluate('document.documentElement.dataset.theme'),'dark');
+ assert.equal(await evaluate(`document.querySelector('#theme').getAttribute('aria-label')`),'تغییر پوسته');
+ await send('Network.enable');await send('Network.setBlockedURLs',{urls:['*://*/api/*']});
+ await navigate('/ilanlar.html#yeni-ilan');
+ await until(()=>evaluate(`document.querySelector('#modal')?.open&&document.querySelector('#preview-close')`));
+ assert.equal(await evaluate('document.documentElement.lang'),'fa');
+ assert.equal(await evaluate('document.documentElement.dir'),'rtl');
+ assert.equal(await evaluate('document.documentElement.dataset.theme'),'dark');
+ assert.ok(await evaluate(`document.querySelector('#modal-content').textContent.includes('Node.js OTOİZ sunucusu')`));
+ assert.equal(await evaluate(`!!document.querySelector('#auth-form')`),false);
+ await evaluate(`document.querySelector('#preview-close').click()`);
+ await send('Network.setBlockedURLs',{urls:[]});await evaluate('history.back()');
+ await until(()=>evaluate(`location.pathname==='/'&&!!document.querySelector('#language')`));
+ assert.equal(await evaluate('document.documentElement.lang'),'fa');
+ assert.equal(await evaluate('document.querySelector("#language").value'),'fa');
+ assert.equal(await evaluate('document.documentElement.dataset.theme'),'dark');
  await navigate('/hakkinda');await selectLanguage('ar');
  await send('Emulation.setDeviceMetricsOverride',{width:375,height:900,deviceScaleFactor:1,mobile:true});
  const proofDirectory=process.env.OTOIZ_PROOF_DIR||join(root,'..','docs','proofs');
  await mkdir(proofDirectory,{recursive:true});
  await writeFile(join(proofDirectory,'rtl-mobile.png'),Buffer.from((await send('Page.captureScreenshot',{format:'png'})).data,'base64'));
  assert.deepEqual(errors,[]);
- console.log('PASS: 4 information pages × 4 languages × 3 widths; RTL, reload, theme persistence, navigation, demo form, email LTR, scope toggle, mobile menu, Turkish catalog search, favorites and comparison. No browser exceptions.');
+ console.log('PASS: 4 information pages × 4 languages × 3 widths; RTL, reload, theme persistence, navigation, demo form, email LTR, scope toggle, mobile menu, Turkish catalog search, favorites/comparison, online login-return, and API-blocked preview. No browser exceptions.');
 }finally{
- ws?.close();browser?.kill();server?.kill();await delay(500);await rm(temp,{recursive:true,force:true,maxRetries:5,retryDelay:200});
+ ws?.close();await Promise.all([stop(browser),stop(server)]);await rm(temp,{recursive:true,force:true,maxRetries:20,retryDelay:250});
 }

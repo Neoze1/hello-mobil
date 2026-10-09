@@ -88,3 +88,17 @@ Dal: `feature/otoiz-tauri-integration`. Önceki `v0.1.0-batch-01` etiketi deği�
 | Paketleme | Tauri geliştirme penceresi ve OTOİZ native ikon dosyaları mevcut; native MSI/EXE çıktısı ve Tauri içinde Node sidecar doğrulanmadı/eklenmedi. |
 
 PR #16: [OTOİZ Astro/Tauri entegrasyonu](https://github.com/Neoze1/hello-mobil/pull/16), `master`'a 9 Ekim 2026 tarihinde merge edildi. GitHub `node-checks` son feature commitinde iki kez başarılı oldu; merge commit: `39bf523a93db8a3dceb3aafbd864ceb0488ff51d`. `v0.1.0-batch-01` etiketi değiştirilmedi.
+
+## İlan ver / giriş / geri dönüş düzeltmesi
+
+Dal: `fix/otoiz-listing-login-return`.
+
+| Kontrol | Gerçek sonuç |
+|---|---|
+| `bun run build` | Başarılı; 28 statik Astro rotası üretildi. |
+| `bun run test:browser` | Başarılı. Dört bilgi sayfası × dört dil × üç viewport; online login modalı ve API istekleri bloke edilmiş önizleme akışı; geri dönüşte dil, RTL, tema ve erişilebilir tema etiketi korundu. Browser exception yok. |
+| Node API açık | `/api/catalog` fallback'iyle 37/178 katalog yüklendi; `/ilanlar.html#yeni-ilan` gerçek OTOİZ login modalını açtı. Kapatıp geri dönünce FA/RTL ve koyu tema korundu. |
+| Node API yok | Login formu gösterilmedi; “ÖNİZLEME MODU” modalı ve sayfa uyarısı göründü. Geri dönüşte Arapça/RTL ve koyu tema korundu. |
+| Tauri native pencere | `bun run tauri dev` Astro'yu 1420'de başlattı ve webview `/` için HTTP 200 aldı; komut daha sonra `dev` exit code 255 ile kapandı. Derlenmiş exe de süreç olarak kalmadı. Bu ortamda native pencerede etkileşimli akış doğrulanamadı; aynı Tauri dev URL'sindeki web akışı tarayıcıda doğrulandı. |
+
+Geçici Node API testi `127.0.0.1:3124` ve yeni TEMP veri klasörü kullandı; klasör testten sonra silindi. Bu fix için PR/merge bilgisi aşağıdaki güncellemede kaydedilecektir.
