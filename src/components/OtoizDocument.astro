@@ -1,0 +1,46 @@
+---
+import about from '../../otoiz/public/hakkinda.html?raw';
+import contact from '../../otoiz/public/iletisim.html?raw';
+import home from '../../otoiz/public/index.html?raw';
+import privacy from '../../otoiz/public/gizlilik.html?raw';
+import terms from '../../otoiz/public/kosullar.html?raw';
+
+interface Props {
+  source: string;
+  vehicles?: boolean;
+}
+
+const { source, vehicles = false } = Astro.props;
+const documents = {
+  'hakkinda.html': about,
+  'iletisim.html': contact,
+  'index.html': home,
+  'gizlilik.html': privacy,
+  'kosullar.html': terms,
+};
+const html = documents[source as keyof typeof documents];
+if (!html) throw new Error(`Unknown OTOİZ document: ${source}`);
+const htmlAttributes = html.match(/<html\b([^>]*)>/i)?.[1] ?? '';
+const head = html.match(/<head\b[^>]*>([\s\S]*?)<\/head>/i)?.[1];
+const bodyAttributes = html.match(/<body\b([^>]*)>/i)?.[1] ?? '';
+let body = html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1];
+
+if (!head || body === undefined) throw new Error(`Invalid OTOİZ document: ${source}`);
+
+const lang = htmlAttributes.match(/\blang=["']([^"']+)["']/i)?.[1] ?? 'tr';
+const direction = htmlAttributes.match(/\bdir=["']([^"']+)["']/i)?.[1] ?? 'ltr';
+const page = vehicles ? 'vehicles' : bodyAttributes.match(/\bdata-page=["']([^"']+)["']/i)?.[1] ?? 'home';
+const infoTitle = bodyAttributes.match(/\bdata-info-title=["']([^"']+)["']/i)?.[1];
+const title = vehicles ? 'Araçlar — OTOİZ' : head.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? 'OTOİZ';
+
+if (vehicles) {
+  body = body.replace('data-page="home"', 'data-page="vehicles"');
+}
+const documentHead = head.replace(/<title>[\s\S]*?<\/title>/i, '');
+---
+
+<!doctype html>
+<html lang={lang} dir={direction}>
+  <head set:html={documentHead}><title>{title}</title></head>
+  <body data-page={page} data-info-title={infoTitle} set:html={body}></body>
+</html>

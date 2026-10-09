@@ -1,0 +1,11 @@
+---
+import OtoizDocument from '../components/OtoizDocument.astro';
+
+export function getStaticPaths() {
+  return ['iletisim', 'kosullar', 'gizlilik'].map((page) => ({ params: { page } }));
+}
+
+const page = Astro.params.page;
+---
+
+<OtoizDocument source={`${page}.html`} />

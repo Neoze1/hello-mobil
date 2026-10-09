@@ -4,8 +4,8 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "node otoiz/scripts/build-web-catalog.mjs && astro dev",
+    "build": "node otoiz/scripts/build-web-catalog.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "tauri": "tauri",

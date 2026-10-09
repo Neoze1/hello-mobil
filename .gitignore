@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 dist
+/public/catalog.json
 /build
 .astro
 /.svelte-kit

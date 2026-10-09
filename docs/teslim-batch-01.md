@@ -71,3 +71,20 @@ Tüm Batch 01 şartları karşılanmadığından v0.1.0-batch-01 etiketi oluştu
 hello-mobil/master üzerindeki gerçek aktarılmış uygulamada npm run check, npm test (15/15), npm run check:docs (56 bağlantı) ve dört dilli tarayıcı testi yeniden geçti. Tema kalıcılığı ve mobil RTL dahil. GitHub Actions node-checks sonuçları PR sayfalarında başarı durumunda. Katalog kaynakları yerel başlangıca göre değişmedi. Orijinal vitra-app main dalına doğrudan commit veya push yapılmadı.
 
 Son kanıt PR’ı görev 09 kapsamında açılır; ana dalda doğrudan commit yapılmaz. Teslim ZIP’i birleştirilmiş Git dosyalarından üretilir; özel kullanıcı verileri ve yerel araçlar dahil edilmez.
+
+## Astro/Tauri OTOİZ entegrasyonu (9 Ekim 2026)
+
+Dal: `feature/otoiz-tauri-integration`. Önceki `v0.1.0-batch-01` etiketi değiştirilmedi.
+
+| Kontrol | Gerçek sonuç |
+|---|---|
+| `bun run build` | Başarılı; Astro statik çıktısı 15 rota üretti. Katalog JSON'u `otoiz/catalog.mjs` üzerinden build öncesi üretildi. |
+| `bun run tauri dev` | Başarılı; Astro `http://127.0.0.1:1420/` üzerinde açıldı, Rust debug uygulaması çalıştı ve webview ana sayfası OTOİZ oldu. |
+| Katalog | Tarayıcıda 37 marka / 178 model; onaylı model görseli yüklendi. 178 yerel araç görseli Astro `public/araclar/` yoluna alındı. Kaynak fiyat kanıtları ve iki dışa aktarma dosyası korundu. Güncel doğrulanmış fiyat sayısı hâlâ 0. |
+| Bilgi sayfaları ve diller | Hakkında, iletişim, koşullar ve gizlilik rotalarının her birinde TR/EN/AR/FA seçimi; AR/FA RTL, diğer diller LTR; yön ve seçim gezinmede korundu. 375, 768 ve 1440 px genişliklerinde taşma görülmedi. |
+| Node API sınırı | Statik katalog, filtreler, detay, katalog favorileri ve karşılaştırma Tauri webview'de çalışır. Üyelik, kalıcı ilanlar, ilan favorileri, telefon/rapor, asistan ve sunucu iletişim ayarları ayrı `otoiz/server.mjs` API'si gerektirir; Tauri'de ilan sayfası açıkça demo “Önizleme modu” gösterir. Node backend Tauri'ye eklenmedi. |
+| Testler | Bun test runner ile asistan/katalog testleri 14/14, Node API entegrasyon testi 1/1 geçti. `bun run check:docs` 55 yerel bağlantı/anchor için geçti; Astro dosyalarında tanı yok ve `git diff --check` temiz. |
+| Node scriptleri | Ortamda Node.js/npm kurulu değil. Bu yüzden `bun run check` ve `bun run test` içindeki `node --check`/`node --test` çağrıları Bun uyumluluk hatası verdi; testler doğrudan `bun test` ile çalıştırıldı. |
+| Paketleme | Tauri geliştirme penceresi doğrulandı; native MSI/EXE, ikon seti ve Tauri içinde Node sidecar doğrulanmadı/eklenmedi. |
+
+PR/push ve GitHub Actions sonucu bu tabloya gerçek bağlantı/commit kanıtı alındıktan sonra eklenir; yerel build sonucu GitHub kontrolü yerine sayılmaz.

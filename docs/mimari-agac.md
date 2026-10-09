@@ -17,14 +17,16 @@ OTOİZ
     └── /gizlilik — Tarayıcı/sunucu depolama ve veri koruma
 ```
 
-Yeni sayfalar server.mjs izin listesinde; uzantısız ve .html adresleri doğrudan açılır. /araclar mevcut index.html üzerinden ayrı görünümle sunulur. Profil ayrı /profil rotası değildir; ilan arayüzündedir. Rust kod ekranı yoktur.
+Astro/Tauri ana yüzeyi `/`, `/araclar`, `/iletisim`, `/hakkinda`, `/kosullar` ve `/gizlilik` rotalarını statik üretir; `/ilanlar.html` mevcut OTOİZ HTML sayfasıdır. Ayrı Node `otoiz/server.mjs` de aynı kanonik public sayfaları ve API'yi sunar. Profil ayrı `/profil` rotası değildir; ilan arayüzündedir. Rust kod ekranı yoktur.
+
+Statik katalog, filtreleme, detay, katalog favorileri ve üçlü karşılaştırma Node API'si olmadan çalışır. Tauri görünümü `public/catalog.json` dosyasını build sırasında kaynak `otoiz/catalog.mjs` üzerinden üretir. İlanlar sayfası sunucu olmadığında açıkça örnek veri içeren önizleme moduna geçer. Üyelik, kalıcı ilanlar, ilan favorileri, satıcı telefonu, raporlama, asistan API'si ve yapılandırılmış iletişim bilgileri Node API gerektirir; Tauri paketine/çalışma sürecine Node backend eklenmemiştir.
 
 ## Platform matrisi
 
 | Platform | Mevcut çıktı | Hocanın native hedefi | Durum |
 |---|---|---|---|
 | macOS | Tarayıcı/PWA | .dmg, .app | Native OTOİZ paketi eksik |
-| Windows 10/11 | Node.js sunucu + tarayıcı | .msi, .exe | Native OTOİZ paketi eksik |
+| Windows 10/11 | Node.js sunucu + tarayıcı; Tauri dev webview ile statik katalog | .msi, .exe | Tauri geliştirme penceresi çalışır; paketleme/installer ve Node backend entegrasyonu eksik |
 | Linux | Node.js sunucu + tarayıcı | .deb, .AppImage | Native OTOİZ paketi eksik |
 | iOS/iPadOS | Safari + web ana ekran ikonu | .ipa, Xcode | Native OTOİZ paketi eksik |
 | Android | Tarayıcı/PWA | .apk, .aab | Native OTOİZ paketi eksik |

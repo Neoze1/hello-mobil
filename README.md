@@ -20,15 +20,16 @@ Otomobil modellerini keşfet, karşılaştır ve kullanıcı ilanlarını incele
 Öğrenci: **Ediz Davutoğlu — 2520171018**. Eğitmen: [Keyvan Arasteh](https://github.com/keyvanarasteh). İletişim: [GitHub Neoze1](https://github.com/Neoze1); kişisel e-posta paylaşılmadı.
 
 ## Kurulum
-Node.js **22 veya üzeri** gerekir. OTOİZ için harici npm bağımlılığı yoktur; npm install gerekmez. Korunan eski öğretmen projesinin bağımlılıkları OTOİZ çalıştırmak için kullanılmaz.
+Astro/Tauri katalog arayüzü için Bun ve Rust araç zinciri gerekir. Node API'si ve mevcut Node web sunucusu için Node.js **22 veya üzeri** gerekir.
 
 ```powershell
 git clone https://github.com/Neoze1/hello-mobil.git
 cd hello-mobil
-npm start
+bun install
+bun run tauri dev
 ```
 
-OTOİZ uygulaması otoiz/ altında, kanonik belgeler docs/ altında bulunur. Kök npm start/check/test komutları OTOİZ’e yönlendirilmiştir. Mevcut Astro/Tauri öğretmen kaynakları korunmuştur; bun run dev/build bu eski kaynakları hedefler ve OTOİZ doğrulaması değildir. Aktarım ve PR durumu [teslim belgesinde](docs/teslim-batch-01.md) yer alır.
+OTOİZ'in kanonik veri, HTML ve istemci kodu otoiz/ altında; Astro/Tauri sayfaları ve Tauri kabuğu depo kökündedir. `bun run build` üretim derlemesini çalıştırır. Tauri görünümü statik katalog ve bilgi sayfalarını açar; Node API'si Tauri sürecinde başlatılmaz.
 
 ## Çalıştırma ve test
 ```powershell
@@ -38,8 +39,9 @@ npm test
 npm run check:docs
 npm run test:browser
 ```
-Windows'ta otoiz/BASLAT.cmd çift tıklanabilir. Taşınabilir Node yerelde varsa .\node.exe --env-file-if-exists=.env server.mjs uygulamanın otoiz/ dizininden kullanılabilir; node.exe teslim edilmez. Tarayıcı testi Edge/Chrome gerektirir; BROWSER_PATH ile tarayıcı yolu belirtilebilir.
-Varsayılan adres http://localhost:3000. PORT portu, VITRA_HOST dinleme adresini değiştirir. Testlerde VITRA_HOST=127.0.0.1 kullanılır. Sunucu normalde ağ arayüzlerinde dinler; aynı Wi-Fi üzerindeki telefon bilgisayarın yerel IP adresini kullanır.
+`npm start`, API özelliklerini içeren ayrı Node sunucusunu `http://localhost:3000` adresinde çalıştırır. `PORT` portu, `VITRA_HOST` dinleme adresini değiştirir. Windows'ta otoiz/BASLAT.cmd bu sunucuyu başlatır. Taşınabilir Node yerelde varsa .\node.exe --env-file-if-exists=.env server.mjs uygulamanın otoiz/ dizininden kullanılabilir; node.exe teslim edilmez. Tarayıcı testi Edge/Chrome gerektirir; BROWSER_PATH ile tarayıcı yolu belirtilebilir.
+
+Tauri içindeki `/ilanlar.html` Node API erişilemediğinde demo ilanlarıyla “Önizleme modu” gösterir. Hesap açma/giriş, kalıcı ilan ve ilan favorileri, satıcı telefonunu gösterme, ilan raporlama, asistan API'si ve yapılandırılmış iletişim bilgileri için ayrı Node sunucusu gerekir; bu özellikler statik Tauri webview içinde etkin değildir.
 otoiz/.env.example dosyasını otoiz/.env olarak kopyalamak isteğe bağlıdır. OPENAI_API_KEY sunucuda tutulur; anahtar yoksa Türkçe temel araç araması çalışır. API çağrıları ücretlidir.
 
 ## Özellikler ve sayfalar
@@ -63,4 +65,4 @@ Bilgi sayfaları ve ortak menü TR/EN/AR/FA; Arapça ve Farsça RTL. Dil seçimi
 
 ## Sınırlamalar ve lisans
 Yerel eğitim uygulaması; ödeme, doğrulanmış ekspertiz, SMS, moderasyon ve native paketler yok. Hesaplar ve ilanlar data/database.json içinde sunucuda saklanır. Bu özel klasör Git ve teslimden hariçtir. İletişim demo formu mesaj iletmez; e-posta yapılandırılmışsa yalnızca taslak açar. Katalogda eksik fiyat ve bilgiler tahmin edilmez.
-Hocanın Astro/MDX/Tauri/Rust ve bun run build şartları mevcut Node.js mimarisinde karşılanmaz; ayrıntıları teslim belgesinde eksik olarak belirtilmiştir. Kaynak deponun [Apache-2.0 lisansı](LICENSE) korunmuştur; görsellerin kendi lisansları ayrıca geçerlidir. Fotoğrafların kaynak ve lisansları [kaynak belgesinde](otoiz/catalogs/FOTOGRAF-KAYNAKLARI.md) tutulur; kaynak depodaki lisans aktarım sırasında korunur.
+`bun run build` ve Windows Tauri geliştirme webview doğrulandı; native installer/ikon seti ve Tauri içinde Node API sidecar henüz yoktur. Kaynak deponun [Apache-2.0 lisansı](LICENSE) korunmuştur; görsellerin kendi lisansları ayrıca geçerlidir. Fotoğrafların kaynak ve lisansları [kaynak belgesinde](otoiz/catalogs/FOTOGRAF-KAYNAKLARI.md) tutulur; kaynak depodaki lisans aktarım sırasında korunur.
