@@ -35,6 +35,8 @@ OTOİZ uygulaması otoiz/ altında, kanonik belgeler docs/ altında bulunur. Kö
 npm start
 npm run check
 npm test
+npm run check:docs
+npm run test:browser
 ```
 Windows'ta otoiz/BASLAT.cmd çift tıklanabilir. Taşınabilir Node yerelde varsa .\node.exe --env-file-if-exists=.env server.mjs uygulamanın otoiz/ dizininden kullanılabilir; node.exe teslim edilmez. Tarayıcı testi Edge/Chrome gerektirir; BROWSER_PATH ile tarayıcı yolu belirtilebilir.
 Varsayılan adres http://localhost:3000. PORT portu, VITRA_HOST dinleme adresini değiştirir. Testlerde VITRA_HOST=127.0.0.1 kullanılır. Sunucu normalde ağ arayüzlerinde dinler; aynı Wi-Fi üzerindeki telefon bilgisayarın yerel IP adresini kullanır.
