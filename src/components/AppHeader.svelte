@@ -4,7 +4,7 @@
 </script>
 
 <header class="ust">
-  <a href="/" class="logo">passo<span>klon</span></a>
+  <a href="/" class="logo" aria-label="OTOİZ ana sayfa"><img src="/otoiz-simge.svg" alt="" width="28" height="28" />OTO<span>İZ</span></a>
   <button
     class="tema-dugme"
     onclick={() => tema.degistir()}
@@ -32,6 +32,15 @@
     font-weight: 800;
     letter-spacing: -0.5px;
     text-decoration: none;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    margin-inline-end: 8px;
   }
 
   .logo span {
