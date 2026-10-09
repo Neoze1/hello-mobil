@@ -3,12 +3,12 @@
 Denetim tarihi: 9 Ekim 2026. Kaynak: [hafta 3 görevleri](tasks/week-3/), kaynak commit `2974254c0660248001bb42d7812e10cb3cc09a80`. Batch 01 son teslimi kaynak görev 09'da 09.10.2026 23:59; fork/fikir için görev 01/02'de belirtilen tarih 07.10.2026 23:59'dur. Geçmiş teslim zamanları doğrulanamadı.
 
 ## Başlangıç denetimi
-Gerçek uygulama kökü vitra/; Node.js/HTML/CSS/JavaScript. Başlangıçta Git çalışma ağacı temiz, dal main ve origin https://github.com/Neoze1/vitra-app.git idi. Kullanıcı ayrıca https://github.com/Neoze1/hello-mobil deposuna aktarım istedi; hedef deponun ana dalı git üzerinden master olarak saptandı. Remote değiştirilmedi. Hedefin mevcut Astro/Tauri kaynakları korunarak OTOİZ otoiz/ altında aktarılır.
+Gerçek uygulama kökü vitra/; Node.js/HTML/CSS/JavaScript. Başlangıçta Git çalışma ağacı temiz, dal main ve origin https://github.com/Neoze1/vitra-app.git idi. Kullanıcı ayrıca https://github.com/Neoze1/hello-mobil deposuna aktarım istedi; hedef deponun ana dalı git üzerinden master olarak saptandı. Remote değiştirilmedi. Hedefin mevcut Astro/Tauri kaynakları korunarak OTOİZ otoiz/ altında aktarıldı.
 
 | Görev | Başlangıç | Yapılan iş / gerçek sınır |
 |---|---|---|
 | 01 fork/davet/teslim | doğrulanamadı | Fork ilişkisi GitHub API ile doğrulandı. Öğretmen aktif collaborator değil; bekleyen davet de yok. Davet, ekip ekleme ve Blackboard gönderimi yapılmadı |
-| 01.2 dallar/PR/merge | eksik | Ayrı feature/02–09 dalları ve conventional commitler hazır; hedef PR kanıtları ayrıca kaydedilir |
+| 01.2 dallar/PR/merge | eksik | tamamlandı: hedef depoda ayrı feature dalları, conventional commitler, dokuz gerçek PR ve başarılı merge; aşağıdaki tabloya bakın |
 | 02 proje fikri | eksik | tamamlandı: öğrenci, üç ekran, hedef, kapsam; Rust kod üretimi eksik |
 | 03 README | eksik | tamamlandı: gerçek Node komutları, kurum logosu, üç gerçek teknoloji/kurum rozeti ve belge linkleri; Tauri/Astro/Svelte kullandığı iddia edilmez |
 | 04 ajan dosyaları | eksik | tamamlandı: AGENTS.md, CLAUDE.md, GEMINI.md; tek kaynak ve Git kuralları |
@@ -37,25 +37,26 @@ Gerçek uygulama kökü vitra/; Node.js/HTML/CSS/JavaScript. Başlangıçta Git 
 - Mevcut testler: 15/15 başarılı; üyelik, sahiplik, oturum, görsel doğrulama, kalıcılık, Türkçe filtreler ve 37 marka/178 model korunuyor.
 - Tarayıcı: 4 bilgi sayfası × 4 dil × 375/768/1440 px; dil saklama, yenileme, açık/koyu tema kalıcılığı, sayfa geçişi, RTL, e-posta LTR, demo form temizleme, etkileşimli kapsam ve mobil menü geçti. Türkçe BMW filtresi, favori ve üçlü karşılaştırma geçti; tarayıcı istisnası yok.
 - [RTL mobil ekran kanıtı](proofs/rtl-mobile.png) test tarafından üretildi.
-- Yerel belge/anchor bağlantıları ve AGENTS indeksi check-docs.mjs ile doğrulandı. Harici kaynak URL'lerinin tamamı ayrıca erişim testi yapılmış sayılmaz.
+- Yerel belge/anchor bağlantıları ve AGENTS indeksi check-docs.mjs ile doğrulandı: vitra deposunda 42, aktarılmış değerlendirme deposunda 56 bağlantı/anchor. Harici kaynak URL'lerinin tamamı ayrıca erişim testi yapılmış sayılmaz.
 - İzole test sunucusu 127.0.0.1 ve geçici data klasörü kullandı; mevcut kullanıcı verilerine dokunulmadı.
 - Ajan uyumu: renk görevi branding.md/CSS tokenlarında, sayfa görevi mimari rota/izin listesinde tamamlandı. Ayrı bir ikinci ajan ile uyum testi yapılmadı.
 - Kontrast oranları [marka tablosunda](branding.md); ilk koyu accent/beyaz kombinasyonu 4.14:1 idi. Görev 05 düzeltmesinde on-accent tokenı eklendi; buton metni açık 4.92:1, koyu 8.75:1. Accent bağlantıları bg üzerinde açık 4.58:1, koyu 8.75:1. Ana ve soluk metin de AA üzerinde.
 
 ## Git ve teslim
 Yerel görev dalları: feature/02-proje-fikri, feature/03-readme, feature/04-agent-rules, feature/05-branding, feature/06-info-pages, feature/07-architecture, feature/08-document-index, feature/09-batch-01. Bunlar sıralı bağımlı dallardır. Yerel main'e doğrudan commit atılmadı; geçmiş silinmedi.
-GitHub API erişimi Neoze1 hesabıyla doğrulandı. Aşağıdaki PR’lar gerçek GitHub PR’larıdır ve master dalına merge edilmiştir. Görev 09 PR’ı bu belgeyi tamamlayacaktır.
+GitHub API erişimi Neoze1 hesabıyla doğrulandı. Görev 01–09 için aşağıdaki gerçek PR’lar kontrolleri geçerek hello-mobil/master dalına merge edildi.
 
-| Görev | Hedef dal / commit | PR | Durum |
-|---|---|---|---|
-| 01 | feature/01-otoiz-transfer / 37cb884c302f | [PR #1](https://github.com/Neoze1/hello-mobil/pull/1) | merge edildi |
-| 02 | feature/02-proje-fikri / bcfad2559bde | [PR #2](https://github.com/Neoze1/hello-mobil/pull/2) | merge edildi |
-| 03 | feature/03-readme / 614cba03ccc2 | [PR #3](https://github.com/Neoze1/hello-mobil/pull/3) | merge edildi |
-| 04 | feature/04-agent-rules / 06c8d41631f9 | [PR #4](https://github.com/Neoze1/hello-mobil/pull/4) | merge edildi |
-| 05 | feature/05-branding / 3e7488f0e9ad | [PR #5](https://github.com/Neoze1/hello-mobil/pull/5) | merge edildi |
-| 06 | feature/06-info-pages / 3ef525ff1089 | [PR #6](https://github.com/Neoze1/hello-mobil/pull/6) | merge edildi |
-| 07 | feature/07-architecture / 77600b0ea768 | [PR #7](https://github.com/Neoze1/hello-mobil/pull/7) | merge edildi |
-| 08 | feature/08-document-index / 5180aed1f06d | [PR #8](https://github.com/Neoze1/hello-mobil/pull/8) | merge edildi |
+| Görev | Hedef dal | Feature commit | PR | Merge commit |
+|---|---|---|---|---|
+| 01 | feature/01-otoiz-transfer | 37cb884c302f | [PR #1](https://github.com/Neoze1/hello-mobil/pull/1) | 3f6971fa390b |
+| 02 | feature/02-proje-fikri | bcfad2559bde | [PR #2](https://github.com/Neoze1/hello-mobil/pull/2) | be49ee380192 |
+| 03 | feature/03-readme | 614cba03ccc2 | [PR #3](https://github.com/Neoze1/hello-mobil/pull/3) | 2f705938845b |
+| 04 | feature/04-agent-rules | 06c8d41631f9 | [PR #4](https://github.com/Neoze1/hello-mobil/pull/4) | a61ede6cefc2 |
+| 05 | feature/05-branding | 3e7488f0e9ad | [PR #5](https://github.com/Neoze1/hello-mobil/pull/5) | ab4932f9dc00 |
+| 06 | feature/06-info-pages | 3ef525ff1089 | [PR #6](https://github.com/Neoze1/hello-mobil/pull/6) | 59891447d0cf |
+| 07 | feature/07-architecture | 77600b0ea768 | [PR #7](https://github.com/Neoze1/hello-mobil/pull/7) | 16b05d50cce1 |
+| 08 | feature/08-document-index | 5180aed1f06d | [PR #8](https://github.com/Neoze1/hello-mobil/pull/8) | bb5480098f25 |
+| 09 | feature/09-batch-01 | 288f8e792490 | [PR #9](https://github.com/Neoze1/hello-mobil/pull/9) | c1bf450d580f |
 
 Tüm Batch 01 şartları karşılanmadığından v0.1.0-batch-01 etiketi oluşturulmadı. Eksik native/MDX/build şartları eğitmenle netleştirilmeden tamamlandı etiketi verilmemeli.
 
@@ -66,5 +67,7 @@ Tüm Batch 01 şartları karşılanmadığından v0.1.0-batch-01 etiketi oluştu
 4. Eksik şartlar tamamlanınca GitHub Code → Download ZIP üzerinden final ZIP'i Blackboard'a yükle. .env, data/, node_modules/ ve taşınabilir araçlar paket içinde bulunmamalı.
 5. Render yayını başlatılmadı. İncelenen iki depoda render.yaml bulunmadı; mevcut Render dashboard ayarlarına erişim doğrulanmadı. Yayın için kök, komutlar ve ortam değişkenleri önce kontrol edilmeli.
 
+## Birleştirilmiş sürümün son doğrulaması
+hello-mobil/master üzerindeki gerçek aktarılmış uygulamada npm run check, npm test (15/15), npm run check:docs (56 bağlantı) ve dört dilli tarayıcı testi yeniden geçti. Tema kalıcılığı ve mobil RTL dahil. GitHub Actions node-checks sonuçları PR sayfalarında başarı durumunda. Katalog kaynakları yerel başlangıca göre değişmedi. Orijinal vitra-app main dalına doğrudan commit veya push yapılmadı.
 
-Görev 09 teslim PR’ı: [PR #9](https://github.com/Neoze1/hello-mobil/pull/9). Bu PR master dalına merge edilirse belge teslim kanıtının parçası olur; merge sonucu GitHub PR sayfasından kontrol edilir.
+Son kanıt PR’ı görev 09 kapsamında açılır; ana dalda doğrudan commit yapılmaz. Teslim ZIP’i birleştirilmiş Git dosyalarından üretilir; özel kullanıcı verileri ve yerel araçlar dahil edilmez.
