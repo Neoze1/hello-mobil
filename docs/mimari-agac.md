@@ -41,3 +41,22 @@ HTTPS veya localhost PWA kurulumunu destekler; telefonun yerel HTTP adresinde ta
 | Büyük ekran 1600+ px | İçerik genişliği sınırlandırılır; bilgi metni en fazla 850px |
 
 375, 768 ve 1440 px için dört dilde bilgi sayfaları tarayıcı testiyle doğrulanır. Büyük ekran ve native cihaz testleri ayrıca belirtilmeden yapılmış sayılmaz.
+
+## Tauri uygulamasındaki rotalar (`src/pages/`)
+
+Yukarıdaki ağaç `otoiz/` altındaki Node.js uygulamasını anlatır. Dersin Tauri v2 uygulaması `src/` altındadır ve şu an şu rotalara sahiptir:
+
+| Rota | Durum |
+|---|---|
+| `/`, `/etkinlik/[id]`, `/sepet`, `/biletlerim`, `/profil` | Şablondaki bilet uygulaması; OTOİZ ekranları (katalog, model detayı, ilanlar) Hafta 04 görevlerinde buraya taşınacak |
+| `/hakkinda`, `/iletisim`, `/kosullar`, `/gizlilik` | OTOİZ bilgi sayfaları (MDX ve Svelte formu), dört dilde |
+| `/rehber` | Şablonun proje rehberi |
+
+Bilgi sayfalarının dil rotaları: Türkçe kök rotadadır; diğer diller dil önekiyle açılır ve `<html>` etiketi dile göre `lang` ve `dir` alır.
+
+| Dil | Önek | Örnek | Yön |
+|---|---|---|---|
+| Türkçe | yok | `/hakkinda` | `ltr` |
+| English | `/en` | `/en/hakkinda` | `ltr` |
+| العربية | `/ar` | `/ar/hakkinda` | `rtl` |
+| فارسی | `/fa` | `/fa/hakkinda` | `rtl` |

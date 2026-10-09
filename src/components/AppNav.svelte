@@ -11,7 +11,7 @@
     { href: "/biletlerim", ad: "Biletlerim", ikon: "🎟️" },
     { href: "/sepet", ad: "Sepet", ikon: "🛒" },
     { href: "/profil", ad: "Profil", ikon: "👤" },
-    { href: "/hakkinda", ad: "Rehber", ikon: "📖" },
+    { href: "/hakkinda", ad: "Hakkında", ikon: "ℹ️" },
   ];
 
   onMount(() => {

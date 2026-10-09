@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DilSecici from '../components/DilSecici.astro';
+import IletisimFormu from '../components/IletisimFormu.svelte';
+---
+
+<Layout title="İletişim — OTOİZ">
+  <div class="sayfa">
+    <div class="kart" style="padding: 24px;">
+      <DilSecici sayfa="iletisim" />
+      <h1>İletişimde kalalım.</h1>
+      <p>Soruların ve önerilerin için iletişim seçenekleri.</p>
+      <IletisimFormu client:load dil="tr" />
+    </div>
+  </div>
+</Layout>
