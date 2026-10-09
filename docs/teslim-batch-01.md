@@ -87,4 +87,4 @@ Dal: `feature/otoiz-tauri-integration`. Önceki `v0.1.0-batch-01` etiketi deği�
 | Node scriptleri | Ortamda Node.js/npm kurulu değil. Bu yüzden `bun run check` ve `bun run test` içindeki `node --check`/`node --test` çağrıları Bun uyumluluk hatası verdi; testler doğrudan `bun test` ile çalıştırıldı. |
 | Paketleme | Tauri geliştirme penceresi ve OTOİZ native ikon dosyaları mevcut; native MSI/EXE çıktısı ve Tauri içinde Node sidecar doğrulanmadı/eklenmedi. |
 
-PR #16: [OTOİZ Astro/Tauri entegrasyonu](https://github.com/Neoze1/hello-mobil/pull/16). İlk feature commitinde `node-checks` başarılıydı; master güncellemesi sonrası merge commitinin yeni Actions sonucu bekleniyor. PR merge edilmeden tamamlandı olarak işaretlenmez.
+PR #16: [OTOİZ Astro/Tauri entegrasyonu](https://github.com/Neoze1/hello-mobil/pull/16). Feature başı `eb5461d`; GitHub'daki iki `node-checks` koşusu başarılı ve PR `clean`/mergeable durumda. Bu kayıt merge öncesi kontrol noktasını gösterir; nihai merge sonucu PR zaman çizelgesindedir.
