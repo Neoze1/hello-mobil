@@ -1,0 +1,3186 @@
+{
+  "createdAt": "2026-10-09",
+  "brands": 37,
+  "modelCount": 178,
+  "photosCompleted": 178,
+  "currentPricesVerified": 0,
+  "modelsWithHistoricalExamples": 140,
+  "historicalExamples": 402,
+  "notes": [
+    "178 model korundu; teknik bilgiler ve güncel fiyatlar tahmin edilmedi.",
+    "İlan örnekleri arama dizininin tarihî kayıtlarıdır; Ekim 2026 aktif ilanları olarak doğrulanmadı.",
+    "Sahibinden 429 ve Arabam doğrudan erişimi 403 verdi; erişim engeli aşılmadı.",
+    "Fotoğraflar lisans ve kaynak atfıyla, temsilî katalog fotoğrafı olarak kullanılır."
+  ],
+  "models": [
+    {
+      "id": "mercedes-benz-190-e",
+      "brand": "Mercedes-Benz",
+      "model": "190 E",
+      "image": "/araclar/mercedes-benz-190-e.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mercedes-benz-190-190-e-duz",
+        "https://www.arabam.com/ikinci-el/otomobil/mercedes-benz-190-190-e"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "mercedes-benz-w123",
+      "brand": "Mercedes-Benz",
+      "model": "W123",
+      "image": "/araclar/mercedes-benz-w123.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "mercedes-benz-w124",
+      "brand": "Mercedes-Benz",
+      "model": "W124",
+      "image": "/araclar/mercedes-benz-w124.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "mercedes-benz-c-serisi",
+      "brand": "Mercedes-Benz",
+      "model": "C Serisi",
+      "image": "/araclar/mercedes-benz-c-serisi.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mercedes-benz-c",
+        "https://www.arabam.com/ikinci-el/otomobil/mercedes-benz-190-190-e-duz",
+        "https://www.arabam.com/ikinci-el/otomobil/mercedes-benz-190-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "mercedes-benz-e-serisi",
+      "brand": "Mercedes-Benz",
+      "model": "E Serisi",
+      "image": "/araclar/mercedes-benz-e-serisi.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mercedes-benz-e",
+        "https://www.arabam.com/ikinci-el/otomobil/mercedes-benz-e-350",
+        "https://www.arabam.com/ikinci-el/otomobil/mercedes-benz-e-galeriden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "audi-80",
+      "brand": "Audi",
+      "model": "80",
+      "image": "/araclar/audi-80.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/audi-80-serisi",
+        "https://www.arabam.com/ikinci-el/otomobil/audi-80-serisi-galeriden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "audi-100",
+      "brand": "Audi",
+      "model": "100",
+      "image": "/araclar/audi-100.png",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/audi-100-serisi"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "audi-a3",
+      "brand": "Audi",
+      "model": "A3",
+      "image": "/araclar/audi-a3.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/audi-a3-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/audi-a3?minprice=52250",
+        "https://www.arabam.com/ikinci-el/otomobil/audi-a3?minprice=4200"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "audi-a4",
+      "brand": "Audi",
+      "model": "A4",
+      "image": "/araclar/audi-a4.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/audi-a4",
+        "https://www.arabam.com/ikinci-el/audi-a4-a4-sedan/otomobil/audi-a4-sedan-1-4-tfs%C4%B1-design",
+        "https://www.arabam.com/ikinci-el/otomobil/audi-a4-a4-avant-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "audi-a6",
+      "brand": "Audi",
+      "model": "A6",
+      "image": "/araclar/audi-a6.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 2,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/audi-a6"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "volkswagen-beetle",
+      "brand": "Volkswagen",
+      "model": "Beetle",
+      "image": "/araclar/volkswagen-beetle.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-beetle-2-0",
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-the-beetle",
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-beetle-1-2-tsi"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "volkswagen-golf",
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "image": "/araclar/volkswagen-golf.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-golf",
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-golf-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-golf?page=2"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "volkswagen-passat",
+      "brand": "Volkswagen",
+      "model": "Passat",
+      "image": "/araclar/volkswagen-passat.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-passat",
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-passat-karabuk",
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-passat-duz-galeriden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "volkswagen-polo",
+      "brand": "Volkswagen",
+      "model": "Polo",
+      "image": "/araclar/volkswagen-polo.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-polo",
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-polo-1-2",
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-polo-1-4"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "volkswagen-jetta",
+      "brand": "Volkswagen",
+      "model": "Jetta",
+      "image": "/araclar/volkswagen-jetta.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/volkswagen-jetta"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "volvo-240",
+      "brand": "Volvo",
+      "model": "240",
+      "image": "/araclar/volvo-240.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 1,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/volvo-240"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "volvo-740",
+      "brand": "Volvo",
+      "model": "740",
+      "image": "/araclar/volvo-740.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "volvo-850",
+      "brand": "Volvo",
+      "model": "850",
+      "image": "/araclar/volvo-850.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/volvo-850",
+        "https://www.arabam.com/ikinci-el/otomobil/volvo-850-2-0-t5"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "volvo-s60",
+      "brand": "Volvo",
+      "model": "S60",
+      "image": "/araclar/volvo-s60.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/volvo-s60",
+        "https://www.arabam.com/ikinci-el/otomobil/volvo-s60-2-0-t",
+        "https://www.arabam.com/ikinci-el/otomobil/volvo-s60-istanbul"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "volvo-s80",
+      "brand": "Volvo",
+      "model": "S80",
+      "image": "/araclar/volvo-s80.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/volvo-s80",
+        "https://www.arabam.com/ikinci-el/otomobil/volvo-s80-benzin-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/volvo-s80-1-6-d"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "toyota-corolla",
+      "brand": "Toyota",
+      "model": "Corolla",
+      "image": "/araclar/toyota-corolla.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-corolla",
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-corolla-1-6"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "toyota-carina",
+      "brand": "Toyota",
+      "model": "Carina",
+      "image": "/araclar/toyota-carina.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-carina",
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-carina?page=2"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "toyota-camry",
+      "brand": "Toyota",
+      "model": "Camry",
+      "image": "/araclar/toyota-camry.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-camry",
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-camry-3-0",
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-camry-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "toyota-yaris",
+      "brand": "Toyota",
+      "model": "Yaris",
+      "image": "/araclar/toyota-yaris.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-yaris",
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-yaris?page=2",
+        "https://www.arabam.com/ikinci-el/otomobil/toyota-yaris-1-33-cool-benzin-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "toyota-land-cruiser",
+      "brand": "Toyota",
+      "model": "Land Cruiser",
+      "image": "/araclar/toyota-land-cruiser.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "renault-r12",
+      "brand": "Renault",
+      "model": "R12",
+      "image": "/araclar/renault-r12.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/renault-r-12-tl",
+        "https://www.arabam.com/ikinci-el/otomobil/renault-r-12",
+        "https://www.arabam.com/ikinci-el/otomobil/renault-r-12-tsw"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "renault-r9-broadway",
+      "brand": "Renault",
+      "model": "R9 Broadway",
+      "image": "/araclar/renault-r9-broadway.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "renault-r11-flash",
+      "brand": "Renault",
+      "model": "R11 Flash",
+      "image": "/araclar/renault-r11-flash.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/renault-r-11-flash",
+        "https://www.arabam.com/ikinci-el/otomobil/renault-r-11-flash-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/renault-r-11-flash-s"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "renault-clio",
+      "brand": "Renault",
+      "model": "Clio",
+      "image": "/araclar/renault-clio.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/Renault-clio",
+        "https://www.arabam.com/ikinci-el/otomobil/renault-clio?maxprice=350000",
+        "https://www.arabam.com/ikinci-el/otomobil/renault-clio-1-2-duz"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "renault-megane",
+      "brand": "Renault",
+      "model": "Megane",
+      "image": "/araclar/renault-megane.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/renault-megane",
+        "https://www.arabam.com/ikinci-el/otomobil/renault-megane-1-4",
+        "https://www.arabam.com/ikinci-el/otomobil/renault-megane-1-6"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "fiat-124",
+      "brand": "Fiat",
+      "model": "124",
+      "image": "/araclar/fiat-124.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "fiat-131-sahin",
+      "brand": "Fiat",
+      "model": "131 Şahin",
+      "image": "/araclar/fiat-131-sahin.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "fiat-uno",
+      "brand": "Fiat",
+      "model": "Uno",
+      "image": "/araclar/fiat-uno.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/fiat-uno"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "fiat-tipo",
+      "brand": "Fiat",
+      "model": "Tipo",
+      "image": "/araclar/fiat-tipo.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/fiat-tipo",
+        "https://www.arabam.com/ikinci-el/otomobil/fiat-tipo-1-4-ie",
+        "https://www.arabam.com/ikinci-el/otomobil/fiat-tipo-1-6-ie"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "fiat-egea",
+      "brand": "Fiat",
+      "model": "Egea",
+      "image": "/araclar/fiat-egea.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/fiat-egea-1-6-multijet-easy",
+        "https://www.arabam.com/ikinci-el/otomobil/fiat-egea-1-6-multijet",
+        "https://www.arabam.com/ikinci-el/otomobil/fiat-egea"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "peugeot-205",
+      "brand": "Peugeot",
+      "model": "205",
+      "image": "/araclar/peugeot-205.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-205",
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-205-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "peugeot-306",
+      "brand": "Peugeot",
+      "model": "306",
+      "image": "/araclar/peugeot-306.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-306",
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-306-1-4",
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-306-1-6"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "peugeot-406",
+      "brand": "Peugeot",
+      "model": "406",
+      "image": "/araclar/peugeot-406.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-406",
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-406-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-406-3-0"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "peugeot-206",
+      "brand": "Peugeot",
+      "model": "206",
+      "image": "/araclar/peugeot-206.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-206",
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-206-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "peugeot-307",
+      "brand": "Peugeot",
+      "model": "307",
+      "image": "/araclar/peugeot-307.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-307",
+        "https://www.arabam.com/ikinci-el/otomobil/peugeot-307-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "tesla-model-s",
+      "brand": "Tesla",
+      "model": "Model S",
+      "image": "/araclar/tesla-model-s.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "tesla-model-3",
+      "brand": "Tesla",
+      "model": "Model 3",
+      "image": "/araclar/tesla-model-3.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/tesla-model-3"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "tesla-model-y",
+      "brand": "Tesla",
+      "model": "Model Y",
+      "image": "/araclar/tesla-model-y.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "togg-t10x",
+      "brand": "Togg",
+      "model": "T10X",
+      "image": "/araclar/togg-t10x.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/togg-t10x-v2-otomatik-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/togg-t10x-otomatik",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/togg-t10x-v2"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "togg-t10f",
+      "brand": "Togg",
+      "model": "T10F",
+      "image": "/araclar/togg-t10f.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/togg-t-10-f",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/togg-t10f-sahibinden",
+        "https://www.arabam.com/ikinci-el/togg-t-10-f/otomobil/togg-t10f-v2-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "bmw-e30-3-serisi",
+      "brand": "BMW",
+      "model": "E30 3 Serisi",
+      "image": "/araclar/bmw-e30-3-serisi.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "bmw-e36-3-serisi",
+      "brand": "BMW",
+      "model": "E36 3 Serisi",
+      "image": "/araclar/bmw-e36-3-serisi.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "bmw-e39-5-serisi",
+      "brand": "BMW",
+      "model": "E39 5 Serisi",
+      "image": "/araclar/bmw-e39-5-serisi.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/bmw-5-serisi-525i"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "bmw-e46-3-serisi",
+      "brand": "BMW",
+      "model": "E46 3 Serisi",
+      "image": "/araclar/bmw-e46-3-serisi.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 2,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/bmw-3-serisi-318ci-istanbul",
+        "https://www.arabam.com/ikinci-el/otomobil/bmw-3-serisi-316i?page=3",
+        "https://www.arabam.com/ilan/sahibinden-satilik-bmw-3-serisi-316i-standart/memurdan-bmw-3-serisi-316i-standart-1995-model/30353668"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "bmw-e60-5-serisi",
+      "brand": "BMW",
+      "model": "E60 5 Serisi",
+      "image": "/araclar/bmw-e60-5-serisi.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 1,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/hasarli-araclar/otomobil/bmw-5-serisi",
+        "https://www.arabam.com/ikinci-el/otomobil/bmw-5-serisi-525i-standart-otomatik-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/bmw-5-serisi-520d-standart-dizel-otomatik-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "porsche-911",
+      "brand": "Porsche",
+      "model": "911",
+      "image": "/araclar/porsche-911.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/porsche-911",
+        "https://www.arabam.com/ikinci-el/otomobil/porsche-911-ankara",
+        "https://www.arabam.com/ikinci-el/otomobil/porsche-911-istanbul-anadolu"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "porsche-924",
+      "brand": "Porsche",
+      "model": "924",
+      "image": "/araclar/porsche-924.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "porsche-944",
+      "brand": "Porsche",
+      "model": "944",
+      "image": "/araclar/porsche-944.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "porsche-boxster",
+      "brand": "Porsche",
+      "model": "Boxster",
+      "image": "/araclar/porsche-boxster.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/porsche-boxster-boxster",
+        "https://www.arabam.com/ikinci-el/otomobil/porsche-boxster",
+        "https://www.arabam.com/ikinci-el/otomobil/porsche-718-boxster"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "porsche-cayenne",
+      "brand": "Porsche",
+      "model": "Cayenne",
+      "image": "/araclar/porsche-cayenne.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/porsche-cayenne-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/porsche-cayenne",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/porsche-cayenne?minyear=1955"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "opel-kadett",
+      "brand": "Opel",
+      "model": "Kadett",
+      "image": "/araclar/opel-kadett.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/opel-kadett",
+        "https://www.arabam.com/ikinci-el/otomobil/opel-kadett-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "opel-vectra",
+      "brand": "Opel",
+      "model": "Vectra",
+      "image": "/araclar/opel-vectra.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/opel-vectra",
+        "https://www.arabam.com/ikinci-el/otomobil/opel-vectra-sahibinden?membertype=Sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/opel-vectra-1-8"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "opel-astra",
+      "brand": "Opel",
+      "model": "Astra",
+      "image": "/araclar/opel-astra.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/opel-astra",
+        "https://www.arabam.com/ikinci-el/otomobil/opel-astra-sahibinden?membertype=Sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "opel-corsa",
+      "brand": "Opel",
+      "model": "Corsa",
+      "image": "/araclar/opel-corsa.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/opel-corsa",
+        "https://www.arabam.com/ikinci-el/otomobil/opel-corsa-1-2-1-2"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "opel-omega",
+      "brand": "Opel",
+      "model": "Omega",
+      "image": "/araclar/opel-omega.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/opel-omega-2-2-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/opel-omega-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/opel-omega?minprice=6450"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "honda-civic",
+      "brand": "Honda",
+      "model": "Civic",
+      "image": "/araclar/honda-civic.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/honda-civic",
+        "https://www.arabam.com/ikinci-el/otomobil/honda-civic-1-8-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/honda-civic-istanbul-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "honda-accord",
+      "brand": "Honda",
+      "model": "Accord",
+      "image": "/araclar/honda-accord.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/honda-accord",
+        "https://www.arabam.com/ikinci-el/otomobil/honda-accord-benzin",
+        "https://www.arabam.com/ikinci-el/otomobil/honda-accord-2-0-ex"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    },
+    {
+      "id": "honda-cr-v",
+      "brand": "Honda",
+      "model": "CR-V",
+      "image": "/araclar/honda-cr-v.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/honda-cr-v",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/honda-cr-v-benzin"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "honda-jazz",
+      "brand": "Honda",
+      "model": "Jazz",
+      "image": "/araclar/honda-jazz.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/honda-jazz",
+        "https://www.arabam.com/ikinci-el/otomobil/honda-jazz-1-4-ls",
+        "https://www.arabam.com/ikinci-el/otomobil/honda-jazz-1-4-joy"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "honda-prelude",
+      "brand": "Honda",
+      "model": "Prelude",
+      "image": "/araclar/honda-prelude.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 2,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/honda-prelude"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "nissan-sunny",
+      "brand": "Nissan",
+      "model": "Sunny",
+      "image": "/araclar/nissan-sunny.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/nissan-sunny"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "nissan-primera",
+      "brand": "Nissan",
+      "model": "Primera",
+      "image": "/araclar/nissan-primera.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/nissan-primera-2-0",
+        "https://www.arabam.com/ikinci-el/otomobil/nissan-primera-galeriden",
+        "https://www.arabam.com/ikinci-el/otomobil/nissan-primera?minyear=1985"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "nissan-micra",
+      "brand": "Nissan",
+      "model": "Micra",
+      "image": "/araclar/nissan-micra.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/nissan-micra",
+        "https://www.arabam.com/ikinci-el/otomobil/nissan-micra-benzin",
+        "https://www.arabam.com/ikinci-el/otomobil/nissan-micra-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "nissan-almera",
+      "brand": "Nissan",
+      "model": "Almera",
+      "image": "/araclar/nissan-almera.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/nissan-almera",
+        "https://www.arabam.com/ikinci-el/otomobil/nissan-almera-1-5"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "nissan-qashqai",
+      "brand": "Nissan",
+      "model": "Qashqai",
+      "image": "/araclar/nissan-qashqai.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mazda-323",
+      "brand": "Mazda",
+      "model": "323",
+      "image": "/araclar/mazda-323.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-323",
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-323-1-5",
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-323-galeriden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "mazda-626",
+      "brand": "Mazda",
+      "model": "626",
+      "image": "/araclar/mazda-626.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-626",
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-626-1-6",
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-626-2-0-glx-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mazda-mx-5",
+      "brand": "Mazda",
+      "model": "MX-5",
+      "image": "/araclar/mazda-mx-5.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mazda-mazda3",
+      "brand": "Mazda",
+      "model": "Mazda3",
+      "image": "/araclar/mazda-mazda3.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-3",
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-3-1-6-base"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mazda-mazda6",
+      "brand": "Mazda",
+      "model": "Mazda6",
+      "image": "/araclar/mazda-mazda6.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-6",
+        "https://www.arabam.com/ikinci-el/otomobil/mazda-6-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "suzuki-swift",
+      "brand": "Suzuki",
+      "model": "Swift",
+      "image": "/araclar/suzuki-swift.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/suzuki-swift",
+        "https://www.arabam.com/ikinci-el/otomobil/suzuki-swift-1-3-mt",
+        "https://www.arabam.com/ikinci-el/otomobil/suzuki-swift-1-5-at"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "suzuki-vitara",
+      "brand": "Suzuki",
+      "model": "Vitara",
+      "image": "/araclar/suzuki-vitara.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 1,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/suzuki-grand-vitara-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/suzuki-vitara-duz-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/suzuki-vitara"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "suzuki-grand-vitara",
+      "brand": "Suzuki",
+      "model": "Grand Vitara",
+      "image": "/araclar/suzuki-grand-vitara.png",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/suzuki-grand-vitara-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/suzuki-grand-vitara",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/suzuki-grand-vitara-1-9-ddis-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "suzuki-jimny",
+      "brand": "Suzuki",
+      "model": "Jimny",
+      "image": "/araclar/suzuki-jimny.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/suzuki-jimny",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/suzuki-jimny-1-5",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/suzuki-jimny-otomatik"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "suzuki-sx4",
+      "brand": "Suzuki",
+      "model": "SX4",
+      "image": "/araclar/suzuki-sx4.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/suzuki-sx4-sahibinden?membertype=Sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/suzuki-sx4-gl",
+        "https://www.arabam.com/ikinci-el/otomobil/suzuki-sx4-galeriden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "subaru-impreza",
+      "brand": "Subaru",
+      "model": "Impreza",
+      "image": "/araclar/subaru-impreza.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/subaru-impreza",
+        "https://www.arabam.com/ikinci-el/otomobil/subaru-impreza-1-5",
+        "https://www.arabam.com/ikinci-el/otomobil/subaru-impreza-1-5-fwd"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "subaru-legacy",
+      "brand": "Subaru",
+      "model": "Legacy",
+      "image": "/araclar/subaru-legacy.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/subaru-legacy"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "subaru-forester",
+      "brand": "Subaru",
+      "model": "Forester",
+      "image": "/araclar/subaru-forester.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/subaru-forester-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "subaru-outback",
+      "brand": "Subaru",
+      "model": "Outback",
+      "image": "/araclar/subaru-outback.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/subaru-outback"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "subaru-xv",
+      "brand": "Subaru",
+      "model": "XV",
+      "image": "/araclar/subaru-xv.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/subaru-xv-otomatik",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/subaru-xv-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/subaru-xv"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mitsubishi-lancer",
+      "brand": "Mitsubishi",
+      "model": "Lancer",
+      "image": "/araclar/mitsubishi-lancer.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-lancer",
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-lancer-1-6",
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-lancer?minyear=2000"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mitsubishi-colt",
+      "brand": "Mitsubishi",
+      "model": "Colt",
+      "image": "/araclar/mitsubishi-colt.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-colt",
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-colt-1-5",
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-colt-1-3-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mitsubishi-galant",
+      "brand": "Mitsubishi",
+      "model": "Galant",
+      "image": "/araclar/mitsubishi-galant.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-galant"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mitsubishi-pajero",
+      "brand": "Mitsubishi",
+      "model": "Pajero",
+      "image": "/araclar/mitsubishi-pajero.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mitsubishi-pajero",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mitsubishi-pajero-2-6",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mitsubishi-pajero-otomatik-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mitsubishi-carisma",
+      "brand": "Mitsubishi",
+      "model": "Carisma",
+      "image": "/araclar/mitsubishi-carisma.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-carisma",
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-carisma-duz",
+        "https://www.arabam.com/ikinci-el/otomobil/mitsubishi-carisma-benzin"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "lexus-is",
+      "brand": "Lexus",
+      "model": "IS",
+      "image": "/araclar/lexus-is.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "lexus-gs",
+      "brand": "Lexus",
+      "model": "GS",
+      "image": "/araclar/lexus-gs.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "lexus-ls",
+      "brand": "Lexus",
+      "model": "LS",
+      "image": "/araclar/lexus-ls.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 2,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/lexus-ls"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "lexus-rx",
+      "brand": "Lexus",
+      "model": "RX",
+      "image": "/araclar/lexus-rx.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/lexus-rx",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/lexus-rx-istanbul",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/lexus-rx-istanbul-benzin-otomatik"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "lexus-nx",
+      "brand": "Lexus",
+      "model": "NX",
+      "image": "/araclar/lexus-nx.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "citroen-2cv",
+      "brand": "Citroën",
+      "model": "2CV",
+      "image": "/araclar/citroen-2cv.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 1,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/klasik-araclar/klasik-arabalar/citroen-2cv"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "citroen-bx",
+      "brand": "Citroën",
+      "model": "BX",
+      "image": "/araclar/citroen-bx.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "citroen-zx",
+      "brand": "Citroën",
+      "model": "ZX",
+      "image": "/araclar/citroen-zx.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/citroen-zx",
+        "https://www.arabam.com/ikinci-el/otomobil/citroen-zx-1-8"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "citroen-c3",
+      "brand": "Citroën",
+      "model": "C3",
+      "image": "/araclar/citroen-c3.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/citroen-c3",
+        "https://www.arabam.com/ikinci-el/otomobil/citroen-c3-1-6-vti",
+        "https://www.arabam.com/ikinci-el/otomobil/citroen-c3-1-6-sx"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "citroen-c4",
+      "brand": "Citroën",
+      "model": "C4",
+      "image": "/araclar/citroen-c4.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/citroen-c4",
+        "https://www.arabam.com/ikinci-el/otomobil/citroen-c4-1-6",
+        "https://www.arabam.com/ikinci-el/otomobil/citroen-c4-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "ds-ds-3",
+      "brand": "DS",
+      "model": "DS 3",
+      "image": "/araclar/ds-ds-3.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/ds-automobiles/ds-automobiles-ds3",
+        "https://www.arabam.com/ikinci-el/otomobil/ds-automobiles/ds-automobiles-ds3-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/ds-automobiles/ds-automobiles-ds3-1-6-vti-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "ds-ds-4",
+      "brand": "DS",
+      "model": "DS 4",
+      "image": "/araclar/ds-ds-4.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/ds-automobiles/ds-automobiles-ds4",
+        "https://www.arabam.com/ikinci-el/otomobil/ds-automobiles/ds-automobiles-ds4-1-6-e-hdi-d-style",
+        "https://www.arabam.com/ikinci-el/otomobil/ds-automobiles-ds4-1-2-puretech"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "ds-ds-5",
+      "brand": "DS",
+      "model": "DS 5",
+      "image": "/araclar/ds-ds-5.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/ds-automobiles/ds-automobiles-ds5"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "ds-ds-7",
+      "brand": "DS",
+      "model": "DS 7",
+      "image": "/araclar/ds-ds-7.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/ds-automobiles-ds7-crossback-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "alfa-romeo-33",
+      "brand": "Alfa Romeo",
+      "model": "33",
+      "image": "/araclar/alfa-romeo-33.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "alfa-romeo-75",
+      "brand": "Alfa Romeo",
+      "model": "75",
+      "image": "/araclar/alfa-romeo-75.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "alfa-romeo-145",
+      "brand": "Alfa Romeo",
+      "model": "145",
+      "image": "/araclar/alfa-romeo-145.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/alfa-romeo-145",
+        "https://www.arabam.com/ikinci-el/otomobil/alfa-romeo-145-1-6"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "alfa-romeo-156",
+      "brand": "Alfa Romeo",
+      "model": "156",
+      "image": "/araclar/alfa-romeo-156.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/alfa-romeo-156",
+        "https://www.arabam.com/ikinci-el/otomobil/alfa-romeo-156-2-0-ts",
+        "https://www.arabam.com/ikinci-el/otomobil/alfa-romeo-156-1-6-ts"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "alfa-romeo-giulietta",
+      "brand": "Alfa Romeo",
+      "model": "Giulietta",
+      "image": "/araclar/alfa-romeo-giulietta.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/alfa-romeo-giulietta",
+        "https://www.arabam.com/ikinci-el/otomobil/alfa-romeo-giulietta-1-6-jtd-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/alfa-romeo-giulietta-benzin"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "ferrari-348",
+      "brand": "Ferrari",
+      "model": "348",
+      "image": "/araclar/ferrari-348.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "ferrari-f355",
+      "brand": "Ferrari",
+      "model": "F355",
+      "image": "/araclar/ferrari-f355.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "ferrari-360-modena",
+      "brand": "Ferrari",
+      "model": "360 Modena",
+      "image": "/araclar/ferrari-360-modena.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/ferrari-360-modena"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "ferrari-f430",
+      "brand": "Ferrari",
+      "model": "F430",
+      "image": "/araclar/ferrari-f430.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "ferrari-458-italia",
+      "brand": "Ferrari",
+      "model": "458 Italia",
+      "image": "/araclar/ferrari-458-italia.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 1,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/ferrari-458-italia",
+        "https://www.arabam.com/ikinci-el/otomobil/ferrari-458-italia-galeriden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "maserati-3200-gt",
+      "brand": "Maserati",
+      "model": "3200 GT",
+      "image": "/araclar/maserati-3200-gt.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "maserati-quattroporte",
+      "brand": "Maserati",
+      "model": "Quattroporte",
+      "image": "/araclar/maserati-quattroporte.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/maserati-quattroporte",
+        "https://www.arabam.com/ikinci-el/otomobil/maserati-quattroporte-otomatik",
+        "https://www.arabam.com/ikinci-el/otomobil/maserati-quattroporte-3-0-d"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "maserati-ghibli",
+      "brand": "Maserati",
+      "model": "Ghibli",
+      "image": "/araclar/maserati-ghibli.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/maserati-ghibli",
+        "https://www.arabam.com/ikinci-el/otomobil/maserati-ghibli-istanbul",
+        "https://www.arabam.com/ikinci-el/otomobil/maserati-ghibli-galeriden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "maserati-granturismo",
+      "brand": "Maserati",
+      "model": "GranTurismo",
+      "image": "/araclar/maserati-granturismo.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/maserati-granturismo"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "maserati-levante",
+      "brand": "Maserati",
+      "model": "Levante",
+      "image": "/araclar/maserati-levante.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/maserati-levante",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/maserati-levante-otomatik-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/maserati-levante-3-0-d-dizel"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "hyundai-accent",
+      "brand": "Hyundai",
+      "model": "Accent",
+      "image": "/araclar/hyundai-accent.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-accent",
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-accent-1-3",
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-accent-1-5-gl"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "hyundai-excel",
+      "brand": "Hyundai",
+      "model": "Excel",
+      "image": "/araclar/hyundai-excel.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-excel",
+        "https://www.arabam.com/ikinci-el/otomobil/sahibinden-hyundai-excel",
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-excel-1-5-gls"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "hyundai-elantra",
+      "brand": "Hyundai",
+      "model": "Elantra",
+      "image": "/araclar/hyundai-elantra.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 2,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-elantra",
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-elantra-1-6"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "hyundai-getz",
+      "brand": "Hyundai",
+      "model": "Getz",
+      "image": "/araclar/hyundai-getz.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-getz",
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-getz-1-5-vgt",
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-getz-1-3"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "hyundai-i20",
+      "brand": "Hyundai",
+      "model": "i20",
+      "image": "/araclar/hyundai-i20.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/hyundai-i20"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "kia-sephia",
+      "brand": "Kia",
+      "model": "Sephia",
+      "image": "/araclar/kia-sephia.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/kia-sephia",
+        "https://www.arabam.com/ikinci-el/otomobil/kia-sephia-1-6",
+        "https://www.arabam.com/ikinci-el/otomobil/kia-sephia-1-5-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "kia-rio",
+      "brand": "Kia",
+      "model": "Rio",
+      "image": "/araclar/kia-rio.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/kia-rio",
+        "https://www.arabam.com/ikinci-el/otomobil/kia-rio-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "kia-cerato",
+      "brand": "Kia",
+      "model": "Cerato",
+      "image": "/araclar/kia-cerato.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/kia-cerato",
+        "https://www.arabam.com/ikinci-el/otomobil/kia-cerato-1-6-lx"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "kia-ceed",
+      "brand": "Kia",
+      "model": "Ceed",
+      "image": "/araclar/kia-ceed.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/kia-ceed"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "kia-sportage",
+      "brand": "Kia",
+      "model": "Sportage",
+      "image": "/araclar/kia-sportage.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 2,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/kia-sportage"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "ford-escort",
+      "brand": "Ford",
+      "model": "Escort",
+      "image": "/araclar/ford-escort.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/ford-escort-1-8",
+        "https://www.arabam.com/ikinci-el/otomobil/ford-escort?minprice=3444",
+        "https://www.arabam.com/ikinci-el/otomobil/ford-escort-istanbul"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "ford-sierra",
+      "brand": "Ford",
+      "model": "Sierra",
+      "image": "/araclar/ford-sierra.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/ford-sierra-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/ford-sierra"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "ford-fiesta",
+      "brand": "Ford",
+      "model": "Fiesta",
+      "image": "/araclar/ford-fiesta.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/ford-fiesta",
+        "https://www.arabam.com/ikinci-el/otomobil/ford-fiesta-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/ford-fiesta-1-5-tdci"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "ford-focus",
+      "brand": "Ford",
+      "model": "Focus",
+      "image": "/araclar/ford-focus.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "ford-mondeo",
+      "brand": "Ford",
+      "model": "Mondeo",
+      "image": "/araclar/ford-mondeo.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/ford-mondeo"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "chevrolet-lacetti",
+      "brand": "Chevrolet",
+      "model": "Lacetti",
+      "image": "/araclar/chevrolet-lacetti.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-lacetti",
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-lacetti?page=2",
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-lacetti?page=3"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "chevrolet-aveo",
+      "brand": "Chevrolet",
+      "model": "Aveo",
+      "image": "/araclar/chevrolet-aveo.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-aveo-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-aveo",
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-aveo-1-2"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "chevrolet-cruze",
+      "brand": "Chevrolet",
+      "model": "Cruze",
+      "image": "/araclar/chevrolet-cruze.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-cruze",
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-cruze-2-0-d",
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-cruze-2-0-d-otomatik"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "chevrolet-captiva",
+      "brand": "Chevrolet",
+      "model": "Captiva",
+      "image": "/araclar/chevrolet-captiva.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/chevrolet-captiva",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/chevrolet-captiva-duz-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "chevrolet-camaro",
+      "brand": "Chevrolet",
+      "model": "Camaro",
+      "image": "/araclar/chevrolet-camaro.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-camaro",
+        "https://www.arabam.com/ikinci-el/otomobil/chevrolet-camaro-z28"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "jeep-cherokee",
+      "brand": "Jeep",
+      "model": "Cherokee",
+      "image": "/araclar/jeep-cherokee.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-cherokee-3-7",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-cherokee",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-cherokee-lpg-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "jeep-grand-cherokee",
+      "brand": "Jeep",
+      "model": "Grand Cherokee",
+      "image": "/araclar/jeep-grand-cherokee.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-grand-cherokee",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-grand-cherokee?page=2"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "jeep-wrangler",
+      "brand": "Jeep",
+      "model": "Wrangler",
+      "image": "/araclar/jeep-wrangler.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "jeep-compass",
+      "brand": "Jeep",
+      "model": "Compass",
+      "image": "/araclar/jeep-compass.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-compass-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-compass-otomatik",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-compass"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "jeep-renegade",
+      "brand": "Jeep",
+      "model": "Renegade",
+      "image": "/araclar/jeep-renegade.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-renegade-1-0-t",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-renegade-1-3-turbo",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/jeep-renegade-otomatik-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "seat-ibiza",
+      "brand": "Seat",
+      "model": "Ibiza",
+      "image": "/araclar/seat-ibiza.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 2,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/seat-ibiza"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "seat-cordoba",
+      "brand": "Seat",
+      "model": "Cordoba",
+      "image": "/araclar/seat-cordoba.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/seat-cordoba-galeriden",
+        "https://www.arabam.com/ikinci-el/otomobil/seat-cordoba?page=2",
+        "https://www.arabam.com/ikinci-el/otomobil/seat-cordoba-1-6-lpg"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "seat-leon",
+      "brand": "Seat",
+      "model": "Leon",
+      "image": "/araclar/seat-leon.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/seat-leon"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "seat-toledo",
+      "brand": "Seat",
+      "model": "Toledo",
+      "image": "/araclar/seat-toledo.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/seat-toledo",
+        "https://www.arabam.com/ikinci-el/otomobil/seat-toledo-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/seat-toledo-1-8-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "seat-altea",
+      "brand": "Seat",
+      "model": "Altea",
+      "image": "/araclar/seat-altea.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/seat-altea",
+        "https://www.arabam.com/ikinci-el/otomobil/seat-altea-1-6",
+        "https://www.arabam.com/ikinci-el/otomobil/seat-altea-istanbul"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "cupra-formentor",
+      "brand": "Cupra",
+      "model": "Formentor",
+      "image": "/araclar/cupra-formentor.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/cupra-formentor/arazi-suv-pick-up/cupra-formentor-1-5-tsi-benzin-yari-otomatik-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/cupra-formentor-2-0-tsi"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "cupra-leon",
+      "brand": "Cupra",
+      "model": "Leon",
+      "image": "/araclar/cupra-leon.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/cupra-leon",
+        "https://www.arabam.com/ikinci-el/otomobil/cupra-leon-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "cupra-born",
+      "brand": "Cupra",
+      "model": "Born",
+      "image": "/araclar/cupra-born.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 2,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/cupra-born"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "cupra-ateca",
+      "brand": "Cupra",
+      "model": "Ateca",
+      "image": "/araclar/cupra-ateca.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "skoda-favorit",
+      "brand": "Skoda",
+      "model": "Favorit",
+      "image": "/araclar/skoda-favorit.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-favorit",
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-favorit-135",
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-favorit-135-l"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "skoda-felicia",
+      "brand": "Skoda",
+      "model": "Felicia",
+      "image": "/araclar/skoda-felicia.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-felicia",
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-felicia-galeriden",
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-felicia-1-3-1-3"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "skoda-fabia",
+      "brand": "Skoda",
+      "model": "Fabia",
+      "image": "/araclar/skoda-fabia.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-fabia",
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-fabia-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-fabia-1-2"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "skoda-octavia",
+      "brand": "Skoda",
+      "model": "Octavia",
+      "image": "/araclar/skoda-octavia.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-octavia",
+        "https://www.arabam.com/ikinci-el/otomobil/otomatik-skoda-octavia",
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-octavia-1-5-e-tec"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "skoda-superb",
+      "brand": "Skoda",
+      "model": "Superb",
+      "image": "/araclar/skoda-superb.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-superb",
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-superb?maxprice=850000",
+        "https://www.arabam.com/ikinci-el/otomobil/skoda-superb?_sgm_action=click&_sgm_campaign=scn_686324a762000&_sgm_source=9754723"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "byd-atto-3",
+      "brand": "BYD",
+      "model": "Atto 3",
+      "image": "/araclar/byd-atto-3.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/byd-atto-3-ev-elektrik"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "byd-dolphin",
+      "brand": "BYD",
+      "model": "Dolphin",
+      "image": "/araclar/byd-dolphin.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/byd-dolphin-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/byd-dolphin"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "byd-seal",
+      "brand": "BYD",
+      "model": "Seal",
+      "image": "/araclar/byd-seal.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/byd-seal",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/byd-seal-u-dm-i-yetkili-bayiden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/byd-seal-u-otomatik"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "byd-seal-u",
+      "brand": "BYD",
+      "model": "Seal U",
+      "image": "/araclar/byd-seal-u.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/byd-seal-u-dm-i-yetkili-bayiden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/byd-seal-u-otomatik",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/byd-seal-u-ev-sahibinden-otomatik"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "byd-han",
+      "brand": "BYD",
+      "model": "Han",
+      "image": "/araclar/byd-han.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/byd-han",
+        "https://www.arabam.com/ikinci-el/otomobil/byd-han-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mg-mg-zs",
+      "brand": "MG",
+      "model": "MG ZS",
+      "image": "/araclar/mg-mg-zs.png",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mg-zs-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mg-zs",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mg-zs-1-5-vti-comfort-duz"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mg-mg4",
+      "brand": "MG",
+      "model": "MG4",
+      "image": "/araclar/mg-mg4.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mg-4-galeriden",
+        "https://www.arabam.com/ilan/sahibinden-satilik-mg-mg4/sahibinden-mg-mg4-2023-model/30934501",
+        "https://www.arabam.com/ikinci-el/otomobil/mg-4-ankara"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mg-mg-hs",
+      "brand": "MG",
+      "model": "MG HS",
+      "image": "/araclar/mg-mg-hs.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mg-hs-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mg-hs",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mg-hs-benzin-otomatik"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "mg-mg5",
+      "brand": "MG",
+      "model": "MG5",
+      "image": "/araclar/mg-mg5.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "mg-mg3",
+      "brand": "MG",
+      "model": "MG3",
+      "image": "/araclar/mg-mg3.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "mini-classic-mini",
+      "brand": "Mini",
+      "model": "Classic Mini",
+      "image": "/araclar/mini-classic-mini.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "mini-cooper",
+      "brand": "Mini",
+      "model": "Cooper",
+      "image": "/araclar/mini-cooper.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 0,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mini-cooper-s",
+        "https://www.arabam.com/ikinci-el/otomobil/mini-cooper-s-1-6-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/mini-cooper-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "mini-cooper-s",
+      "brand": "Mini",
+      "model": "Cooper S",
+      "image": "/araclar/mini-cooper-s.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mini-cooper-s",
+        "https://www.arabam.com/ikinci-el/otomobil/mini-cooper-s-1-6-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/mini-cooper-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "mini-clubman",
+      "brand": "Mini",
+      "model": "Clubman",
+      "image": "/araclar/mini-clubman.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/mini-cooper-clubman"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "mini-countryman",
+      "brand": "Mini",
+      "model": "Countryman",
+      "image": "/araclar/mini-countryman.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mini-countryman-otomatik-sahibinden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mini-countryman-1-5-otomatik-galeriden",
+        "https://www.arabam.com/ikinci-el/arazi-suv-pick-up/mini-countryman-1-5-otomatik-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "jaguar-xj",
+      "brand": "Jaguar",
+      "model": "XJ",
+      "image": "/araclar/jaguar-xj.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-xj"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "jaguar-x-type",
+      "brand": "Jaguar",
+      "model": "X-Type",
+      "image": "/araclar/jaguar-x-type.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-x-type",
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-x-type-sahibinden",
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-x-type-2-1"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo."
+      }
+    },
+    {
+      "id": "jaguar-s-type",
+      "brand": "Jaguar",
+      "model": "S-Type",
+      "image": "/araclar/jaguar-s-type.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-s-type"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "jaguar-xf",
+      "brand": "Jaguar",
+      "model": "XF",
+      "image": "/araclar/jaguar-xf.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-xf",
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-xf-2-2-d",
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-xf-sahibinden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Fotoğraf görsel olarak kontrol edildi; model ailesine ait temsilî dış görünüm."
+      }
+    },
+    {
+      "id": "jaguar-f-type",
+      "brand": "Jaguar",
+      "model": "F-Type",
+      "image": "/araclar/jaguar-f-type.jpg",
+      "imageStatus": "completed",
+      "priceStatus": "current_unverified",
+      "historicalExamples": 3,
+      "researchSources": [
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-f-type",
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-f-type-2-0",
+        "https://www.arabam.com/ikinci-el/otomobil/jaguar-f-type-galeriden"
+      ],
+      "imageResearch": {
+        "status": "model_family_reviewed",
+        "reason": null,
+        "reviewNote": "Model family visually checked; representative photo, not a listing."
+      }
+    }
+  ]
+}

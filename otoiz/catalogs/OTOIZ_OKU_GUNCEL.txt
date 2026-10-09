@@ -1,0 +1,21 @@
+OTOİZ — güncellenmiş katalog paketi
+Araştırma tarihi: 2026-10-09
+37 marka / 178 model
+Kontrol edilmiş temsilî fotoğraf: 178
+Geçmiş ilan örneği bulunan model: 140
+Geçmiş ilan örneği: 402
+Doğrulanmış güncel fiyat: 0
+
+Güncel JSON: catalogs/otoiz_katalog_guncel.json
+Güncel CSV: catalogs/otoiz_arastirma_guncel.csv
+Model bazında tamamlanma/eksik durumu: catalogs/entegrasyon-raporu.json
+Fotoğraf lisansları ve atıfları: catalogs/FOTOGRAF-KAYNAKLARI.md
+Fotoğraflar: public/araclar/
+OTOİZ logoları: public/logo-light.svg ve public/logo-dark.svg
+
+Fotoğraflar gerçek satış ilanı fotoğrafları değildir. Fiyatlar kaynak tarihli geçmiş arama dizini örnekleridir; güncel Türkiye piyasa fiyat listesi değildir. Google görsel arama bağlantıları korunur; fotoğraf dosyaları lisansı doğrulanan Wikimedia Commons kaynaklarından indirilmiştir. Orijinal paket dosyaları değiştirilmeden saklanır. Eksik veri uydurulmaz.
+
+Site zaten bu verilerle entegre edilmiştir. Yeniden dışa aktarmak için proje klasöründe node scripts/export-catalog.mjs; ZIP için powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package-catalog.ps1 çalıştırın. ZIP hesap, oturum, özel data klasörü, .env veya Node yürütülebilir dosyası içermez.
+
+Fotoğrafı doğrulanamayan modeller:
+

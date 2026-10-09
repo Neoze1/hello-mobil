@@ -1,0 +1,179 @@
+﻿id,marka,model,google_gorsel_arama,sahibinden_arama,gorsel_dosyasi,guncel_fiyat_tl,durum
+mercedes-benz-190-e,Mercedes-Benz,190 E,https://www.google.com/search?q=Mercedes-Benz+190+E+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20190%20E,,,Doğrulanamadı
+mercedes-benz-w123,Mercedes-Benz,W123,https://www.google.com/search?q=Mercedes-Benz+W123+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20W123,,,Doğrulanamadı
+mercedes-benz-w124,Mercedes-Benz,W124,https://www.google.com/search?q=Mercedes-Benz+W124+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20W124,,,Doğrulanamadı
+mercedes-benz-c-serisi,Mercedes-Benz,C Serisi,https://www.google.com/search?q=Mercedes-Benz+C+Serisi+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20C%20Serisi,,,Doğrulanamadı
+mercedes-benz-e-serisi,Mercedes-Benz,E Serisi,https://www.google.com/search?q=Mercedes-Benz+E+Serisi+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20E%20Serisi,,,Doğrulanamadı
+audi-80,Audi,80,https://www.google.com/search?q=Audi+80+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%2080,,,Doğrulanamadı
+audi-100,Audi,100,https://www.google.com/search?q=Audi+100+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%20100,,,Doğrulanamadı
+audi-a3,Audi,A3,https://www.google.com/search?q=Audi+A3+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%20A3,,,Doğrulanamadı
+audi-a4,Audi,A4,https://www.google.com/search?q=Audi+A4+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%20A4,,,Doğrulanamadı
+audi-a6,Audi,A6,https://www.google.com/search?q=Audi+A6+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%20A6,,,Doğrulanamadı
+volkswagen-beetle,Volkswagen,Beetle,https://www.google.com/search?q=Volkswagen+Beetle+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Beetle,,,Doğrulanamadı
+volkswagen-golf,Volkswagen,Golf,https://www.google.com/search?q=Volkswagen+Golf+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Golf,,,Doğrulanamadı
+volkswagen-passat,Volkswagen,Passat,https://www.google.com/search?q=Volkswagen+Passat+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Passat,,,Doğrulanamadı
+volkswagen-polo,Volkswagen,Polo,https://www.google.com/search?q=Volkswagen+Polo+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Polo,,,Doğrulanamadı
+volkswagen-jetta,Volkswagen,Jetta,https://www.google.com/search?q=Volkswagen+Jetta+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Jetta,,,Doğrulanamadı
+volvo-240,Volvo,240,https://www.google.com/search?q=Volvo+240+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20240,,,Doğrulanamadı
+volvo-740,Volvo,740,https://www.google.com/search?q=Volvo+740+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20740,,,Doğrulanamadı
+volvo-850,Volvo,850,https://www.google.com/search?q=Volvo+850+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20850,,,Doğrulanamadı
+volvo-s60,Volvo,S60,https://www.google.com/search?q=Volvo+S60+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20S60,,,Doğrulanamadı
+volvo-s80,Volvo,S80,https://www.google.com/search?q=Volvo+S80+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20S80,,,Doğrulanamadı
+toyota-corolla,Toyota,Corolla,https://www.google.com/search?q=Toyota+Corolla+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Corolla,,,Doğrulanamadı
+toyota-carina,Toyota,Carina,https://www.google.com/search?q=Toyota+Carina+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Carina,,,Doğrulanamadı
+toyota-camry,Toyota,Camry,https://www.google.com/search?q=Toyota+Camry+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Camry,,,Doğrulanamadı
+toyota-yaris,Toyota,Yaris,https://www.google.com/search?q=Toyota+Yaris+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Yaris,,,Doğrulanamadı
+toyota-land-cruiser,Toyota,Land Cruiser,https://www.google.com/search?q=Toyota+Land+Cruiser+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Land%20Cruiser,,,Doğrulanamadı
+renault-r12,Renault,R12,https://www.google.com/search?q=Renault+R12+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20R12,,,Doğrulanamadı
+renault-r9-broadway,Renault,R9 Broadway,https://www.google.com/search?q=Renault+R9+Broadway+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20R9%20Broadway,,,Doğrulanamadı
+renault-r11-flash,Renault,R11 Flash,https://www.google.com/search?q=Renault+R11+Flash+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20R11%20Flash,,,Doğrulanamadı
+renault-clio,Renault,Clio,https://www.google.com/search?q=Renault+Clio+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20Clio,,,Doğrulanamadı
+renault-megane,Renault,Megane,https://www.google.com/search?q=Renault+Megane+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20Megane,,,Doğrulanamadı
+fiat-124,Fiat,124,https://www.google.com/search?q=Fiat+124+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20124,,,Doğrulanamadı
+fiat-131-sahin,Fiat,131 Şahin,https://www.google.com/search?q=Fiat+131+%C5%9Eahin+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20131%20%C5%9Eahin,,,Doğrulanamadı
+fiat-uno,Fiat,Uno,https://www.google.com/search?q=Fiat+Uno+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20Uno,,,Doğrulanamadı
+fiat-tipo,Fiat,Tipo,https://www.google.com/search?q=Fiat+Tipo+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20Tipo,,,Doğrulanamadı
+fiat-egea,Fiat,Egea,https://www.google.com/search?q=Fiat+Egea+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20Egea,,,Doğrulanamadı
+peugeot-205,Peugeot,205,https://www.google.com/search?q=Peugeot+205+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20205,,,Doğrulanamadı
+peugeot-306,Peugeot,306,https://www.google.com/search?q=Peugeot+306+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20306,,,Doğrulanamadı
+peugeot-406,Peugeot,406,https://www.google.com/search?q=Peugeot+406+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20406,,,Doğrulanamadı
+peugeot-206,Peugeot,206,https://www.google.com/search?q=Peugeot+206+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20206,,,Doğrulanamadı
+peugeot-307,Peugeot,307,https://www.google.com/search?q=Peugeot+307+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20307,,,Doğrulanamadı
+tesla-model-s,Tesla,Model S,https://www.google.com/search?q=Tesla+Model+S+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Tesla%20Model%20S,,,Doğrulanamadı
+tesla-model-3,Tesla,Model 3,https://www.google.com/search?q=Tesla+Model+3+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Tesla%20Model%203,,,Doğrulanamadı
+tesla-model-y,Tesla,Model Y,https://www.google.com/search?q=Tesla+Model+Y+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Tesla%20Model%20Y,,,Doğrulanamadı
+togg-t10x,Togg,T10X,https://www.google.com/search?q=Togg+T10X+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Togg%20T10X,,,Doğrulanamadı
+togg-t10f,Togg,T10F,https://www.google.com/search?q=Togg+T10F+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Togg%20T10F,,,Doğrulanamadı
+bmw-e30-3-serisi,BMW,E30 3 Serisi,https://www.google.com/search?q=BMW+E30+3+Serisi+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E30%203%20Serisi,,,Doğrulanamadı
+bmw-e36-3-serisi,BMW,E36 3 Serisi,https://www.google.com/search?q=BMW+E36+3+Serisi+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E36%203%20Serisi,,,Doğrulanamadı
+bmw-e39-5-serisi,BMW,E39 5 Serisi,https://www.google.com/search?q=BMW+E39+5+Serisi+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E39%205%20Serisi,,,Doğrulanamadı
+bmw-e46-3-serisi,BMW,E46 3 Serisi,https://www.google.com/search?q=BMW+E46+3+Serisi+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E46%203%20Serisi,,,Doğrulanamadı
+bmw-e60-5-serisi,BMW,E60 5 Serisi,https://www.google.com/search?q=BMW+E60+5+Serisi+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E60%205%20Serisi,,,Doğrulanamadı
+porsche-911,Porsche,911,https://www.google.com/search?q=Porsche+911+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20911,,,Doğrulanamadı
+porsche-924,Porsche,924,https://www.google.com/search?q=Porsche+924+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20924,,,Doğrulanamadı
+porsche-944,Porsche,944,https://www.google.com/search?q=Porsche+944+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20944,,,Doğrulanamadı
+porsche-boxster,Porsche,Boxster,https://www.google.com/search?q=Porsche+Boxster+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20Boxster,,,Doğrulanamadı
+porsche-cayenne,Porsche,Cayenne,https://www.google.com/search?q=Porsche+Cayenne+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20Cayenne,,,Doğrulanamadı
+opel-kadett,Opel,Kadett,https://www.google.com/search?q=Opel+Kadett+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Kadett,,,Doğrulanamadı
+opel-vectra,Opel,Vectra,https://www.google.com/search?q=Opel+Vectra+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Vectra,,,Doğrulanamadı
+opel-astra,Opel,Astra,https://www.google.com/search?q=Opel+Astra+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Astra,,,Doğrulanamadı
+opel-corsa,Opel,Corsa,https://www.google.com/search?q=Opel+Corsa+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Corsa,,,Doğrulanamadı
+opel-omega,Opel,Omega,https://www.google.com/search?q=Opel+Omega+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Omega,,,Doğrulanamadı
+honda-civic,Honda,Civic,https://www.google.com/search?q=Honda+Civic+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20Civic,,,Doğrulanamadı
+honda-accord,Honda,Accord,https://www.google.com/search?q=Honda+Accord+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20Accord,,,Doğrulanamadı
+honda-cr-v,Honda,CR-V,https://www.google.com/search?q=Honda+CR-V+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20CR-V,,,Doğrulanamadı
+honda-jazz,Honda,Jazz,https://www.google.com/search?q=Honda+Jazz+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20Jazz,,,Doğrulanamadı
+honda-prelude,Honda,Prelude,https://www.google.com/search?q=Honda+Prelude+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20Prelude,,,Doğrulanamadı
+nissan-sunny,Nissan,Sunny,https://www.google.com/search?q=Nissan+Sunny+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Sunny,,,Doğrulanamadı
+nissan-primera,Nissan,Primera,https://www.google.com/search?q=Nissan+Primera+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Primera,,,Doğrulanamadı
+nissan-micra,Nissan,Micra,https://www.google.com/search?q=Nissan+Micra+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Micra,,,Doğrulanamadı
+nissan-almera,Nissan,Almera,https://www.google.com/search?q=Nissan+Almera+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Almera,,,Doğrulanamadı
+nissan-qashqai,Nissan,Qashqai,https://www.google.com/search?q=Nissan+Qashqai+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Qashqai,,,Doğrulanamadı
+mazda-323,Mazda,323,https://www.google.com/search?q=Mazda+323+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20323,,,Doğrulanamadı
+mazda-626,Mazda,626,https://www.google.com/search?q=Mazda+626+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20626,,,Doğrulanamadı
+mazda-mx-5,Mazda,MX-5,https://www.google.com/search?q=Mazda+MX-5+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20MX-5,,,Doğrulanamadı
+mazda-mazda3,Mazda,Mazda3,https://www.google.com/search?q=Mazda+Mazda3+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20Mazda3,,,Doğrulanamadı
+mazda-mazda6,Mazda,Mazda6,https://www.google.com/search?q=Mazda+Mazda6+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20Mazda6,,,Doğrulanamadı
+suzuki-swift,Suzuki,Swift,https://www.google.com/search?q=Suzuki+Swift+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20Swift,,,Doğrulanamadı
+suzuki-vitara,Suzuki,Vitara,https://www.google.com/search?q=Suzuki+Vitara+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20Vitara,,,Doğrulanamadı
+suzuki-grand-vitara,Suzuki,Grand Vitara,https://www.google.com/search?q=Suzuki+Grand+Vitara+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20Grand%20Vitara,,,Doğrulanamadı
+suzuki-jimny,Suzuki,Jimny,https://www.google.com/search?q=Suzuki+Jimny+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20Jimny,,,Doğrulanamadı
+suzuki-sx4,Suzuki,SX4,https://www.google.com/search?q=Suzuki+SX4+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20SX4,,,Doğrulanamadı
+subaru-impreza,Subaru,Impreza,https://www.google.com/search?q=Subaru+Impreza+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20Impreza,,,Doğrulanamadı
+subaru-legacy,Subaru,Legacy,https://www.google.com/search?q=Subaru+Legacy+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20Legacy,,,Doğrulanamadı
+subaru-forester,Subaru,Forester,https://www.google.com/search?q=Subaru+Forester+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20Forester,,,Doğrulanamadı
+subaru-outback,Subaru,Outback,https://www.google.com/search?q=Subaru+Outback+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20Outback,,,Doğrulanamadı
+subaru-xv,Subaru,XV,https://www.google.com/search?q=Subaru+XV+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20XV,,,Doğrulanamadı
+mitsubishi-lancer,Mitsubishi,Lancer,https://www.google.com/search?q=Mitsubishi+Lancer+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Lancer,,,Doğrulanamadı
+mitsubishi-colt,Mitsubishi,Colt,https://www.google.com/search?q=Mitsubishi+Colt+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Colt,,,Doğrulanamadı
+mitsubishi-galant,Mitsubishi,Galant,https://www.google.com/search?q=Mitsubishi+Galant+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Galant,,,Doğrulanamadı
+mitsubishi-pajero,Mitsubishi,Pajero,https://www.google.com/search?q=Mitsubishi+Pajero+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Pajero,,,Doğrulanamadı
+mitsubishi-carisma,Mitsubishi,Carisma,https://www.google.com/search?q=Mitsubishi+Carisma+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Carisma,,,Doğrulanamadı
+lexus-is,Lexus,IS,https://www.google.com/search?q=Lexus+IS+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20IS,,,Doğrulanamadı
+lexus-gs,Lexus,GS,https://www.google.com/search?q=Lexus+GS+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20GS,,,Doğrulanamadı
+lexus-ls,Lexus,LS,https://www.google.com/search?q=Lexus+LS+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20LS,,,Doğrulanamadı
+lexus-rx,Lexus,RX,https://www.google.com/search?q=Lexus+RX+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20RX,,,Doğrulanamadı
+lexus-nx,Lexus,NX,https://www.google.com/search?q=Lexus+NX+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20NX,,,Doğrulanamadı
+citroen-2cv,Citroën,2CV,https://www.google.com/search?q=Citro%C3%ABn+2CV+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%202CV,,,Doğrulanamadı
+citroen-bx,Citroën,BX,https://www.google.com/search?q=Citro%C3%ABn+BX+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%20BX,,,Doğrulanamadı
+citroen-zx,Citroën,ZX,https://www.google.com/search?q=Citro%C3%ABn+ZX+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%20ZX,,,Doğrulanamadı
+citroen-c3,Citroën,C3,https://www.google.com/search?q=Citro%C3%ABn+C3+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%20C3,,,Doğrulanamadı
+citroen-c4,Citroën,C4,https://www.google.com/search?q=Citro%C3%ABn+C4+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%20C4,,,Doğrulanamadı
+ds-ds-3,DS,DS 3,https://www.google.com/search?q=DS+DS+3+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=DS%20DS%203,,,Doğrulanamadı
+ds-ds-4,DS,DS 4,https://www.google.com/search?q=DS+DS+4+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=DS%20DS%204,,,Doğrulanamadı
+ds-ds-5,DS,DS 5,https://www.google.com/search?q=DS+DS+5+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=DS%20DS%205,,,Doğrulanamadı
+ds-ds-7,DS,DS 7,https://www.google.com/search?q=DS+DS+7+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=DS%20DS%207,,,Doğrulanamadı
+alfa-romeo-33,Alfa Romeo,33,https://www.google.com/search?q=Alfa+Romeo+33+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%2033,,,Doğrulanamadı
+alfa-romeo-75,Alfa Romeo,75,https://www.google.com/search?q=Alfa+Romeo+75+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%2075,,,Doğrulanamadı
+alfa-romeo-145,Alfa Romeo,145,https://www.google.com/search?q=Alfa+Romeo+145+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%20145,,,Doğrulanamadı
+alfa-romeo-156,Alfa Romeo,156,https://www.google.com/search?q=Alfa+Romeo+156+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%20156,,,Doğrulanamadı
+alfa-romeo-giulietta,Alfa Romeo,Giulietta,https://www.google.com/search?q=Alfa+Romeo+Giulietta+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%20Giulietta,,,Doğrulanamadı
+ferrari-348,Ferrari,348,https://www.google.com/search?q=Ferrari+348+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20348,,,Doğrulanamadı
+ferrari-f355,Ferrari,F355,https://www.google.com/search?q=Ferrari+F355+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20F355,,,Doğrulanamadı
+ferrari-360-modena,Ferrari,360 Modena,https://www.google.com/search?q=Ferrari+360+Modena+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20360%20Modena,,,Doğrulanamadı
+ferrari-f430,Ferrari,F430,https://www.google.com/search?q=Ferrari+F430+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20F430,,,Doğrulanamadı
+ferrari-458-italia,Ferrari,458 Italia,https://www.google.com/search?q=Ferrari+458+Italia+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20458%20Italia,,,Doğrulanamadı
+maserati-3200-gt,Maserati,3200 GT,https://www.google.com/search?q=Maserati+3200+GT+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%203200%20GT,,,Doğrulanamadı
+maserati-quattroporte,Maserati,Quattroporte,https://www.google.com/search?q=Maserati+Quattroporte+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%20Quattroporte,,,Doğrulanamadı
+maserati-ghibli,Maserati,Ghibli,https://www.google.com/search?q=Maserati+Ghibli+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%20Ghibli,,,Doğrulanamadı
+maserati-granturismo,Maserati,GranTurismo,https://www.google.com/search?q=Maserati+GranTurismo+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%20GranTurismo,,,Doğrulanamadı
+maserati-levante,Maserati,Levante,https://www.google.com/search?q=Maserati+Levante+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%20Levante,,,Doğrulanamadı
+hyundai-accent,Hyundai,Accent,https://www.google.com/search?q=Hyundai+Accent+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20Accent,,,Doğrulanamadı
+hyundai-excel,Hyundai,Excel,https://www.google.com/search?q=Hyundai+Excel+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20Excel,,,Doğrulanamadı
+hyundai-elantra,Hyundai,Elantra,https://www.google.com/search?q=Hyundai+Elantra+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20Elantra,,,Doğrulanamadı
+hyundai-getz,Hyundai,Getz,https://www.google.com/search?q=Hyundai+Getz+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20Getz,,,Doğrulanamadı
+hyundai-i20,Hyundai,i20,https://www.google.com/search?q=Hyundai+i20+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20i20,,,Doğrulanamadı
+kia-sephia,Kia,Sephia,https://www.google.com/search?q=Kia+Sephia+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Sephia,,,Doğrulanamadı
+kia-rio,Kia,Rio,https://www.google.com/search?q=Kia+Rio+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Rio,,,Doğrulanamadı
+kia-cerato,Kia,Cerato,https://www.google.com/search?q=Kia+Cerato+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Cerato,,,Doğrulanamadı
+kia-ceed,Kia,Ceed,https://www.google.com/search?q=Kia+Ceed+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Ceed,,,Doğrulanamadı
+kia-sportage,Kia,Sportage,https://www.google.com/search?q=Kia+Sportage+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Sportage,,,Doğrulanamadı
+ford-escort,Ford,Escort,https://www.google.com/search?q=Ford+Escort+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Escort,,,Doğrulanamadı
+ford-sierra,Ford,Sierra,https://www.google.com/search?q=Ford+Sierra+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Sierra,,,Doğrulanamadı
+ford-fiesta,Ford,Fiesta,https://www.google.com/search?q=Ford+Fiesta+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Fiesta,,,Doğrulanamadı
+ford-focus,Ford,Focus,https://www.google.com/search?q=Ford+Focus+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Focus,,,Doğrulanamadı
+ford-mondeo,Ford,Mondeo,https://www.google.com/search?q=Ford+Mondeo+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Mondeo,,,Doğrulanamadı
+chevrolet-lacetti,Chevrolet,Lacetti,https://www.google.com/search?q=Chevrolet+Lacetti+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Lacetti,,,Doğrulanamadı
+chevrolet-aveo,Chevrolet,Aveo,https://www.google.com/search?q=Chevrolet+Aveo+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Aveo,,,Doğrulanamadı
+chevrolet-cruze,Chevrolet,Cruze,https://www.google.com/search?q=Chevrolet+Cruze+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Cruze,,,Doğrulanamadı
+chevrolet-captiva,Chevrolet,Captiva,https://www.google.com/search?q=Chevrolet+Captiva+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Captiva,,,Doğrulanamadı
+chevrolet-camaro,Chevrolet,Camaro,https://www.google.com/search?q=Chevrolet+Camaro+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Camaro,,,Doğrulanamadı
+jeep-cherokee,Jeep,Cherokee,https://www.google.com/search?q=Jeep+Cherokee+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Cherokee,,,Doğrulanamadı
+jeep-grand-cherokee,Jeep,Grand Cherokee,https://www.google.com/search?q=Jeep+Grand+Cherokee+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Grand%20Cherokee,,,Doğrulanamadı
+jeep-wrangler,Jeep,Wrangler,https://www.google.com/search?q=Jeep+Wrangler+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Wrangler,,,Doğrulanamadı
+jeep-compass,Jeep,Compass,https://www.google.com/search?q=Jeep+Compass+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Compass,,,Doğrulanamadı
+jeep-renegade,Jeep,Renegade,https://www.google.com/search?q=Jeep+Renegade+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Renegade,,,Doğrulanamadı
+seat-ibiza,Seat,Ibiza,https://www.google.com/search?q=Seat+Ibiza+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Ibiza,,,Doğrulanamadı
+seat-cordoba,Seat,Cordoba,https://www.google.com/search?q=Seat+Cordoba+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Cordoba,,,Doğrulanamadı
+seat-leon,Seat,Leon,https://www.google.com/search?q=Seat+Leon+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Leon,,,Doğrulanamadı
+seat-toledo,Seat,Toledo,https://www.google.com/search?q=Seat+Toledo+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Toledo,,,Doğrulanamadı
+seat-altea,Seat,Altea,https://www.google.com/search?q=Seat+Altea+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Altea,,,Doğrulanamadı
+cupra-formentor,Cupra,Formentor,https://www.google.com/search?q=Cupra+Formentor+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Cupra%20Formentor,,,Doğrulanamadı
+cupra-leon,Cupra,Leon,https://www.google.com/search?q=Cupra+Leon+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Cupra%20Leon,,,Doğrulanamadı
+cupra-born,Cupra,Born,https://www.google.com/search?q=Cupra+Born+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Cupra%20Born,,,Doğrulanamadı
+cupra-ateca,Cupra,Ateca,https://www.google.com/search?q=Cupra+Ateca+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Cupra%20Ateca,,,Doğrulanamadı
+skoda-favorit,Skoda,Favorit,https://www.google.com/search?q=Skoda+Favorit+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Favorit,,,Doğrulanamadı
+skoda-felicia,Skoda,Felicia,https://www.google.com/search?q=Skoda+Felicia+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Felicia,,,Doğrulanamadı
+skoda-fabia,Skoda,Fabia,https://www.google.com/search?q=Skoda+Fabia+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Fabia,,,Doğrulanamadı
+skoda-octavia,Skoda,Octavia,https://www.google.com/search?q=Skoda+Octavia+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Octavia,,,Doğrulanamadı
+skoda-superb,Skoda,Superb,https://www.google.com/search?q=Skoda+Superb+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Superb,,,Doğrulanamadı
+byd-atto-3,BYD,Atto 3,https://www.google.com/search?q=BYD+Atto+3+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Atto%203,,,Doğrulanamadı
+byd-dolphin,BYD,Dolphin,https://www.google.com/search?q=BYD+Dolphin+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Dolphin,,,Doğrulanamadı
+byd-seal,BYD,Seal,https://www.google.com/search?q=BYD+Seal+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Seal,,,Doğrulanamadı
+byd-seal-u,BYD,Seal U,https://www.google.com/search?q=BYD+Seal+U+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Seal%20U,,,Doğrulanamadı
+byd-han,BYD,Han,https://www.google.com/search?q=BYD+Han+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Han,,,Doğrulanamadı
+mg-mg-zs,MG,MG ZS,https://www.google.com/search?q=MG+MG+ZS+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG%20ZS,,,Doğrulanamadı
+mg-mg4,MG,MG4,https://www.google.com/search?q=MG+MG4+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG4,,,Doğrulanamadı
+mg-mg-hs,MG,MG HS,https://www.google.com/search?q=MG+MG+HS+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG%20HS,,,Doğrulanamadı
+mg-mg5,MG,MG5,https://www.google.com/search?q=MG+MG5+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG5,,,Doğrulanamadı
+mg-mg3,MG,MG3,https://www.google.com/search?q=MG+MG3+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG3,,,Doğrulanamadı
+mini-classic-mini,Mini,Classic Mini,https://www.google.com/search?q=Mini+Classic+Mini+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Classic%20Mini,,,Doğrulanamadı
+mini-cooper,Mini,Cooper,https://www.google.com/search?q=Mini+Cooper+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Cooper,,,Doğrulanamadı
+mini-cooper-s,Mini,Cooper S,https://www.google.com/search?q=Mini+Cooper+S+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Cooper%20S,,,Doğrulanamadı
+mini-clubman,Mini,Clubman,https://www.google.com/search?q=Mini+Clubman+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Clubman,,,Doğrulanamadı
+mini-countryman,Mini,Countryman,https://www.google.com/search?q=Mini+Countryman+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Countryman,,,Doğrulanamadı
+jaguar-xj,Jaguar,XJ,https://www.google.com/search?q=Jaguar+XJ+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20XJ,,,Doğrulanamadı
+jaguar-x-type,Jaguar,X-Type,https://www.google.com/search?q=Jaguar+X-Type+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20X-Type,,,Doğrulanamadı
+jaguar-s-type,Jaguar,S-Type,https://www.google.com/search?q=Jaguar+S-Type+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20S-Type,,,Doğrulanamadı
+jaguar-xf,Jaguar,XF,https://www.google.com/search?q=Jaguar+XF+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20XF,,,Doğrulanamadı
+jaguar-f-type,Jaguar,F-Type,https://www.google.com/search?q=Jaguar+F-Type+otomobil&tbm=isch,https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20F-Type,,,Doğrulanamadı

@@ -1,0 +1,26 @@
+Mevcut otomobil projemi OTOİZ markasıyla güncelle. Önce proje yapısını ve mevcut çalışan özellikleri incele; mevcut teknolojiye uyumlu uygula.
+
+1. MARKA VE LOGO
+Sitenin adı OTOİZ olsun. Türkçe büyük İ karakterini doğru kullan. Özgün, sade, premium bir SVG logo tasarla: yol/iz fikrini taşıyan O sembolü ve yanında OTOİZ yazısı. Mevcut bir otomotiv logosunu kopyalama. Koyu/açık zemin versiyonu ve favicon oluştur. Logo ana sayfaya dönsün. Sayfa başlıkları ve eski marka adlarını güncelle.
+
+2. TASARIM
+Antrasit, beyaz ve elektrik mavisi; okunaklı tipografi, ferah boşluklar, net hiyerarşi ve kaliteli araç kartları kullan. Telefon ve masaüstünde düzgün çalışsın. Hafif hover/geçiş animasyonları ve reduced-motion desteği ekle. Yalnızca süslü bir ana sayfa değil, tutarlı ve kullanılabilir bir otomobil kataloğu oluştur.
+
+3. ÜÇ ANA SAYFA
+Üst menü: Ana Sayfa (/), Araçlar (/araclar), İletişim (/iletisim). Aktif sayfa belli olsun. Mobilde erişilebilir açılır menü kullan.
+Ana Sayfa: OTOİZ logosu, kısa tanıtım, marka/model seçimi, seçilen marka için model seçenekleri, öne çıkan araçlar.
+Marka değişince önceki model seçimini temizle. Marka ve model seçimi tamamlanınca doğrudan /araclar?marka=...&model=... adresine git ve yalnızca eşleşen araçları göster. Marka tek başına seçilmişse o markanın modellerine geçiş sağlayan 'Araçları Gör' seçeneği olsun. Türkçe karakterleri URLSearchParams ile kodla. URL'deki filtreler yenileme, geri/ileri gezinme ve doğrudan bağlantıda korunsun.
+Araçlar: marka/model filtreleri, görsel kartları, marka ve model adı, doğrulanmış fiyat bilgisi, detay görünümü. Filtre temizleme, sonuç sayısı ve sonuç bulunamadı durumu olsun. Görseller aynı oranı kullansın, lazy-load ve hata durumu bulunsun.
+İletişim: iletişim bilgileri ve form için yer hazırla. Kullanıcı gerçek telefon/e-posta/adres vermedi; bunları uydurma. Yapılandırmadan doldurulabilecek alanlar kullan. Form gerçek bir gönderim servisine bağlanmadıysa 'mesaj gönderildi' gösterme.
+
+4. KATALOG VE VERİ DOĞRULUĞU
+otoiz_katalog.json içindeki 37 marka ve 178 modelin tamamını koru; keyfi olarak silme veya yeni modeller ekleme. id alanıyla eşleştir. Mevcut kayıtları tekrar üretip çoğaltma.
+ÖNEMLİ: Bu paket tamamlanmış fotoğraf/fiyat paketi değildir. gorsel.dosya alanları null; Google bağlantıları arama bağlantısıdır, görsel URL'si değildir. Eski ZIP'te logo dosyaları da yoktur. onceki_kayit içindeki fiyatlar güncel değildir. Bunları güncel fiyat olarak sunma.
+
+5. GERÇEK FOTOĞRAF VE TÜRKİYE İKİNCİ EL FİYATLARINI TAMAMLA
+İnternet erişimi varsa her modelin Google görsel aramasından doğru marka/model fotoğrafını bul; model/kasa eşleşmesini kontrol et. Fotoğrafın asıl kaynak sayfasını, kullanım lisansını ve gereken atfı kaydet. Uygun fotoğrafları public/araclar/<id>.webp veya jpg olarak indir; arama sayfasını ya da HTML'yi görsel diye kaydetme. Fotoğraf temsili katalog fotoğrafıdır, gerçek satılık ilan fotoğrafı gibi sunma. İndirilen dosya, kaynak URL, lisans ve fotoğrafçı alanlarını güncelle. Aynı rastgele araç fotoğrafını farklı modellere koyma.
+Türkiye ikinci el fiyatı için Sahibinden'i kontrol et. Erişim engellenirse Türkiye'deki başka ilan kaynağını kontrol edip gerçek kaynağın adını açıkça belirt. İlan fiyatının yanında araç yılı, donanım, kilometre, ilan tarihi, kontrol tarihi ve kaynak bağlantısını kaydet. Geniş model ailelerinin farklı kasa/yıllarını tek fiyatmış gibi sunma; fiyatı belirli örnek ilanlarla ilişkilendir. Kaynaktaki tarihi kontrol tarihiyle değiştirme. Birkaç ilandan hesaplanan aralığı bütün piyasanın kesin aralığı gibi gösterme. En az üç karşılaştırılabilir ilan varsa örneklem sayısı ve kapsamıyla fiyat aralığı sunabilirsin. Erişilemeyen veya doğrulanamayan kayıtlar null kalsın; sıfır TL veya tahmini uydurma fiyat yazma. Eski fiyatlar ancak tarihleri görünür bir 'Geçmiş örnek ilan' alanında gösterilebilir.
+Kaynak sitelerin erişim engellerini aşmaya çalışma. Eksikleri model bazında raporla. Tamamlanmamış kayıtlar için 'Fiyat doğrulanamadı' ve düzgün bir fotoğraf boş durumu kullan. Sahte ilan ve satıcı bilgisi oluşturma.
+
+6. KONTROL VE TESLİM
+Mevcut özellikleri koru. Build/lint kontrollerini çalıştır. Ana sayfadan marka-model seçimi, filtreli sayfa geçişi, geri butonu, sayfa yenileme, üç menü bağlantısı ve mobil görünümü doğrula. Mevcut yayın yapılandırmasını koru. Sonunda yapılan değişiklikleri, fotoğraf/fiyatı tamamlanan model sayısını ve kalan eksikleri belirt. Kullanıcıya kod parçaları tarif etmekle yetinme; dosyaları doğrudan projede değiştir.
