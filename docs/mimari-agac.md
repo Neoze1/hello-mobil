@@ -17,14 +17,16 @@ OTOİZ
     └── /gizlilik — Tarayıcı/sunucu depolama ve veri koruma
 ```
 
-Yeni sayfalar server.mjs izin listesinde; uzantısız ve .html adresleri doğrudan açılır. /araclar mevcut index.html üzerinden ayrı görünümle sunulur. Profil ayrı /profil rotası değildir; ilan arayüzündedir. Rust kod ekranı yoktur.
+Astro/Tauri ana yüzeyi `/`, `/araclar`, `/iletisim`, `/hakkinda`, `/kosullar` ve `/gizlilik` rotalarını statik üretir; `/ilanlar.html` mevcut OTOİZ HTML sayfasıdır. Ayrı Node `otoiz/server.mjs` de aynı kanonik public sayfaları ve API'yi sunar. Profil ayrı `/profil` rotası değildir; ilan arayüzündedir. Rust kod ekranı yoktur.
+
+Statik katalog, filtreleme, detay, katalog favorileri ve üçlü karşılaştırma Node API'si olmadan çalışır. Tauri görünümü `public/catalog.json` dosyasını build sırasında kaynak `otoiz/catalog.mjs` üzerinden üretir. İlanlar sayfası sunucu olmadığında açıkça örnek veri içeren önizleme moduna geçer. Üyelik, kalıcı ilanlar, ilan favorileri, satıcı telefonu, raporlama, asistan API'si ve yapılandırılmış iletişim bilgileri Node API gerektirir; Tauri paketine/çalışma sürecine Node backend eklenmemiştir.
 
 ## Platform matrisi
 
 | Platform | Mevcut çıktı | Hocanın native hedefi | Durum |
 |---|---|---|---|
 | macOS | Tarayıcı/PWA | .dmg, .app | Native OTOİZ paketi eksik |
-| Windows 10/11 | Node.js sunucu + tarayıcı | .msi, .exe | Native OTOİZ paketi eksik |
+| Windows 10/11 | Node.js sunucu + tarayıcı; Tauri dev webview ile statik katalog | .msi, .exe | Tauri geliştirme penceresi çalışır; paketleme/installer ve Node backend entegrasyonu eksik |
 | Linux | Node.js sunucu + tarayıcı | .deb, .AppImage | Native OTOİZ paketi eksik |
 | iOS/iPadOS | Safari + web ana ekran ikonu | .ipa, Xcode | Native OTOİZ paketi eksik |
 | Android | Tarayıcı/PWA | .apk, .aab | Native OTOİZ paketi eksik |
@@ -44,19 +46,13 @@ HTTPS veya localhost PWA kurulumunu destekler; telefonun yerel HTTP adresinde ta
 
 ## Tauri uygulamasındaki rotalar (`src/pages/`)
 
-Yukarıdaki ağaç `otoiz/` altındaki Node.js uygulamasını anlatır. Dersin Tauri v2 uygulaması `src/` altındadır ve şu an şu rotalara sahiptir:
-
-| Rota | Durum |
+| Rota | İşlev |
 |---|---|
-| `/`, `/etkinlik/[id]`, `/sepet`, `/biletlerim`, `/profil` | Şablondaki bilet uygulaması; OTOİZ ekranları (katalog, model detayı, ilanlar) Hafta 04 görevlerinde buraya taşınacak |
-| `/hakkinda`, `/iletisim`, `/kosullar`, `/gizlilik` | OTOİZ bilgi sayfaları (MDX ve Svelte formu), dört dilde |
-| `/rehber` | Şablonun proje rehberi |
+| `/` | OTOİZ ana sayfası ve gerçek marka/model kataloğu (`otoiz/public/index.html`) |
+| `/araclar` | Katalog filtreleri, model ayrıntısı, favoriler ve karşılaştırma |
+| `/ilanlar.html` | OTOİZ ilan arayüzü; API yoksa açık demo önizleme |
+| `/hakkinda`, `/iletisim`, `/kosullar`, `/gizlilik` | OTOİZ bilgi sayfaları (Astro/MDX ve Svelte formu) |
+| `/en/...`, `/ar/...`, `/fa/...` | Bilgi sayfalarının dil rotaları; `lang` ve `dir` dile göre ayarlanır |
+| `/etkinlik/[id]`, `/sepet`, `/biletlerim`, `/profil`, `/rehber` | Korunan kaynak Astro/Tauri sayfaları; OTOİZ ana navigasyonunda yer almaz |
 
-Bilgi sayfalarının dil rotaları: Türkçe kök rotadadır; diğer diller dil önekiyle açılır ve `<html>` etiketi dile göre `lang` ve `dir` alır.
-
-| Dil | Önek | Örnek | Yön |
-|---|---|---|---|
-| Türkçe | yok | `/hakkinda` | `ltr` |
-| English | `/en` | `/en/hakkinda` | `ltr` |
-| العربية | `/ar` | `/ar/hakkinda` | `rtl` |
-| فارسی | `/fa` | `/fa/hakkinda` | `rtl` |
+OTOİZ'in üst menüsündeki dil seçimi `otoiz-language` değerini saklar ve bilgi rotalarını seçili dile göre açar. Astro bilgi sayfalarındaki dil seçici de aynı tercihi saklayarak OTOİZ ana sayfasına dönüşte kullanır. Türkçe `ltr`, İngilizce `ltr`, Arapça ve Farsça `rtl` olur.

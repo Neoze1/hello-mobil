@@ -16,7 +16,7 @@ OTOİZ katalog ve ilan platformudur. [Proje fikrini](docs/proje-fikri.md) ve [RE
 | [docs/ajan-uyum-testi.md](docs/ajan-uyum-testi.md) | Ajan uyum testi kaydı |
 
 ## Mimari ve kod kuralları
-Node.js 22+, HTML/CSS ve JavaScript ES modülleri kullanılır. otoiz/server.mjs API ve izinli statik dosyaları sunar; otoiz/public/ tarayıcı kodu, otoiz/catalogs/ katalog kaynaklarıdır. Uygulama otoiz/ altındadır; kök Astro/Tauri öğretmen kaynaklarını izinsiz değiştirme. Gereksiz teknoloji değişimi ve dosya taşıma yapma. Mevcut katalog kimliklerini, API filtre değerlerini, VITRA_* ortam değişkenlerini ve vitra-* yerel depolama anahtarlarını koru.
+OTOİZ'in veri ve iş mantığı kaynağı otoiz/ altında kalır: otoiz/catalog.mjs, otoiz/catalogs/ ve otoiz/public/. Astro/Tauri ana yüzeyi src/pages/index.astro ve OtoizDocument bileşenidir; tarayıcıya sunulan kopyalar public/ altında tutulur, public/catalog.json otoiz/scripts/build-web-catalog.mjs tarafından üretilir ve Git'e eklenmez. Bun run dev/build bu statik katalog arayüzünü çalıştırır. otoiz/server.mjs ayrı Node.js 22+ API'sidir; Tauri içine dahil değildir. Hesap, kalıcı ilan, ilan favorisi, satıcı telefonu, rapor ve AI asistanı API gerektirir; statik Tauri görünümünde çalışıyor gibi sunulmaz. Gereksiz teknoloji değişimi ve dosya taşıma yapma. Mevcut katalog kimliklerini, API filtre değerlerini, VITRA_* ortam değişkenlerini ve vitra-* / otoiz-* yerel depolama anahtarlarını koru.
 
 ## Git ve doğrulama
 Her görev için feature/<numara>-<isim> dalı oluştur. Ana dala doğrudan commit atma. npm run check ve npm test çalıştır; diff'i incele, conventional commit yap, PR aç ve kontroller geçince merge et. Ana dalı git üzerinden belirle. Force push, reset --hard ve geçmişi yeniden yazma yapma. Test sunucusu VITRA_HOST=127.0.0.1 ve geçici veri klasörü kullanmalı; normal yayın ayarlarını değiştirme. Yapılmayan PR, build veya merge'i yapılmış gösterme.
@@ -25,7 +25,7 @@ Her görev için feature/<numara>-<isim> dalı oluştur. Ana dala doğrudan comm
 Bilgi sayfalarında TR/EN/AR/FA, AR/FA için html lang ve dir=rtl kullan. Dil sayfalar arasında ve yenilemede korunmalı; localStorage hataları uygulamayı durdurmamalı. Metinleri textContent ile yerleştir, form label/aria ve klavye odaklarını koru. Yönlü ikonları ve CSS mantıksal yönlerini kontrol et; e-posta, URL ve sayıları LTR izole et. Türkçe araç araması ve marka/model adları değişmez. 375, 768 ve 1440 px görünümü doğrula.
 
 ## Veri ve kapsam
-Eksik fiyat, öğrenci veya ekip bilgisini uydurma. Gizlilik metni gerçek sunucu depolamasını açıklamalı. .env, anahtarlar, data/, node_modules/, taşınabilir araçlar ve ZIP dosyalarını commit etme. Yeni statik dosya ve rotaları sunucunun izin listesine ekle. Hoca/ekip daveti veya mesaj gönderimi kullanıcı açıkça istemedikçe yapılmaz.
+Eksik fiyat, öğrenci veya ekip bilgisini uydurma. Gizlilik metni gerçek sunucu depolamasını açıklamalı. .env, anahtarlar, data/, node_modules/, taşınabilir araçlar ve ZIP dosyalarını commit etme. Node'un izinli statik dosyalarını server.mjs listesine ekle; Astro rotaları ve public varlıkları Astro build'de doğrula. Hoca/ekip daveti veya mesaj gönderimi kullanıcı açıkça istemedikçe yapılmaz.
 
 - [docs/kaynaklar.md](docs/kaynaklar.md) — önceki kaynak taslağının kanonik yönlendirmesi.
 

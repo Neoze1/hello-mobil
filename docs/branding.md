@@ -19,7 +19,7 @@ Tek uygulama kaynağı public/brand.css içindeki :root ve :root[data-theme=dark
 ## Logo, tipografi ve ikonlar
 OTOİZ logoları public/logo-light.svg ve public/logo-dark.svg; favicon public/favicon.svg. Arial/Helvetica/sans-serif ve --radius:14px mevcut tasarıma uygundur. Türkçe, Arapça ve Farsçada sistem yazı tipi yedeği kullanılır. Renkleri yeni dosyalarda sabit hex ile tekrar etme.
 
-Web manifestinde 192 ve 512 px PNG; iPhone için 180 px Apple Touch Icon mevcut. Bunlar web/PWA ikonlarıdır. Tauri macOS .icns, Windows .ico, Linux PNG seti, Android mipmap ve iOS AppIcon native setleri mevcut değildir; görev 05'in native ikon ve tauri.conf.json şartları eksiktir. Yeni Tauri projesi varmış gibi dosya üretilemez.
+Web manifestinde 192 ve 512 px PNG; iPhone için 180 px Apple Touch Icon mevcut. Tauri macOS, Windows, Linux, Android ve iOS ikonları `src-tauri/icons/` altında bulunmaktadır. Native installer/paket çıktısının üretilmesi bu entegrasyon kapsamında doğrulanmadı.
 
 ## Tauri uygulamasındaki karşılığı
 
@@ -43,4 +43,4 @@ Marka renkleri Tauri / Astro uygulamasında `src/styles/app.css` içindeki deği
 | `public/favicon.png`, `public/apple-touch-icon.png` | Simgeden üretilen 128 px ve 180 px dosyalar |
 | `src-tauri/icons/` | `bun run tauri icon` ile üretilen macOS, Windows, Linux, iOS ve Android ikon setleri |
 
-`src-tauri/tauri.conf.json`: ürün adı `OTOIZ` (paket ve dosya adlarında sorun çıkmaması için ASCII), kimlik `edu.istinye.otoiz`, pencere başlığı `OTOİZ — Otomobil Platformu`.
+`src-tauri/tauri.conf.json`: ürün adı `OTOİZ`, kimlik `edu.istinye.otoiz`, pencere başlığı `OTOİZ | Otomobil Kataloğu`. Native installer çıktısı ayrıca doğrulanmalıdır.
