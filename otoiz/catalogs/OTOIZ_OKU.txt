@@ -1,0 +1,15 @@
+OTOİZ entegrasyon paketi — 9 Ekim 2026
+
+Korunan katalog: 37 marka, 178 model.
+CODEX_TALIMAT.txt: VS Code Codex'e verilecek uygulama talimatı.
+otoiz_katalog.json: sabit model kimlikleri, sayfa adresleri, model başına Google görsel arama ve Sahibinden arama bağlantıları.
+otoiz_arastirma.csv: aynı kayıtların araştırma takip tablosu.
+Orijinal üç dosya korundu.
+
+TAMAMLANMAMIŞ KISIMLAR
+Bu ZIP'te indirilmiş araç fotoğrafları ve marka logo dosyaları yoktur.
+178 modelin güncel ikinci el fiyatı doğrulanamadı. Önceki dosyanın dolu fiyatları 2025 örnekleridir; Ekim 2026 fiyatı değildir.
+Bu çalışma sırasında Sahibinden sayfası 429 erişim hatası verdi. Arama sonuçlarında eski ilanlar bulundu; bunlardan güncel piyasa listesi oluşturulmadı.
+Google görsel bağlantıları fotoğraf dosyası değil, model bazında araştırma bağlantılarıdır.
+Logo tasarımı bu pakette üretilmedi; Codex talimatında istenmektedir.
+Gerçek fotoğraf/fiyat ekleme işi internet erişimi bulunan proje ortamında tamamlanmalıdır.

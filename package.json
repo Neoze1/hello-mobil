@@ -8,7 +8,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "start": "node --env-file-if-exists=otoiz/.env otoiz/server.mjs",
+    "check": "node otoiz/scripts/check.mjs",
+    "test": "node --test otoiz/test.mjs otoiz/assistant.test.mjs otoiz/catalog.test.mjs"
   },
   "license": "MIT",
   "dependencies": {

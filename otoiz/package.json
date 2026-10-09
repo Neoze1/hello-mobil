@@ -1,0 +1,14 @@
+{
+  "name": "otoiz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test test.mjs assistant.test.mjs catalog.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

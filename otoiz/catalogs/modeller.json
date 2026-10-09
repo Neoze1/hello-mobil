@@ -1,0 +1,1782 @@
+[
+  {
+    "marka": "Mercedes-Benz",
+    "model": "190 E",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20190%20E",
+    "logo_dosyasi": "logolar/mercedes-benz.png"
+  },
+  {
+    "marka": "Mercedes-Benz",
+    "model": "W123",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20W123",
+    "logo_dosyasi": "logolar/mercedes-benz.png"
+  },
+  {
+    "marka": "Mercedes-Benz",
+    "model": "W124",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20W124",
+    "logo_dosyasi": "logolar/mercedes-benz.png"
+  },
+  {
+    "marka": "Mercedes-Benz",
+    "model": "C Serisi",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20C%20Serisi",
+    "logo_dosyasi": "logolar/mercedes-benz.png"
+  },
+  {
+    "marka": "Mercedes-Benz",
+    "model": "E Serisi",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mercedes-Benz%20E%20Serisi",
+    "logo_dosyasi": "logolar/mercedes-benz.png"
+  },
+  {
+    "marka": "Audi",
+    "model": "80",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%2080",
+    "logo_dosyasi": "logolar/audi.png"
+  },
+  {
+    "marka": "Audi",
+    "model": "100",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%20100",
+    "logo_dosyasi": "logolar/audi.png"
+  },
+  {
+    "marka": "Audi",
+    "model": "A3",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%20A3",
+    "logo_dosyasi": "logolar/audi.png"
+  },
+  {
+    "marka": "Audi",
+    "model": "A4",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%20A4",
+    "logo_dosyasi": "logolar/audi.png"
+  },
+  {
+    "marka": "Audi",
+    "model": "A6",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Audi%20A6",
+    "logo_dosyasi": "logolar/audi.png"
+  },
+  {
+    "marka": "Volkswagen",
+    "model": "Beetle",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Beetle",
+    "logo_dosyasi": "logolar/volkswagen.png"
+  },
+  {
+    "marka": "Volkswagen",
+    "model": "Golf",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Golf",
+    "logo_dosyasi": "logolar/volkswagen.png"
+  },
+  {
+    "marka": "Volkswagen",
+    "model": "Passat",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Passat",
+    "logo_dosyasi": "logolar/volkswagen.png"
+  },
+  {
+    "marka": "Volkswagen",
+    "model": "Polo",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Polo",
+    "logo_dosyasi": "logolar/volkswagen.png"
+  },
+  {
+    "marka": "Volkswagen",
+    "model": "Jetta",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volkswagen%20Jetta",
+    "logo_dosyasi": "logolar/volkswagen.png"
+  },
+  {
+    "marka": "Volvo",
+    "model": "240",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20240",
+    "logo_dosyasi": "logolar/volvo.png"
+  },
+  {
+    "marka": "Volvo",
+    "model": "740",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20740",
+    "logo_dosyasi": "logolar/volvo.png"
+  },
+  {
+    "marka": "Volvo",
+    "model": "850",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20850",
+    "logo_dosyasi": "logolar/volvo.png"
+  },
+  {
+    "marka": "Volvo",
+    "model": "S60",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20S60",
+    "logo_dosyasi": "logolar/volvo.png"
+  },
+  {
+    "marka": "Volvo",
+    "model": "S80",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Volvo%20S80",
+    "logo_dosyasi": "logolar/volvo.png"
+  },
+  {
+    "marka": "Toyota",
+    "model": "Corolla",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Corolla",
+    "logo_dosyasi": "logolar/toyota.png"
+  },
+  {
+    "marka": "Toyota",
+    "model": "Carina",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Carina",
+    "logo_dosyasi": "logolar/toyota.png"
+  },
+  {
+    "marka": "Toyota",
+    "model": "Camry",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Camry",
+    "logo_dosyasi": "logolar/toyota.png"
+  },
+  {
+    "marka": "Toyota",
+    "model": "Yaris",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Yaris",
+    "logo_dosyasi": "logolar/toyota.png"
+  },
+  {
+    "marka": "Toyota",
+    "model": "Land Cruiser",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Toyota%20Land%20Cruiser",
+    "logo_dosyasi": "logolar/toyota.png"
+  },
+  {
+    "marka": "Renault",
+    "model": "R12",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20R12",
+    "logo_dosyasi": "logolar/renault.png"
+  },
+  {
+    "marka": "Renault",
+    "model": "R9 Broadway",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20R9%20Broadway",
+    "logo_dosyasi": "logolar/renault.png"
+  },
+  {
+    "marka": "Renault",
+    "model": "R11 Flash",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20R11%20Flash",
+    "logo_dosyasi": "logolar/renault.png"
+  },
+  {
+    "marka": "Renault",
+    "model": "Clio",
+    "fiyat_tl": 337500,
+    "ilan_yili": "2007",
+    "ilan_tarihi": "2025-10-24",
+    "fiyat_durumu": "2025 tarihli örnek ilan (güncel değil)",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20Clio",
+    "logo_dosyasi": "logolar/renault.png"
+  },
+  {
+    "marka": "Renault",
+    "model": "Megane",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Renault%20Megane",
+    "logo_dosyasi": "logolar/renault.png"
+  },
+  {
+    "marka": "Fiat",
+    "model": "124",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20124",
+    "logo_dosyasi": "logolar/fiat.png"
+  },
+  {
+    "marka": "Fiat",
+    "model": "131 Şahin",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20131%20%C5%9Eahin",
+    "logo_dosyasi": "logolar/fiat.png"
+  },
+  {
+    "marka": "Fiat",
+    "model": "Uno",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20Uno",
+    "logo_dosyasi": "logolar/fiat.png"
+  },
+  {
+    "marka": "Fiat",
+    "model": "Tipo",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20Tipo",
+    "logo_dosyasi": "logolar/fiat.png"
+  },
+  {
+    "marka": "Fiat",
+    "model": "Egea",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Fiat%20Egea",
+    "logo_dosyasi": "logolar/fiat.png"
+  },
+  {
+    "marka": "Peugeot",
+    "model": "205",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20205",
+    "logo_dosyasi": "logolar/peugeot.png"
+  },
+  {
+    "marka": "Peugeot",
+    "model": "306",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20306",
+    "logo_dosyasi": "logolar/peugeot.png"
+  },
+  {
+    "marka": "Peugeot",
+    "model": "406",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20406",
+    "logo_dosyasi": "logolar/peugeot.png"
+  },
+  {
+    "marka": "Peugeot",
+    "model": "206",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20206",
+    "logo_dosyasi": "logolar/peugeot.png"
+  },
+  {
+    "marka": "Peugeot",
+    "model": "307",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Peugeot%20307",
+    "logo_dosyasi": "logolar/peugeot.png"
+  },
+  {
+    "marka": "Tesla",
+    "model": "Model S",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Tesla%20Model%20S",
+    "logo_dosyasi": "logolar/tesla.png"
+  },
+  {
+    "marka": "Tesla",
+    "model": "Model 3",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Tesla%20Model%203",
+    "logo_dosyasi": "logolar/tesla.png"
+  },
+  {
+    "marka": "Tesla",
+    "model": "Model Y",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Tesla%20Model%20Y",
+    "logo_dosyasi": "logolar/tesla.png"
+  },
+  {
+    "marka": "Togg",
+    "model": "T10X",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Togg%20T10X",
+    "logo_dosyasi": "logolar/togg.png"
+  },
+  {
+    "marka": "Togg",
+    "model": "T10F",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Togg%20T10F",
+    "logo_dosyasi": "logolar/togg.png"
+  },
+  {
+    "marka": "BMW",
+    "model": "E30 3 Serisi",
+    "fiyat_tl": 415000,
+    "ilan_yili": "1991",
+    "ilan_tarihi": "2025-10-20",
+    "fiyat_durumu": "2025 tarihli örnek ilan (güncel değil)",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E30%203%20Serisi",
+    "logo_dosyasi": "logolar/bmw.png"
+  },
+  {
+    "marka": "BMW",
+    "model": "E36 3 Serisi",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E36%203%20Serisi",
+    "logo_dosyasi": "logolar/bmw.png"
+  },
+  {
+    "marka": "BMW",
+    "model": "E39 5 Serisi",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E39%205%20Serisi",
+    "logo_dosyasi": "logolar/bmw.png"
+  },
+  {
+    "marka": "BMW",
+    "model": "E46 3 Serisi",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E46%203%20Serisi",
+    "logo_dosyasi": "logolar/bmw.png"
+  },
+  {
+    "marka": "BMW",
+    "model": "E60 5 Serisi",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BMW%20E60%205%20Serisi",
+    "logo_dosyasi": "logolar/bmw.png"
+  },
+  {
+    "marka": "Porsche",
+    "model": "911",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20911",
+    "logo_dosyasi": "logolar/porsche.png"
+  },
+  {
+    "marka": "Porsche",
+    "model": "924",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20924",
+    "logo_dosyasi": "logolar/porsche.png"
+  },
+  {
+    "marka": "Porsche",
+    "model": "944",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20944",
+    "logo_dosyasi": "logolar/porsche.png"
+  },
+  {
+    "marka": "Porsche",
+    "model": "Boxster",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20Boxster",
+    "logo_dosyasi": "logolar/porsche.png"
+  },
+  {
+    "marka": "Porsche",
+    "model": "Cayenne",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Porsche%20Cayenne",
+    "logo_dosyasi": "logolar/porsche.png"
+  },
+  {
+    "marka": "Opel",
+    "model": "Kadett",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Kadett",
+    "logo_dosyasi": "logolar/opel.png"
+  },
+  {
+    "marka": "Opel",
+    "model": "Vectra",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Vectra",
+    "logo_dosyasi": "logolar/opel.png"
+  },
+  {
+    "marka": "Opel",
+    "model": "Astra",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Astra",
+    "logo_dosyasi": "logolar/opel.png"
+  },
+  {
+    "marka": "Opel",
+    "model": "Corsa",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Corsa",
+    "logo_dosyasi": "logolar/opel.png"
+  },
+  {
+    "marka": "Opel",
+    "model": "Omega",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Opel%20Omega",
+    "logo_dosyasi": "logolar/opel.png"
+  },
+  {
+    "marka": "Honda",
+    "model": "Civic",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20Civic",
+    "logo_dosyasi": "logolar/honda.png"
+  },
+  {
+    "marka": "Honda",
+    "model": "Accord",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20Accord",
+    "logo_dosyasi": "logolar/honda.png"
+  },
+  {
+    "marka": "Honda",
+    "model": "CR-V",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20CR-V",
+    "logo_dosyasi": "logolar/honda.png"
+  },
+  {
+    "marka": "Honda",
+    "model": "Jazz",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20Jazz",
+    "logo_dosyasi": "logolar/honda.png"
+  },
+  {
+    "marka": "Honda",
+    "model": "Prelude",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Honda%20Prelude",
+    "logo_dosyasi": "logolar/honda.png"
+  },
+  {
+    "marka": "Nissan",
+    "model": "Sunny",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Sunny",
+    "logo_dosyasi": "logolar/nissan.png"
+  },
+  {
+    "marka": "Nissan",
+    "model": "Primera",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Primera",
+    "logo_dosyasi": "logolar/nissan.png"
+  },
+  {
+    "marka": "Nissan",
+    "model": "Micra",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Micra",
+    "logo_dosyasi": "logolar/nissan.png"
+  },
+  {
+    "marka": "Nissan",
+    "model": "Almera",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Almera",
+    "logo_dosyasi": "logolar/nissan.png"
+  },
+  {
+    "marka": "Nissan",
+    "model": "Qashqai",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Nissan%20Qashqai",
+    "logo_dosyasi": "logolar/nissan.png"
+  },
+  {
+    "marka": "Mazda",
+    "model": "323",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20323",
+    "logo_dosyasi": "logolar/mazda.png"
+  },
+  {
+    "marka": "Mazda",
+    "model": "626",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20626",
+    "logo_dosyasi": "logolar/mazda.png"
+  },
+  {
+    "marka": "Mazda",
+    "model": "MX-5",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20MX-5",
+    "logo_dosyasi": "logolar/mazda.png"
+  },
+  {
+    "marka": "Mazda",
+    "model": "Mazda3",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20Mazda3",
+    "logo_dosyasi": "logolar/mazda.png"
+  },
+  {
+    "marka": "Mazda",
+    "model": "Mazda6",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mazda%20Mazda6",
+    "logo_dosyasi": "logolar/mazda.png"
+  },
+  {
+    "marka": "Suzuki",
+    "model": "Swift",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20Swift",
+    "logo_dosyasi": "logolar/suzuki.png"
+  },
+  {
+    "marka": "Suzuki",
+    "model": "Vitara",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20Vitara",
+    "logo_dosyasi": "logolar/suzuki.png"
+  },
+  {
+    "marka": "Suzuki",
+    "model": "Grand Vitara",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20Grand%20Vitara",
+    "logo_dosyasi": "logolar/suzuki.png"
+  },
+  {
+    "marka": "Suzuki",
+    "model": "Jimny",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20Jimny",
+    "logo_dosyasi": "logolar/suzuki.png"
+  },
+  {
+    "marka": "Suzuki",
+    "model": "SX4",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Suzuki%20SX4",
+    "logo_dosyasi": "logolar/suzuki.png"
+  },
+  {
+    "marka": "Subaru",
+    "model": "Impreza",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20Impreza",
+    "logo_dosyasi": "logolar/subaru.png"
+  },
+  {
+    "marka": "Subaru",
+    "model": "Legacy",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20Legacy",
+    "logo_dosyasi": "logolar/subaru.png"
+  },
+  {
+    "marka": "Subaru",
+    "model": "Forester",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20Forester",
+    "logo_dosyasi": "logolar/subaru.png"
+  },
+  {
+    "marka": "Subaru",
+    "model": "Outback",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20Outback",
+    "logo_dosyasi": "logolar/subaru.png"
+  },
+  {
+    "marka": "Subaru",
+    "model": "XV",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Subaru%20XV",
+    "logo_dosyasi": "logolar/subaru.png"
+  },
+  {
+    "marka": "Mitsubishi",
+    "model": "Lancer",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Lancer",
+    "logo_dosyasi": "logolar/mitsubishi.png"
+  },
+  {
+    "marka": "Mitsubishi",
+    "model": "Colt",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Colt",
+    "logo_dosyasi": "logolar/mitsubishi.png"
+  },
+  {
+    "marka": "Mitsubishi",
+    "model": "Galant",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Galant",
+    "logo_dosyasi": "logolar/mitsubishi.png"
+  },
+  {
+    "marka": "Mitsubishi",
+    "model": "Pajero",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Pajero",
+    "logo_dosyasi": "logolar/mitsubishi.png"
+  },
+  {
+    "marka": "Mitsubishi",
+    "model": "Carisma",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mitsubishi%20Carisma",
+    "logo_dosyasi": "logolar/mitsubishi.png"
+  },
+  {
+    "marka": "Lexus",
+    "model": "IS",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20IS",
+    "logo_dosyasi": "logolar/lexus.png"
+  },
+  {
+    "marka": "Lexus",
+    "model": "GS",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20GS",
+    "logo_dosyasi": "logolar/lexus.png"
+  },
+  {
+    "marka": "Lexus",
+    "model": "LS",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20LS",
+    "logo_dosyasi": "logolar/lexus.png"
+  },
+  {
+    "marka": "Lexus",
+    "model": "RX",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20RX",
+    "logo_dosyasi": "logolar/lexus.png"
+  },
+  {
+    "marka": "Lexus",
+    "model": "NX",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Lexus%20NX",
+    "logo_dosyasi": "logolar/lexus.png"
+  },
+  {
+    "marka": "Citroën",
+    "model": "2CV",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%202CV",
+    "logo_dosyasi": "logolar/citroën.png"
+  },
+  {
+    "marka": "Citroën",
+    "model": "BX",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%20BX",
+    "logo_dosyasi": "logolar/citroën.png"
+  },
+  {
+    "marka": "Citroën",
+    "model": "ZX",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%20ZX",
+    "logo_dosyasi": "logolar/citroën.png"
+  },
+  {
+    "marka": "Citroën",
+    "model": "C3",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%20C3",
+    "logo_dosyasi": "logolar/citroën.png"
+  },
+  {
+    "marka": "Citroën",
+    "model": "C4",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Citro%C3%ABn%20C4",
+    "logo_dosyasi": "logolar/citroën.png"
+  },
+  {
+    "marka": "DS",
+    "model": "DS 3",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=DS%20DS%203",
+    "logo_dosyasi": "logolar/ds.png"
+  },
+  {
+    "marka": "DS",
+    "model": "DS 4",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=DS%20DS%204",
+    "logo_dosyasi": "logolar/ds.png"
+  },
+  {
+    "marka": "DS",
+    "model": "DS 5",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=DS%20DS%205",
+    "logo_dosyasi": "logolar/ds.png"
+  },
+  {
+    "marka": "DS",
+    "model": "DS 7",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=DS%20DS%207",
+    "logo_dosyasi": "logolar/ds.png"
+  },
+  {
+    "marka": "Alfa Romeo",
+    "model": "33",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%2033",
+    "logo_dosyasi": "logolar/alfa-romeo.png"
+  },
+  {
+    "marka": "Alfa Romeo",
+    "model": "75",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%2075",
+    "logo_dosyasi": "logolar/alfa-romeo.png"
+  },
+  {
+    "marka": "Alfa Romeo",
+    "model": "145",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%20145",
+    "logo_dosyasi": "logolar/alfa-romeo.png"
+  },
+  {
+    "marka": "Alfa Romeo",
+    "model": "156",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%20156",
+    "logo_dosyasi": "logolar/alfa-romeo.png"
+  },
+  {
+    "marka": "Alfa Romeo",
+    "model": "Giulietta",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Alfa%20Romeo%20Giulietta",
+    "logo_dosyasi": "logolar/alfa-romeo.png"
+  },
+  {
+    "marka": "Ferrari",
+    "model": "348",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20348",
+    "logo_dosyasi": "logolar/ferrari.png"
+  },
+  {
+    "marka": "Ferrari",
+    "model": "F355",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20F355",
+    "logo_dosyasi": "logolar/ferrari.png"
+  },
+  {
+    "marka": "Ferrari",
+    "model": "360 Modena",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20360%20Modena",
+    "logo_dosyasi": "logolar/ferrari.png"
+  },
+  {
+    "marka": "Ferrari",
+    "model": "F430",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20F430",
+    "logo_dosyasi": "logolar/ferrari.png"
+  },
+  {
+    "marka": "Ferrari",
+    "model": "458 Italia",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ferrari%20458%20Italia",
+    "logo_dosyasi": "logolar/ferrari.png"
+  },
+  {
+    "marka": "Maserati",
+    "model": "3200 GT",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%203200%20GT",
+    "logo_dosyasi": "logolar/maserati.png"
+  },
+  {
+    "marka": "Maserati",
+    "model": "Quattroporte",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%20Quattroporte",
+    "logo_dosyasi": "logolar/maserati.png"
+  },
+  {
+    "marka": "Maserati",
+    "model": "Ghibli",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%20Ghibli",
+    "logo_dosyasi": "logolar/maserati.png"
+  },
+  {
+    "marka": "Maserati",
+    "model": "GranTurismo",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%20GranTurismo",
+    "logo_dosyasi": "logolar/maserati.png"
+  },
+  {
+    "marka": "Maserati",
+    "model": "Levante",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Maserati%20Levante",
+    "logo_dosyasi": "logolar/maserati.png"
+  },
+  {
+    "marka": "Hyundai",
+    "model": "Accent",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20Accent",
+    "logo_dosyasi": "logolar/hyundai.png"
+  },
+  {
+    "marka": "Hyundai",
+    "model": "Excel",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20Excel",
+    "logo_dosyasi": "logolar/hyundai.png"
+  },
+  {
+    "marka": "Hyundai",
+    "model": "Elantra",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20Elantra",
+    "logo_dosyasi": "logolar/hyundai.png"
+  },
+  {
+    "marka": "Hyundai",
+    "model": "Getz",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20Getz",
+    "logo_dosyasi": "logolar/hyundai.png"
+  },
+  {
+    "marka": "Hyundai",
+    "model": "i20",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Hyundai%20i20",
+    "logo_dosyasi": "logolar/hyundai.png"
+  },
+  {
+    "marka": "Kia",
+    "model": "Sephia",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Sephia",
+    "logo_dosyasi": "logolar/kia.png"
+  },
+  {
+    "marka": "Kia",
+    "model": "Rio",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Rio",
+    "logo_dosyasi": "logolar/kia.png"
+  },
+  {
+    "marka": "Kia",
+    "model": "Cerato",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Cerato",
+    "logo_dosyasi": "logolar/kia.png"
+  },
+  {
+    "marka": "Kia",
+    "model": "Ceed",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Ceed",
+    "logo_dosyasi": "logolar/kia.png"
+  },
+  {
+    "marka": "Kia",
+    "model": "Sportage",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Kia%20Sportage",
+    "logo_dosyasi": "logolar/kia.png"
+  },
+  {
+    "marka": "Ford",
+    "model": "Escort",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Escort",
+    "logo_dosyasi": "logolar/ford.png"
+  },
+  {
+    "marka": "Ford",
+    "model": "Sierra",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Sierra",
+    "logo_dosyasi": "logolar/ford.png"
+  },
+  {
+    "marka": "Ford",
+    "model": "Fiesta",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Fiesta",
+    "logo_dosyasi": "logolar/ford.png"
+  },
+  {
+    "marka": "Ford",
+    "model": "Focus",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Focus",
+    "logo_dosyasi": "logolar/ford.png"
+  },
+  {
+    "marka": "Ford",
+    "model": "Mondeo",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Ford%20Mondeo",
+    "logo_dosyasi": "logolar/ford.png"
+  },
+  {
+    "marka": "Chevrolet",
+    "model": "Lacetti",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Lacetti",
+    "logo_dosyasi": "logolar/chevrolet.png"
+  },
+  {
+    "marka": "Chevrolet",
+    "model": "Aveo",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Aveo",
+    "logo_dosyasi": "logolar/chevrolet.png"
+  },
+  {
+    "marka": "Chevrolet",
+    "model": "Cruze",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Cruze",
+    "logo_dosyasi": "logolar/chevrolet.png"
+  },
+  {
+    "marka": "Chevrolet",
+    "model": "Captiva",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Captiva",
+    "logo_dosyasi": "logolar/chevrolet.png"
+  },
+  {
+    "marka": "Chevrolet",
+    "model": "Camaro",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Chevrolet%20Camaro",
+    "logo_dosyasi": "logolar/chevrolet.png"
+  },
+  {
+    "marka": "Jeep",
+    "model": "Cherokee",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Cherokee",
+    "logo_dosyasi": "logolar/jeep.png"
+  },
+  {
+    "marka": "Jeep",
+    "model": "Grand Cherokee",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Grand%20Cherokee",
+    "logo_dosyasi": "logolar/jeep.png"
+  },
+  {
+    "marka": "Jeep",
+    "model": "Wrangler",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Wrangler",
+    "logo_dosyasi": "logolar/jeep.png"
+  },
+  {
+    "marka": "Jeep",
+    "model": "Compass",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Compass",
+    "logo_dosyasi": "logolar/jeep.png"
+  },
+  {
+    "marka": "Jeep",
+    "model": "Renegade",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jeep%20Renegade",
+    "logo_dosyasi": "logolar/jeep.png"
+  },
+  {
+    "marka": "Seat",
+    "model": "Ibiza",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Ibiza",
+    "logo_dosyasi": "logolar/seat.png"
+  },
+  {
+    "marka": "Seat",
+    "model": "Cordoba",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Cordoba",
+    "logo_dosyasi": "logolar/seat.png"
+  },
+  {
+    "marka": "Seat",
+    "model": "Leon",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Leon",
+    "logo_dosyasi": "logolar/seat.png"
+  },
+  {
+    "marka": "Seat",
+    "model": "Toledo",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Toledo",
+    "logo_dosyasi": "logolar/seat.png"
+  },
+  {
+    "marka": "Seat",
+    "model": "Altea",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Seat%20Altea",
+    "logo_dosyasi": "logolar/seat.png"
+  },
+  {
+    "marka": "Cupra",
+    "model": "Formentor",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Cupra%20Formentor",
+    "logo_dosyasi": "logolar/cupra.png"
+  },
+  {
+    "marka": "Cupra",
+    "model": "Leon",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Cupra%20Leon",
+    "logo_dosyasi": "logolar/cupra.png"
+  },
+  {
+    "marka": "Cupra",
+    "model": "Born",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Cupra%20Born",
+    "logo_dosyasi": "logolar/cupra.png"
+  },
+  {
+    "marka": "Cupra",
+    "model": "Ateca",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Cupra%20Ateca",
+    "logo_dosyasi": "logolar/cupra.png"
+  },
+  {
+    "marka": "Skoda",
+    "model": "Favorit",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Favorit",
+    "logo_dosyasi": "logolar/skoda.png"
+  },
+  {
+    "marka": "Skoda",
+    "model": "Felicia",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Felicia",
+    "logo_dosyasi": "logolar/skoda.png"
+  },
+  {
+    "marka": "Skoda",
+    "model": "Fabia",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Fabia",
+    "logo_dosyasi": "logolar/skoda.png"
+  },
+  {
+    "marka": "Skoda",
+    "model": "Octavia",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Octavia",
+    "logo_dosyasi": "logolar/skoda.png"
+  },
+  {
+    "marka": "Skoda",
+    "model": "Superb",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Skoda%20Superb",
+    "logo_dosyasi": "logolar/skoda.png"
+  },
+  {
+    "marka": "BYD",
+    "model": "Atto 3",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Atto%203",
+    "logo_dosyasi": "logolar/byd.png"
+  },
+  {
+    "marka": "BYD",
+    "model": "Dolphin",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Dolphin",
+    "logo_dosyasi": "logolar/byd.png"
+  },
+  {
+    "marka": "BYD",
+    "model": "Seal",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Seal",
+    "logo_dosyasi": "logolar/byd.png"
+  },
+  {
+    "marka": "BYD",
+    "model": "Seal U",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Seal%20U",
+    "logo_dosyasi": "logolar/byd.png"
+  },
+  {
+    "marka": "BYD",
+    "model": "Han",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=BYD%20Han",
+    "logo_dosyasi": "logolar/byd.png"
+  },
+  {
+    "marka": "MG",
+    "model": "MG ZS",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG%20ZS",
+    "logo_dosyasi": "logolar/mg.png"
+  },
+  {
+    "marka": "MG",
+    "model": "MG4",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG4",
+    "logo_dosyasi": "logolar/mg.png"
+  },
+  {
+    "marka": "MG",
+    "model": "MG HS",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG%20HS",
+    "logo_dosyasi": "logolar/mg.png"
+  },
+  {
+    "marka": "MG",
+    "model": "MG5",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG5",
+    "logo_dosyasi": "logolar/mg.png"
+  },
+  {
+    "marka": "MG",
+    "model": "MG3",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=MG%20MG3",
+    "logo_dosyasi": "logolar/mg.png"
+  },
+  {
+    "marka": "Mini",
+    "model": "Classic Mini",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Classic%20Mini",
+    "logo_dosyasi": "logolar/mini.png"
+  },
+  {
+    "marka": "Mini",
+    "model": "Cooper",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Cooper",
+    "logo_dosyasi": "logolar/mini.png"
+  },
+  {
+    "marka": "Mini",
+    "model": "Cooper S",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Cooper%20S",
+    "logo_dosyasi": "logolar/mini.png"
+  },
+  {
+    "marka": "Mini",
+    "model": "Clubman",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Clubman",
+    "logo_dosyasi": "logolar/mini.png"
+  },
+  {
+    "marka": "Mini",
+    "model": "Countryman",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Mini%20Countryman",
+    "logo_dosyasi": "logolar/mini.png"
+  },
+  {
+    "marka": "Jaguar",
+    "model": "XJ",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20XJ",
+    "logo_dosyasi": "logolar/jaguar.png"
+  },
+  {
+    "marka": "Jaguar",
+    "model": "X-Type",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20X-Type",
+    "logo_dosyasi": "logolar/jaguar.png"
+  },
+  {
+    "marka": "Jaguar",
+    "model": "S-Type",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20S-Type",
+    "logo_dosyasi": "logolar/jaguar.png"
+  },
+  {
+    "marka": "Jaguar",
+    "model": "XF",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20XF",
+    "logo_dosyasi": "logolar/jaguar.png"
+  },
+  {
+    "marka": "Jaguar",
+    "model": "F-Type",
+    "fiyat_tl": "",
+    "ilan_yili": "",
+    "ilan_tarihi": "",
+    "fiyat_durumu": "Doğrulanmış fiyat bulunamadı",
+    "sahibinden_arama": "https://www.sahibinden.com/kelime-ile-arama?query_text=Jaguar%20F-Type",
+    "logo_dosyasi": "logolar/jaguar.png"
+  }
+]
