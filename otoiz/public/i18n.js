@@ -44,6 +44,7 @@ const label=document.createElement('span');label.dataset.i18n='language';
 const select=document.createElement('select');select.dataset.language='';select.id='language';
 for(const [code,name] of [['tr','Türkçe'],['en','English'],['ar','العربية'],['fa','فارسی']]) {const option=document.createElement('option');option.value=code;option.textContent=name;option.lang=code;select.append(option);}
 picker.append(label,select);
-(document.querySelector('header .actions')||document.querySelector('header')||document.body).append(picker);
+(document.querySelector('header .actions, header .nav-actions')||document.querySelector('header')||document.body).append(picker);
 select.addEventListener('change',()=>setLanguage(select.value));
 setLanguage(language);
+window.addEventListener('pageshow',()=>{let saved;try{saved=localStorage.getItem('otoiz-language');}catch{}if(languages.includes(saved))setLanguage(saved);});

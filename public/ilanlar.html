@@ -9,11 +9,11 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/chat.css">
   <link rel="stylesheet" href="/mobile.css">
 <link rel="stylesheet" href="/brand.css"><link rel="stylesheet" href="/info.css"></head>
-<body>
+<body data-page="listings">
   <header class="header"><div class="nav wrap">
     <a class="logo" href="/" data-i18n-aria="home" aria-label="OTOİZ ana sayfa"><img class="logo-light" src="/logo-light.svg" alt="OTOİZ" width="200" height="46"><img class="logo-dark" src="/logo-dark.svg" alt="OTOİZ" width="200" height="46"></a>
     <nav aria-label="Ana menü"><button class="nav-link active" data-view="all">Araç keşfet</button><button class="nav-link" data-view="favorites">Favorilerim <span id="fav-count">0</span></button><button class="nav-link" data-view="mine">İlanlarım</button><a href="/hakkinda" data-page-link="about" data-i18n="about">Hakkında</a><a href="/kosullar" data-page-link="terms" data-i18n="terms">Kullanım Koşulları</a><a href="/gizlilik" data-page-link="privacy" data-i18n="privacy">Gizlilik Politikası</a></nav>
-    <div class="nav-actions"><button class="account-btn" id="account-button"><span data-icon="user"></span><span id="account-label">Giriş yap</span></button><button class="btn btn-dark" id="new-listing"><span data-icon="plus"></span>Ücretsiz ilan ver</button></div>
+    <div class="nav-actions"><button class="account-btn" id="theme" type="button" data-i18n-aria="theme" aria-label="Temayı değiştir">◐</button><button class="account-btn" id="account-button"><span data-icon="user"></span><span id="account-label">Giriş yap</span></button><button class="btn btn-dark" id="new-listing"><span data-icon="plus"></span>Ücretsiz ilan ver</button></div>
   </div></header>
   <main>
     <section class="hero wrap" aria-labelledby="hero-title">
@@ -42,5 +42,5 @@
   <dialog id="modal"><button id="close-modal" class="close-btn" aria-label="Pencereyi kapat">×</button><div id="modal-content"></div></dialog><div id="toast" class="toast" role="status" aria-live="polite"></div>
   <nav class="mobile-nav" aria-label="Mobil menü"><button class="nav-link active" data-view="all"><span data-icon="search"></span><span>Keşfet</span></button><button class="nav-link" data-view="favorites"><span data-icon="heart"></span><span>Favoriler</span></button><button class="nav-link mobile-publish" id="mobile-new-listing"><span data-icon="plus"></span><span>İlan ver</span></button><button class="nav-link" data-view="mine"><span data-icon="car"></span><span>İlanlarım</span></button><button class="nav-link" id="mobile-account"><span data-icon="user"></span><span>Hesabım</span></button></nav>
   <button id="install-app" class="install-app" hidden>OTOİZ'i yükle</button>
-  <script type="module" src="/app.js"></script><script type="module" src="/pwa.js"></script>
+  <script type="module" src="/site.js"></script><script type="module" src="/app.js"></script><script type="module" src="/pwa.js"></script>
 <script type="module" src="/i18n.js"></script></body></html>
