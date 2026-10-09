@@ -1,38 +1,22 @@
-# Proje Fikri ve Konsept Belgesi
+# Proje Fikri: OTOİZ
 
-> ✍️ **Öğrenci Görevi:** Bu taslağı seçtiğiniz proje fikrine göre doldurun. Ayrıntılı rehber ve 40 örnek proje için [`docs/tasks/week-3/02-proje-fikriniz.task.md`](tasks/week-3/02-proje-fikriniz.task.md) dosyasını inceleyin.
+- **Öğrenci Adı Soyadı:** Kullanıcı bilgisi bekleniyor; teslimden önce doldurulmalı.
+- **Öğrenci Numarası:** Kullanıcı bilgisi bekleniyor.
+- **İlham Alınan Konsept:** Sahibinden / ikinci el otomobil ilanları ve otomobil katalogları.
 
----
+## 1. Proje Özeti
+OTOİZ, otomobil modellerini keşfetme ve kullanıcı ilanlarını inceleme platformudur. Dağınık model bilgilerini karşılaştırılabilir bir katalogda toplar; eksik fiyat veya teknik bilgiyi uydurmaz. Katalog modelleri ile satıcı ilanlarını ayrı gösterir.
 
-## 1. Proje Künyesi
+## 2. Temel 3 Ekran ve İşlev
+1. **Ana Liste Ekranı:** Ana sayfa ve Araçlar ekranında 37 marka, 178 model; marka/model, fiyat, yıl, yakıt ve teknik bilgi filtreleri bulunur.
+2. **Detay ve Seçim Ekranı:** Model detay penceresi, kaynaklı fotoğraflar, favoriler ve en fazla üç modelin karşılaştırılması. Katalog kimlikleri korunur.
+3. **Kayıt / Kod Üretme Ekranı:** İlanlar ekranında üyelik ve fotoğraflı ilan oluşturma; Node.js sunucusu UUID ilan kimliği üretir. Rust backend ve hocanın Rust kod üretimi şartı uygulanmamıştır. Gelecekteki takip kodu önerisi `OTO-XXXXXXXX`; mevcut kimlik yerine geçirilmez ve çalışan özellik olarak sunulmaz.
 
-- **Proje Adı:** [Projenizin Adı]
-- **Slogan / Tek Cümlelik Tanım:** [Örn: Üniversite öğrencileri için hızlı kampüs rehberi]
-- **Öğrenci Adı Soyadı:** [Adınız Soyadınız]
-- **Öğrenci Numarası:** [Öğrenci Numaranız]
-- **İlham Alınan Konsept / Platform:** [Örn: Spotify / Getir / Duolingo / Tesla / Kendi Fikrim]
+## 3. Hedef Kitle
+Otomobil almayı düşünenler, model karşılaştırmak isteyen otomobil meraklıları ve kendi aracını ilan vermek isteyen bireysel kullanıcılar.
 
----
+## 4. İlk Sürüm ve Teknolojiler
+Node.js 22+, HTML, CSS ve JavaScript ES modülleri; harici paket kurulumu yok. Açık/koyu tema, yerel katalog favorileri, karşılaştırma, üyelik, ilan favorileri ve kalıcı JSON depolama mevcut. Bilgi sayfaları TR/EN/AR/FA dillerini destekler. Türkçe araç araması, marka/model adları ve API değerleri değişmez.
 
-## 2. Proje Amacı ve Çözülen Problem
-
-[Uygulamanız hangi sorunu çözüyor? Kullanıcı ne yapacak? 2-3 cümleyle açıklayın.]
-
----
-
-## 3. Temel Ekranlar ve İşlevler
-
-1. **Ana Liste Ekranı (Keşfet):**
-   - [Hangi öğeler listelenecek? Hangi filtreler olacak?]
-2. **Detay ve Seçim Ekranı:**
-   - [Öğenin detayında hangi bilgiler, seçenekler ve butonlar yer alacak?]
-3. **Kayıt / Kod Üretme Ekranı (Rust Backend):**
-   - [Rust komutu ne tür bir işlem veya onay/takip kodu üretecek?]
-4. **Profil ve Ayarlar:**
-   - [Kullanıcı hangi bilgilerini görecek ve hangi ayarları değiştirebilecek?]
-
----
-
-## 4. Hedef Kitle
-
-[Bu uygulamayı kimler kullanacak?]
+## 5. Sınırlamalar ve Sonraki Geliştirmeler
+Yerel eğitim projesidir. İletişim formu bir demo veya e-posta taslağıdır; sunucudan mesaj göndermez. SMS doğrulaması, moderasyon, ödeme, gerçek ekspertiz ve native uygulama paketleri yok. Hesap/ilan verileri sunucuda saklanır; yalnızca tarayıcıda saklandığı iddia edilmez. Sonraki aşamada veritabanı, HTTPS yayın, doğrulama ve gerçek mesaj servisi planlanabilir.
