@@ -101,4 +101,4 @@ Dal: `fix/otoiz-listing-login-return`.
 | Node API yok | Login formu gösterilmedi; “ÖNİZLEME MODU” modalı ve sayfa uyarısı göründü. Geri dönüşte Arapça/RTL ve koyu tema korundu. |
 | Tauri native pencere | `bun run tauri dev` Astro'yu 1420'de başlattı ve webview `/` için HTTP 200 aldı; komut daha sonra `dev` exit code 255 ile kapandı. Derlenmiş exe de süreç olarak kalmadı. Bu ortamda native pencerede etkileşimli akış doğrulanamadı; aynı Tauri dev URL'sindeki web akışı tarayıcıda doğrulandı. |
 
-Geçici Node API testi `127.0.0.1:3124` ve yeni TEMP veri klasörü kullandı; klasör testten sonra silindi. Bu fix için PR/merge bilgisi aşağıdaki güncellemede kaydedilecektir.
+Geçici Node API testi `127.0.0.1:3124` ve yeni TEMP veri klasörü kullandı; klasör testten sonra silindi. PR #18: [İlan giriş/geri dönüş düzeltmesi](https://github.com/Neoze1/hello-mobil/pull/18), GitHub `node-checks` başarılı olduktan sonra 9 Ekim 2026'da merge edildi; merge commit `9674af2152bfe3714b1e3d6796ef96b66d2e2c02`. `v0.1.0-batch-01` etiketi değiştirilmedi.
