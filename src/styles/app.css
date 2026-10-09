@@ -1,12 +1,14 @@
+/* OTOİZ marka renkleri: docs/branding.md ile aynı değerler (kaynak: otoiz/public/brand.css) */
 /* Adım 2: Global stil — tüm sayfaların ortak renkleri ve yardımcı sınıfları */
 :root {
-  --renk-ana: #e4002b;
-  --renk-koyu: #1a1a2e;
-  --zemin: #f4f5f7;
+  --renk-ana: #236cde;
+  --renk-ana-ustu: #ffffff;
+  --renk-koyu: #171c1e;
+  --zemin: #f7f7f4;
   --kart: #ffffff;
-  --yazi: #1a1a2e;
-  --yazi-soluk: #6b7280;
-  --kenar: #e5e7eb;
+  --yazi: #202326;
+  --yazi-soluk: #596164;
+  --kenar: #e0e3df;
   --radius: 14px;
   color-scheme: light;
 
@@ -18,11 +20,13 @@
 
 /* Adım 15: Gece modu — <html data-tema="gece"> olunca değişkenler koyulaşır */
 :root[data-tema="gece"] {
-  --zemin: #0f1117;
-  --kart: #1a1d26;
-  --yazi: #f3f4f6;
-  --yazi-soluk: #9ca3af;
-  --kenar: #2a2e3a;
+  --renk-ana: #82b4ff;
+  --renk-ana-ustu: #101416;
+  --zemin: #101416;
+  --kart: #191e21;
+  --yazi: #f0f2ed;
+  --yazi-soluk: #a0a9aa;
+  --kenar: #30383a;
   color-scheme: dark;
 }
 
