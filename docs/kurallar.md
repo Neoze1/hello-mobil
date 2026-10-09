@@ -1,6 +1,3 @@
 # Kurallar
 
-> Taslak — doldurulacak.
-
-- Git akışı (feature → PR → merge)
-- Kod yazım kuralları
+Geliştirme kurallarının tek kaynağı [AGENTS.md](../AGENTS.md) dosyasıdır.
