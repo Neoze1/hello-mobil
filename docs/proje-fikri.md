@@ -1,7 +1,7 @@
 # Proje Fikri: OTOİZ
 
-- **Öğrenci Adı Soyadı:** Kullanıcı bilgisi bekleniyor; teslimden önce doldurulmalı.
-- **Öğrenci Numarası:** Kullanıcı bilgisi bekleniyor.
+- **Öğrenci Adı Soyadı:** Ediz Davutoğlu
+- **Öğrenci Numarası:** 2520171018
 - **İlham Alınan Konsept:** Sahibinden / ikinci el otomobil ilanları ve otomobil katalogları.
 
 ## 1. Proje Özeti
