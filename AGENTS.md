@@ -43,3 +43,12 @@ OTOIZ projesinin gelistirme gorevleri ve yapay zeka destekli calisma sureci asag
 
 - [Gorev Sartnamesi](docs/gorev-sartnamesi.md)
 - [Yapay Zeka Istem Gunlukleri](docs/istemler/10-calisma-yontemi.md)
+
+
+
+## Gorev 11 - Veri Sozlesmesi
+
+OTOIZ projesinde arac, ilan ve kullanici veri modelleri TypeScript ile tanimlanmistir.
+
+- [Veri Modeli](docs/veri-modeli.md)
+- [TypeScript Veri Tipleri](src/lib/types/index.ts)
