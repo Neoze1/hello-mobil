@@ -34,3 +34,12 @@ Eksik fiyat, öğrenci veya ekip bilgisini uydurma. Gizlilik metni gerçek sunuc
 - [docs/kurulum.md](docs/kurulum.md) — önceki kaynak taslağının kanonik yönlendirmesi.
 
 - [docs/teslim.md](docs/teslim.md) — önceki kaynak taslağının kanonik yönlendirmesi.
+
+
+
+## Batch 02 - Proje Gelistirme Belgeleri
+
+OTOIZ projesinin gelistirme gorevleri ve yapay zeka destekli calisma sureci asagidaki belgelerde tutulur:
+
+- [Gorev Sartnamesi](docs/gorev-sartnamesi.md)
+- [Yapay Zeka Istem Gunlukleri](docs/istemler/10-calisma-yontemi.md)
