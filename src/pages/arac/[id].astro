@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { araclar } from '../../lib/veri/ornek';
+export function getStaticPaths(){return [...araclar.map(arac=>({params:{id:arac.id},props:{arac}})),{params:{id:'bulunamadi'},props:{arac:null}}]}
+const {arac}=Astro.props;
+---
+<Layout title={arac ? `${arac.marka} ${arac.model} — OTOİZ` : 'Araç bulunamadı — OTOİZ'}>
+ <main style="max-width:900px;margin:32px auto;padding:16px">
+  <a href="/ornek-araclar" id="geri">← Listeye geri dön</a>
+  {arac ? <><h1>{arac.marka} {arac.model}</h1><p>{arac.yil} · {arac.kilometre.toLocaleString('tr-TR')} km</p><p>{arac.yakit} · {arac.vites}</p><p>Bu sayfa eğitim amaçlı örnek araç kaydıdır; satış ilanı değildir.</p></> : <><h1>Araç bulunamadı</h1><p>Bu kimliğe ait araç yok.</p></>}
+ </main>
+ <script>const a=document.querySelector('#geri');const q=new URLSearchParams(location.search).get('q');if(a&&q)a.setAttribute('href',`/ornek-araclar?q=${encodeURIComponent(q)}`)</script>
+</Layout>
