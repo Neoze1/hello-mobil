@@ -33,7 +33,3 @@ ile ana projeye aktarılmaktadır.
 ## Sürüm
 Hedef sürüm: v0.2.0-batch-02
 
-
-## Batch 02 Denetimi
-
-- [Batch 02 Ilerleme Raporu](docs/ilerleme-batch-02.md)
