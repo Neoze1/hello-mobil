@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef2f5;
+}
+
+.panel {
+  padding: 30px;
+}
+
+h1 {
+  color: #163a5f;
+}
+
+.menu {
+  background-color: #163a5f;
+  padding: 15px;
+}
+
+.menu button {
+  padding: 12px;
+  margin: 5px;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.icerik {
+  margin-top: 20px;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  min-height: 250px;
+}
+
+
+.icerik h2 {
+    color: #163a5f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #163a5f;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
