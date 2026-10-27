@@ -20,3 +20,9 @@ repository/
 ```
 
 Kök `/`, `/araclar` ve bilgi rotaları Astro'nun statik çıktısıdır. `bun run build` öncesi `otoiz/scripts/build-web-catalog.mjs`, `otoiz/catalog.mjs` verilerinden `public/catalog.json` üretir; `.gitignore` bu dosyayı dışarıda tutar. Kök `public/` içindeki OTOİZ varlıkları `otoiz/public/` kaynağıyla eş tutulur. Tauri statik web arayüzünü açar; Node API'sini veya kalıcı hesap/ilan hizmetlerini başlatmaz.
+
+---
+
+## 🗄️ Geçici Yerel Arka Uç (`src-tauri/src/backend/`)
+
+SQLite tabanlı geçici arka uç (migration, rol/izin, kaynak denetleyicileri, iş işlevleri) `src-tauri/src/backend/` altındadır; ayrıntı, tablolar ve komut listesi tek kaynakta: [`docs/backend.md`](backend.md).
