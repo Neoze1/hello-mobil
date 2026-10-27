@@ -60,3 +60,8 @@ OTOIZ projesinde Tauri ve Rust komutlari icin merkezi baglanti katmani hazirlanm
 
 - [Platform Destegi](docs/platform-destegi.md)
 - [Rust Komut Baglantisi](src/lib/native.ts)
+
+
+## Batch 02 Denetimi
+
+- [Batch 02 Ilerleme Raporu](docs/ilerleme-batch-02.md)s

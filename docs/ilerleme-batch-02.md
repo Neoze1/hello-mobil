@@ -33,5 +33,3 @@ ile ana projeye aktarılmaktadır.
 ## Sürüm
 Hedef sürüm: v0.2.0-batch-02
 
-
-
