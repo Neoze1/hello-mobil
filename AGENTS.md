@@ -52,3 +52,11 @@ OTOIZ projesinde arac, ilan ve kullanici veri modelleri TypeScript ile tanimlanm
 
 - [Veri Modeli](docs/veri-modeli.md)
 - [TypeScript Veri Tipleri](src/lib/types/index.ts)
+
+
+## Gorev 15 - Rust ve Platform Destegi
+
+OTOIZ projesinde Tauri ve Rust komutlari icin merkezi baglanti katmani hazirlanmistir.
+
+- [Platform Destegi](docs/platform-destegi.md)
+- [Rust Komut Baglantisi](src/lib/native.ts)
