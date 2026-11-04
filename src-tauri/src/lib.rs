@@ -1,3 +1,4 @@
+mod permissions;
 use std::time::{SystemTime, UNIX_EPOCH};
 
 // Adım 11: Rust komutu — ön yüz invoke("bilet_olustur", { etkinlikId }) ile çağırır
@@ -15,7 +16,11 @@ fn bilet_olustur(etkinlik_id: u32) -> String {
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_opener::init())
-        .invoke_handler(tauri::generate_handler![bilet_olustur])
+        .plugin(tauri_plugin_notification::init())
+        .invoke_handler(tauri::generate_handler![
+            permissions::permissions_status,
+            permissions::permission_request,
+            permissions::bildirim_gonder,bilet_olustur])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
